@@ -160,7 +160,8 @@ class GameEngine {
     // Wait for user input
     await this.delay(2000);
     
-    // Simulate match
+    // Simulate match (pass AI Coach to preparation)
+    preparation.aiCoach = this.aiCoach;
     const simulator = new MatchSimulator(
       isHome ? this.selectedClub : opponent,
       isHome ? opponent : this.selectedClub,

@@ -1,0 +1,56 @@
+{
+  "club_id": "chelsea",
+  "name": "Chelsea",
+  "short_name": "CFC",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1905,
+  "reputation": {
+    "global": 90,
+    "domestic": 89,
+    "continental": 88
+  },
+  "finances": {
+    "transfer_budget": 150000000,
+    "wage_budget_weekly": 3500000,
+    "debt": 600000000,
+    "revenue_annual": 580000000
+  },
+  "stadium": {
+    "name": "Stamford Bridge",
+    "capacity": 40341,
+    "atmosphere": 85
+  },
+  "squad": {
+    "current_players": [],
+    "squad_size": 0,
+    "average_age": 23.4,
+    "average_rating": 81
+  },
+  "tactics": {
+    "default_formation": "4-2-3-1",
+    "alternative_formations": ["4-3-3", "3-2-4-1"],
+    "mentality": "attacking",
+    "play_style": {
+      "possession": 72,
+      "pressing": 80,
+      "tempo": 65,
+      "width": 80,
+      "defensive_line": 85
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Enzo Maresca",
+      "rating": 81,
+      "preferred_formation": "4-2-3-1",
+      "tactical_approach": "positional_play"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 5, "target": 4},
+    "champions_league": "none",
+    "domestic_cup": "semi_finals"
+  },
+  "currentForm": 7
+}

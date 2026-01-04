@@ -1,10 +1,11 @@
 {
   "intake_year": 2026,
   "generation_date": "2026-01-01",
-  "total_players": 5,
+  "total_players": 10,
+  
   "leagues": {
     "premier_league": {
-      "total_players": 5,
+      "total_players": 10,
       "players": [
         {
           "id": "P_2026_001",
@@ -12,88 +13,100 @@
           "nationality": "England",
           "birthDate": "2008-03-15",
           "age": 18,
-          "positions": ["ST", "LW"],
+          "positions": ["ST", "LW"],    // Vị trí: Tiền đạo, Cánh trái
+          
           "attributes": {
-            "currentRating": 72,
-            "potentialMin": 82,
-            "potentialMax": 87,
-            "growthSpeed": "fast"
+            "currentRating": 72,        // Chỉ số hiện tại (60-90)
+            "potentialMin": 82,         // Tiềm năng tối thiểu
+            "potentialMax": 87,         // Tiềm năng tối đa (có thể đạt được)
+            "growthSpeed": "fast"       // Tốc độ phát triển: slow/medium/fast/superstar
           },
+          
           "physical": {
-            "pace": 85,
-            "acceleration": 88,
-            "stamina": 76,
-            "strength": 68,
-            "height": 180,
-            "agility": 82,
-            "balance": 80,
-            "jumping": 75
+            "pace": 85,              // Tốc độ chạy (quan trọng cho tiền đạo)
+            "acceleration": 88,      // Tăng tốc
+            "stamina": 76,           // Thể lực
+            "strength": 68,          // Sức mạnh
+            "height": 180,           // Chiều cao (cm)
+            "agility": 82,           // Nhanh nhẹn
+            "balance": 80,           // Thăng bằng
+            "jumping": 75            // Khả năng bật nhảy
           },
+          
           "technical": {
-            "finishing": 74,
-            "shotPower": 76,
-            "longShots": 70,
-            "dribbling": 80,
-            "ballControl": 78,
-            "crossing": 65,
-            "shortPassing": 70,
-            "longPassing": 65,
-            "heading": 66,
-            "tackling": 35,
-            "marking": 30
+            "finishing": 74,         // Dứt điểm (quan trọng nhất cho ST)
+            "shotPower": 76,         // Lực sút
+            "longShots": 70,         // Sút xa
+            "dribbling": 80,         // Rê bóng (quan trọng cho winger)
+            "ballControl": 78,       // Kiểm soát bóng
+            "crossing": 65,          // Chuyền bóng cắt ngang
+            "shortPassing": 70,      // Chuyền ngắn
+            "longPassing": 65,       // Chuyền dài
+            "heading": 66,           // Đánh đầu
+            "tackling": 35,          // Tắc bóng (thấp vì là tiền đạo)
+            "marking": 30            // Kèm người (thấp vì là tiền đạo)
           },
+          
           "mental": {
-            "positioning": 72,
-            "vision": 68,
-            "composure": 70,
-            "workRate": 85,
-            "aggression": 55
+            "positioning": 72,       // Vị trí (quan trọng cho tiền đạo)
+            "vision": 68,            // Tầm nhìn
+            "composure": 70,         // Bình tĩnh
+            "workRate": 85,          // Chăm chỉ
+            "aggression": 55         // Hung hãn
           },
+          
           "traits": {
-            "preferredFoot": "right",
-            "weakFoot": 3,
-            "skillMoves": 4
+            "preferredFoot": "right",    // Chân thuận
+            "weakFoot": 3,               // Chân yếu (1-5, 5=tốt nhất)
+            "skillMoves": 4              // Kỹ năng rê (1-5)
           },
+          
           "personality": {
-            "professionalism": 16,
-            "ambition": 18,
-            "temperament": 14,
-            "injuryProneness": 5
+            "professionalism": 16,       // Chuyên nghiệp (1-20)
+            "ambition": 18,              // Tham vọng
+            "temperament": 14,           // Tính khí
+            "injuryProneness": 5         // Dễ chấn thương (1-20, thấp=tốt)
           },
-          "fitness": 100,
-          "currentForm": 7,
+          
+          "fitness": 100,              // Thể lực hiện tại (0-100)
+          "currentForm": 7,            // Form hiện tại (1-10)
           "injured": false,
           "suspended": false,
+          
           "aiHints": {
-            "preferredClubSize": "medium",
-            "preferredLeagueLevel": "top",
-            "priorityClubs": ["Arsenal", "Tottenham"],
-            "avoidClubs": []
+            "preferredClubSize": "medium",         // big/medium/small
+            "preferredLeagueLevel": "top",         // top/mid/low
+            "priorityClubs": ["Arsenal", "Tottenham"],  // Ưu tiên các club này
+            "avoidClubs": []                            // Tránh các club này
           }
         },
+        
         {
           "id": "P_2026_002",
           "name": "João Silva",
           "nationality": "Brazil",
           "birthDate": "2008-07-22",
           "age": 18,
-          "positions": ["CB", "CDM"],
+          "positions": ["CB", "CDM"],    // Trung vệ / Tiền vệ phòng ngự
+          
           "attributes": {
             "currentRating": 70,
             "potentialMin": 78,
             "potentialMax": 82,
             "growthSpeed": "medium"
           },
+          
           "physical": {
             "pace": 72,
             "acceleration": 70,
             "stamina": 80,
-            "strength": 82,
-            "height": 188,
+            "strength": 82,          // Sức mạnh cao cho CB
+            "height": 188,           // Cao lớn cho CB
             "agility": 65,
             "balance": 70,
-            "jumping": 85
+            "jumping": 85            // Bật nhảy cao cho tranh chấp
           },
+          
           "technical": {
             "finishing": 35,
             "shotPower": 60,
@@ -101,125 +114,143 @@
             "ballControl": 68,
             "crossing": 45,
             "shortPassing": 68,
-            "longPassing": 72,
-            "heading": 78,
-            "tackling": 75,
-            "marking": 73
+            "longPassing": 72,       // Chuyền dài tốt cho CB
+            "heading": 78,           // Đánh đầu tốt cho CB
+            "tackling": 75,          // Tắc bóng - quan trọng nhất
+            "marking": 73            // Kèm người - quan trọng nhất
           },
+          
           "mental": {
-            "positioning": 76,
+            "positioning": 76,       // Vị trí quan trọng cho CB
             "vision": 65,
             "composure": 74,
             "workRate": 80,
-            "aggression": 78
+            "aggression": 78         // Cần hung hãn để tranh chấp
           },
+          
           "traits": {
             "preferredFoot": "right",
             "weakFoot": 2,
-            "skillMoves": 2
+            "skillMoves": 2          // CB không cần skill cao
           },
+          
           "personality": {
             "professionalism": 18,
             "ambition": 15,
             "temperament": 12,
             "injuryProneness": 3
           },
+          
           "fitness": 100,
           "currentForm": 7,
           "injured": false,
           "suspended": false,
+          
           "aiHints": {
             "preferredClubSize": "small",
             "preferredLeagueLevel": "mid"
           }
         },
+        
         {
           "id": "P_2026_003",
           "name": "André Dupont",
           "nationality": "France",
           "birthDate": "2008-01-10",
           "age": 18,
-          "positions": ["CAM", "CM"],
+          "positions": ["CAM", "CM"],    // Tiền vệ tấn công / Tiền vệ trung tâm
+          
           "attributes": {
             "currentRating": 74,
             "potentialMin": 84,
             "potentialMax": 89,
-            "growthSpeed": "superstar"
+            "growthSpeed": "superstar"   // Wonderkid!
           },
+          
           "physical": {
             "pace": 78,
             "acceleration": 80,
             "stamina": 82,
             "strength": 65,
             "height": 175,
-            "agility": 88,
+            "agility": 88,           // Rất nhanh nhẹn
             "balance": 85,
             "jumping": 68
           },
+          
           "technical": {
             "finishing": 70,
             "shotPower": 75,
             "longShots": 78,
-            "dribbling": 86,
-            "ballControl": 88,
+            "dribbling": 86,         // Rê bóng xuất sắc
+            "ballControl": 88,       // Kiểm soát bóng xuất sắc
             "crossing": 76,
-            "shortPassing": 85,
+            "shortPassing": 85,      // Chuyền ngắn cực tốt
             "longPassing": 80,
             "heading": 55,
             "tackling": 48,
             "marking": 45
           },
+          
           "mental": {
             "positioning": 75,
-            "vision": 85,
+            "vision": 85,            // Tầm nhìn xuất sắc - quan trọng cho CAM
             "composure": 78,
             "workRate": 75,
             "aggression": 50
           },
+          
           "traits": {
             "preferredFoot": "left",
-            "weakFoot": 4,
-            "skillMoves": 5
+            "weakFoot": 4,           // 2 chân tốt
+            "skillMoves": 5          // Kỹ thuật đỉnh cao
           },
+          
           "personality": {
             "professionalism": 17,
-            "ambition": 19,
+            "ambition": 19,          // Rất tham vọng
             "temperament": 15,
             "injuryProneness": 6
           },
+          
           "fitness": 100,
           "currentForm": 8,
           "injured": false,
           "suspended": false,
+          
           "aiHints": {
             "preferredClubSize": "big",
             "preferredLeagueLevel": "top",
             "priorityClubs": ["Manchester City", "Arsenal"]
           }
         },
+        
         {
           "id": "P_2026_004",
           "name": "Hiroshi Tanaka",
           "nationality": "Japan",
           "birthDate": "2008-05-18",
           "age": 18,
-          "positions": ["GK"],
+          "positions": ["GK"],       // Thủ môn
+          
           "attributes": {
             "currentRating": 68,
             "potentialMin": 76,
             "potentialMax": 80,
             "growthSpeed": "medium"
           },
+          
           "physical": {
-            "pace": 55,
+            "pace": 55,              // GK không cần pace cao
             "acceleration": 58,
             "stamina": 70,
             "strength": 72,
-            "height": 192,
-            "agility": 75,
+            "height": 192,           // Cao lớn cho GK
+            "agility": 75,           // Nhanh nhẹn cho GK
             "balance": 70,
-            "jumping": 82
+            "jumping": 82            // Bật nhảy tốt
           },
+          
           "technical": {
             "finishing": 25,
             "shotPower": 65,
@@ -232,72 +263,82 @@
             "tackling": 25,
             "marking": 30
           },
+          
           "mental": {
-            "positioning": 72,
+            "positioning": 72,       // Vị trí quan trọng cho GK
             "vision": 65,
-            "composure": 80,
+            "composure": 80,         // Bình tĩnh rất quan trọng
             "workRate": 70,
             "aggression": 45
           },
+          
           "goalkeeper": {
-            "diving": 75,
-            "handling": 73,
-            "kicking": 68,
-            "reflexes": 78,
-            "positioning": 72
+            "diving": 75,            // Lao người - quan trọng nhất
+            "handling": 73,          // Bắt bóng
+            "kicking": 68,           // Đá bóng
+            "reflexes": 78,          // Phản xạ - quan trọng nhất
+            "positioning": 72        // Vị trí
           },
+          
           "traits": {
             "preferredFoot": "right",
             "weakFoot": 2,
             "skillMoves": 1
           },
+          
           "personality": {
             "professionalism": 19,
             "ambition": 16,
-            "temperament": 18,
+            "temperament": 18,       // Bình tĩnh cao
             "injuryProneness": 2
           },
+          
           "fitness": 100,
           "currentForm": 7,
           "injured": false,
           "suspended": false
         },
+        
         {
           "id": "P_2026_005",
           "name": "Diego Martinez",
           "nationality": "Spain",
           "birthDate": "2008-11-30",
           "age": 18,
-          "positions": ["RW", "RM"],
+          "positions": ["RW", "RM"],     // Cánh phải
+          
           "attributes": {
             "currentRating": 71,
             "potentialMin": 79,
             "potentialMax": 84,
             "growthSpeed": "fast"
           },
+          
           "physical": {
-            "pace": 88,
+            "pace": 88,              // Tốc độ cực cao cho winger
             "acceleration": 90,
             "stamina": 78,
             "strength": 62,
-            "height": 172,
+            "height": 172,           // Thấp nhưng nhanh
             "agility": 86,
             "balance": 84,
             "jumping": 65
           },
+          
           "technical": {
             "finishing": 68,
             "shotPower": 70,
             "longShots": 66,
-            "dribbling": 82,
+            "dribbling": 82,         // Rê bóng tốt cho winger
             "ballControl": 80,
-            "crossing": 78,
+            "crossing": 78,          // Chuyền cắt ngang - quan trọng cho winger
             "shortPassing": 72,
             "longPassing": 68,
             "heading": 50,
             "tackling": 38,
             "marking": 35
           },
+          
           "mental": {
             "positioning": 70,
             "vision": 72,
@@ -305,21 +346,368 @@
             "workRate": 82,
             "aggression": 58
           },
+          
           "traits": {
             "preferredFoot": "left",
             "weakFoot": 3,
             "skillMoves": 4
           },
+          
           "personality": {
             "professionalism": 15,
             "ambition": 17,
             "temperament": 13,
             "injuryProneness": 7
           },
+          
           "fitness": 100,
           "currentForm": 7,
           "injured": false,
           "suspended": false
+        },
+        
+        {
+          "id": "P_2026_006",
+          "name": "Liam O'Connor",
+          "nationality": "Ireland",
+          "birthDate": "2008-09-05",
+          "age": 18,
+          "positions": ["LB", "LWB"],    // Hậu vệ trái / Biên trái
+          
+          "attributes": {
+            "currentRating": 69,
+            "potentialMin": 76,
+            "potentialMax": 81,
+            "growthSpeed": "medium"
+          },
+          
+          "physical": {
+            "pace": 82,              // Cần pace cho full-back
+            "acceleration": 84,
+            "stamina": 85,           // Chạy nhiều nên cần stamina cao
+            "strength": 70,
+            "height": 178,
+            "agility": 80,
+            "balance": 78,
+            "jumping": 72
+          },
+          
+          "technical": {
+            "finishing": 45,
+            "shotPower": 62,
+            "dribbling": 72,
+            "ballControl": 70,
+            "crossing": 74,          // Crossing quan trọng cho full-back
+            "shortPassing": 71,
+            "longPassing": 68,
+            "heading": 65,
+            "tackling": 70,          // Tắc bóng quan trọng
+            "marking": 68            // Kèm người quan trọng
+          },
+          
+          "mental": {
+            "positioning": 70,
+            "vision": 66,
+            "composure": 68,
+            "workRate": 88,          // Chạm chỉ cực cao
+            "aggression": 72
+          },
+          
+          "traits": {
+            "preferredFoot": "left",
+            "weakFoot": 3,
+            "skillMoves": 3
+          },
+          
+          "personality": {
+            "professionalism": 17,
+            "ambition": 16,
+            "temperament": 15,
+            "injuryProneness": 4
+          },
+          
+          "fitness": 100,
+          "currentForm": 7,
+          "injured": false,
+          "suspended": false
+        },
+        
+        {
+          "id": "P_2026_007",
+          "name": "Kwame Mensah",
+          "nationality": "Ghana",
+          "birthDate": "2008-02-28",
+          "age": 18,
+          "positions": ["CDM", "CM"],    // Hậu vệ phòng ngự / Tiền vệ trung tâm
+          
+          "attributes": {
+            "currentRating": 70,
+            "potentialMin": 77,
+            "potentialMax": 83,
+            "growthSpeed": "medium"
+          },
+          
+          "physical": {
+            "pace": 75,
+            "acceleration": 76,
+            "stamina": 84,
+            "strength": 80,          // Sức mạnh tốt cho CDM
+            "height": 185,
+            "agility": 72,
+            "balance": 74,
+            "jumping": 78
+          },
+          
+          "technical": {
+            "finishing": 50,
+            "shotPower": 68,
+            "dribbling": 68,
+            "ballControl": 72,
+            "crossing": 60,
+            "shortPassing": 75,      // Chuyền ngắn tốt
+            "longPassing": 73,
+            "heading": 74,
+            "tackling": 78,          // Tắc bóng - quan trọng nhất cho CDM
+            "marking": 76            // Kèm người
+          },
+          
+          "mental": {
+            "positioning": 77,       // Vị trí quan trọng cho CDM
+            "vision": 70,
+            "composure": 75,
+            "workRate": 86,
+            "aggression": 80         // Cần hung hãn
+          },
+          
+          "traits": {
+            "preferredFoot": "right",
+            "weakFoot": 3,
+            "skillMoves": 2
+          },
+          
+          "personality": {
+            "professionalism": 18,
+            "ambition": 17,
+            "temperament": 14,
+            "injuryProneness": 3
+          },
+          
+          "fitness": 100,
+          "currentForm": 7,
+          "injured": false,
+          "suspended": false
+        },
+        
+        {
+          "id": "P_2026_008",
+          "name": "Mateo Gonzalez",
+          "nationality": "Argentina",
+          "birthDate": "2008-06-12",
+          "age": 18,
+          "positions": ["ST", "CF"],     // Tiền đạo cắm
+          
+          "attributes": {
+            "currentRating": 73,
+            "potentialMin": 81,
+            "potentialMax": 86,
+            "growthSpeed": "fast"
+          },
+          
+          "physical": {
+            "pace": 80,
+            "acceleration": 82,
+            "stamina": 74,
+            "strength": 75,
+            "height": 183,
+            "agility": 78,
+            "balance": 76,
+            "jumping": 82
+          },
+          
+          "technical": {
+            "finishing": 78,         // Dứt điểm xuất sắc
+            "shotPower": 80,
+            "longShots": 72,
+            "dribbling": 76,
+            "ballControl": 77,
+            "crossing": 60,
+            "shortPassing": 68,
+            "longPassing": 62,
+            "heading": 80,           // Đánh đầu tốt
+            "tackling": 35,
+            "marking": 32
+          },
+          
+          "mental": {
+            "positioning": 78,       // Vị trí xuất sắc
+            "vision": 66,
+            "composure": 76,
+            "workRate": 78,
+            "aggression": 68
+          },
+          
+          "traits": {
+            "preferredFoot": "right",
+            "weakFoot": 4,
+            "skillMoves": 3
+          },
+          
+          "personality": {
+            "professionalism": 16,
+            "ambition": 18,
+            "temperament": 13,
+            "injuryProneness": 5
+          },
+          
+          "fitness": 100,
+          "currentForm": 8,
+          "injured": false,
+          "suspended": false,
+          
+          "aiHints": {
+            "preferredClubSize": "medium",
+            "preferredLeagueLevel": "top",
+            "priorityClubs": ["Liverpool", "Tottenham"]
+          }
+        },
+        
+        {
+          "id": "P_2026_009",
+          "name": "Emil Andersson",
+          "nationality": "Sweden",
+          "birthDate": "2008-04-20",
+          "age": 18,
+          "positions": ["RB", "RWB"],    // Hậu vệ phải / Biên phải
+          
+          "attributes": {
+            "currentRating": 68,
+            "potentialMin": 75,
+            "potentialMax": 79,
+            "growthSpeed": "medium"
+          },
+          
+          "physical": {
+            "pace": 83,
+            "acceleration": 85,
+            "stamina": 86,
+            "strength": 72,
+            "height": 180,
+            "agility": 79,
+            "balance": 77,
+            "jumping": 74
+          },
+          
+          "technical": {
+            "finishing": 42,
+            "shotPower": 60,
+            "dribbling": 70,
+            "ballControl": 68,
+            "crossing": 72,
+            "shortPassing": 70,
+            "longPassing": 66,
+            "heading": 64,
+            "tackling": 71,
+            "marking": 69
+          },
+          
+          "mental": {
+            "positioning": 71,
+            "vision": 65,
+            "composure": 67,
+            "workRate": 87,
+            "aggression": 70
+          },
+          
+          "traits": {
+            "preferredFoot": "right",
+            "weakFoot": 2,
+            "skillMoves": 3
+          },
+          
+          "personality": {
+            "professionalism": 18,
+            "ambition": 15,
+            "temperament": 16,
+            "injuryProneness": 4
+          },
+          
+          "fitness": 100,
+          "currentForm": 7,
+          "injured": false,
+          "suspended": false
+        },
+        
+        {
+          "id": "P_2026_010",
+          "name": "Jamal Williams",
+          "nationality": "USA",
+          "birthDate": "2008-08-08",
+          "age": 18,
+          "positions": ["CM", "CAM"],    // Tiền vệ đa năng
+          
+          "attributes": {
+            "currentRating": 71,
+            "potentialMin": 78,
+            "potentialMax": 84,
+            "growthSpeed": "fast"
+          },
+          
+          "physical": {
+            "pace": 77,
+            "acceleration": 79,
+            "stamina": 83,
+            "strength": 74,
+            "height": 177,
+            "agility": 81,
+            "balance": 79,
+            "jumping": 70
+          },
+          
+          "technical": {
+            "finishing": 66,
+            "shotPower": 72,
+            "longShots": 75,
+            "dribbling": 78,
+            "ballControl": 80,
+            "crossing": 70,
+            "shortPassing": 79,
+            "longPassing": 76,
+            "heading": 60,
+            "tackling": 62,
+            "marking": 58
+          },
+          
+          "mental": {
+            "positioning": 73,
+            "vision": 78,
+            "composure": 72,
+            "workRate": 82,
+            "aggression": 60
+          },
+          
+          "traits": {
+            "preferredFoot": "right",
+            "weakFoot": 4,
+            "skillMoves": 4
+          },
+          
+          "personality": {
+            "professionalism": 17,
+            "ambition": 18,
+            "temperament": 15,
+            "injuryProneness": 5
+          },
+          
+          "fitness": 100,
+          "currentForm": 7,
+          "injured": false,
+          "suspended": false,
+          
+          "aiHints": {
+            "preferredClubSize": "medium",
+            "preferredLeagueLevel": "top",
+            "priorityClubs": ["Chelsea", "Newcastle"]
+          }
         }
       ]
     }

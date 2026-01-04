@@ -1,0 +1,56 @@
+{
+  "club_id": "liverpool",
+  "name": "Liverpool",
+  "short_name": "LFC",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1892,
+  "reputation": {
+    "global": 96,
+    "domestic": 97,
+    "continental": 95
+  },
+  "finances": {
+    "transfer_budget": 180000000,
+    "wage_budget_weekly": 3800000,
+    "debt": 450000000,
+    "revenue_annual": 700000000
+  },
+  "stadium": {
+    "name": "Anfield",
+    "capacity": 61276,
+    "atmosphere": 98
+  },
+  "squad": {
+    "current_players": [],
+    "squad_size": 0,
+    "average_age": 26.1,
+    "average_rating": 86
+  },
+  "tactics": {
+    "default_formation": "4-3-3",
+    "alternative_formations": ["4-2-3-1", "4-4-2"],
+    "mentality": "attacking",
+    "play_style": {
+      "possession": 68,
+      "pressing": 90,
+      "tempo": 85,
+      "width": 75,
+      "defensive_line": 78
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Arne Slot",
+      "rating": 84,
+      "preferred_formation": "4-3-3",
+      "tactical_approach": "high_intensity_press"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 3, "target": 1},
+    "champions_league": "semi_finals",
+    "domestic_cup": "quarter_finals"
+  },
+  "currentForm": 8
+}

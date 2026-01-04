@@ -1,0 +1,56 @@
+{
+  "club_id": "tottenham",
+  "name": "Tottenham Hotspur",
+  "short_name": "TOT",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1882,
+  "reputation": {
+    "global": 88,
+    "domestic": 88,
+    "continental": 85
+  },
+  "finances": {
+    "transfer_budget": 100000000,
+    "wage_budget_weekly": 3200000,
+    "debt": 850000000,
+    "revenue_annual": 650000000
+  },
+  "stadium": {
+    "name": "Tottenham Hotspur Stadium",
+    "capacity": 62850,
+    "atmosphere": 88
+  },
+  "squad": {
+    "current_players": [],
+    "squad_size": 0,
+    "average_age": 25.1,
+    "average_rating": 83
+  },
+  "tactics": {
+    "default_formation": "4-3-3",
+    "alternative_formations": ["4-2-3-1", "2-3-5"],
+    "mentality": "very_attacking",
+    "play_style": {
+      "possession": 65,
+      "pressing": 88,
+      "tempo": 95,
+      "width": 80,
+      "defensive_line": 98
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Ange Postecoglou",
+      "rating": 83,
+      "preferred_formation": "4-3-3",
+      "tactical_approach": "uncompromising_attack"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 5, "target": 4},
+    "champions_league": "none",
+    "domestic_cup": "semi_finals"
+  },
+  "currentForm": 6
+}

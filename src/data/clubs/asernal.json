@@ -1,0 +1,65 @@
+{
+  "club_id": "arsenal",
+  "name": "Arsenal",
+  "short_name": "ARS",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1886,
+  
+  "reputation": {
+    "global": 93,        // Thấp hơn LFC chút do thiếu cúp C1, nhưng thương hiệu rất mạnh
+    "domestic": 95,      // Ứng cử viên vô địch hàng đầu (Title Contender)
+    "continental": 91    // Đã quay lại vị thế ông lớn tại Champions League
+  },
+  
+  "finances": {
+    "transfer_budget": 120000000,      // Ngân sách ổn định, ít hơn Chelsea nhưng chi tiêu thông minh
+    "wage_budget_weekly": 3600000,     // Quỹ lương cao cho các trụ cột (Saka, Rice, Odegaard)
+    "debt": 200000000,                 // Nợ thấp, tài chính rất lành mạnh
+    "revenue_annual": 600000000        // Doanh thu thương mại và vé rất cao
+  },
+  
+  "stadium": {
+    "name": "Emirates Stadium",
+    "capacity": 60704,     // Sức chứa lớn, tương đương Anfield mới
+    "atmosphere": 94       // Đã cải thiện cực nhiều (North Bank/Ashburton Army)
+  },
+  
+  "squad": {
+    "current_players": [],           
+    "squad_size": 0,                 
+    "average_age": 25.5,             // Độ chín sự nghiệp (Prime age), già hơn Chelsea nhưng trẻ hơn LFC
+    "average_rating": 85             // Rating trung bình rất cao (nhiều cầu thủ World Class: Saliba, Saka, Rice)
+  },
+  
+  "tactics": {
+    "default_formation": "4-3-3",                    // Sơ đồ tủ của Arteta
+    "alternative_formations": ["4-2-3-1", "3-2-2-3"], // Biến thể Zinchenko bó vào trong (Inverted FB)
+    "mentality": "control",                          // Kiểm soát thế trận (khác với Liverpool là Attacking dồn dập)
+    "play_style": {
+      "possession": 70,       // Kiểm soát bóng cao
+      "pressing": 92,         // Pressing đồng bộ cực rát (ngạt thở nhất giải)
+      "tempo": 78,            // Nhịp độ vừa phải, ru ngủ rồi tăng tốc bất ngờ
+      "width": 85,            // Kéo giãn biên tối đa cho Saka/Martinelli 1vs1
+      "defensive_line": 90    // Hàng thủ dâng cực cao (nhờ tốc độ của Saliba/Gabriel)
+    }
+  },
+  
+  "staff": {
+    "manager": {
+      "name": "Mikel Arteta",
+      "rating": 88,                           // Top tier HLV hiện nay
+      "preferred_formation": "4-3-3",
+      "tactical_approach": "positional_play_control"  // Kiểm soát vị trí & Bóng chết (Set-piece master)
+    }
+  },
+  
+  "objectives": {
+    "league_position": {"min": 2, "target": 1},  // Mục tiêu duy nhất: Vô địch Premier League
+    "champions_league": "semi_finals",           // Tiến sâu tại C1
+    "domestic_cup": "winner"                     // Arteta rất có duyên với FA Cup
+  },
+  
+  "currentForm": 8  // Phong độ ổn định, phòng ngự cực hay nhưng đôi khi hàng công bế tắc
+}
+

@@ -1,0 +1,1874 @@
+{
+  "season": 2026,
+  "matchday": 6,
+  "clubId": "chelsea",
+  "leagueTables": {
+    "premier_league": {
+      "league": "Premier League",
+      "standings": [
+        {
+          "clubId": "manchester_united",
+          "name": "Manchester United",
+          "played": 4,
+          "won": 0,
+          "drawn": 1,
+          "lost": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 8,
+          "goalDifference": -6,
+          "points": 1,
+          "form": [
+            "L",
+            "L",
+            "D",
+            "L"
+          ]
+        },
+        {
+          "clubId": "manchester_city",
+          "name": "Manchester City",
+          "played": 4,
+          "won": 3,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 10,
+          "form": [
+            "W",
+            "D",
+            "W",
+            "W"
+          ]
+        },
+        {
+          "clubId": "liverpool",
+          "name": "Liverpool",
+          "played": 5,
+          "won": 2,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 7,
+          "goalsAgainst": 5,
+          "goalDifference": 2,
+          "points": 7,
+          "form": [
+            "W",
+            "W",
+            "L",
+            "L",
+            "D"
+          ]
+        },
+        {
+          "clubId": "arsenal",
+          "name": "Arsenal",
+          "played": 4,
+          "won": 2,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 2,
+          "goalDifference": 1,
+          "points": 7,
+          "form": [
+            "D",
+            "L",
+            "W",
+            "W"
+          ]
+        },
+        {
+          "clubId": "chelsea",
+          "name": "Chelsea",
+          "played": 5,
+          "won": 0,
+          "drawn": 5,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 5,
+          "form": [
+            "D",
+            "D",
+            "D",
+            "D",
+            "D"
+          ]
+        },
+        {
+          "clubId": "tottenham",
+          "name": "Tottenham Hotspur",
+          "played": 4,
+          "won": 1,
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 6,
+          "goalDifference": -3,
+          "points": 3,
+          "form": [
+            "L",
+            "W",
+            "L",
+            "L"
+          ]
+        },
+        {
+          "clubId": "newcastle",
+          "name": "Newcastle United",
+          "played": 4,
+          "won": 2,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 6,
+          "goalsAgainst": 4,
+          "goalDifference": 2,
+          "points": 7,
+          "form": [
+            "L",
+            "W",
+            "D",
+            "W"
+          ]
+        }
+      ]
+    }
+  },
+  "matchHistory": [
+    {
+      "home": {
+        "club": {
+          "club_id": "arsenal",
+          "name": "Arsenal",
+          "short_name": "ARS",
+          "league": "premier_league",
+          "country": "England",
+          "founded": 1886,
+          "reputation": {
+            "global": 93,
+            "domestic": 95,
+            "continental": 91
+          },
+          "finances": {
+            "transfer_budget": 120000000,
+            "wage_budget_weekly": 3600000,
+            "debt": 200000000,
+            "revenue_annual": 600000000
+          },
+          "stadium": {
+            "name": "Emirates Stadium",
+            "capacity": 60704,
+            "atmosphere": 94
+          },
+          "squad": {
+            "current_players": [],
+            "squad_size": 0,
+            "average_age": 25.5,
+            "average_rating": 85
+          },
+          "tactics": {
+            "default_formation": "4-3-3",
+            "alternative_formations": [
+              "4-2-3-1",
+              "3-2-2-3"
+            ],
+            "mentality": "control",
+            "play_style": {
+              "possession": 70,
+              "pressing": 92,
+              "tempo": 78,
+              "width": 85,
+              "defensive_line": 90
+            }
+          },
+          "staff": {
+            "manager": {
+              "name": "Mikel Arteta",
+              "rating": 88,
+              "preferred_formation": "4-3-3",
+              "tactical_approach": "positional_play_control"
+            }
+          },
+          "objectives": {
+            "league_position": {
+              "min": 2,
+              "target": 1
+            },
+            "champions_league": "semi_finals",
+            "domestic_cup": "winner"
+          },
+          "currentForm": 8
+        },
+        "score": 0,
+        "stats": {
+          "possession": 50,
+          "shots": 0,
+          "shotsOnTarget": 0,
+          "corners": 1,
+          "fouls": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        }
+      },
+      "away": {
+        "club": {
+          "club_id": "chelsea",
+          "name": "Chelsea",
+          "short_name": "CFC",
+          "league": "premier_league",
+          "country": "England",
+          "founded": 1905,
+          "reputation": {
+            "global": 90,
+            "domestic": 89,
+            "continental": 88
+          },
+          "finances": {
+            "transfer_budget": 150000000,
+            "wage_budget_weekly": 3500000,
+            "debt": 600000000,
+            "revenue_annual": 580000000
+          },
+          "stadium": {
+            "name": "Stamford Bridge",
+            "capacity": 40341,
+            "atmosphere": 85
+          },
+          "squad": {
+            "current_players": [],
+            "squad_size": 0,
+            "average_age": 23.4,
+            "average_rating": 81
+          },
+          "tactics": {
+            "default_formation": "4-2-3-1",
+            "alternative_formations": [
+              "4-3-3",
+              "3-2-4-1"
+            ],
+            "mentality": "attacking",
+            "play_style": {
+              "possession": 72,
+              "pressing": 80,
+              "tempo": 65,
+              "width": 80,
+              "defensive_line": 85
+            }
+          },
+          "staff": {
+            "manager": {
+              "name": "Enzo Maresca",
+              "rating": 81,
+              "preferred_formation": "4-2-3-1",
+              "tactical_approach": "positional_play"
+            }
+          },
+          "objectives": {
+            "league_position": {
+              "min": 5,
+              "target": 4
+            },
+            "champions_league": "none",
+            "domestic_cup": "semi_finals"
+          },
+          "currentForm": 7
+        },
+        "score": 0,
+        "stats": {
+          "possession": 50,
+          "shots": 0,
+          "shotsOnTarget": 0,
+          "corners": 0,
+          "fouls": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        }
+      },
+      "events": [
+        {
+          "type": "half_time",
+          "minute": 45,
+          "data": {},
+          "timestamp": "2026-01-04T15:36:17.641Z"
+        },
+        {
+          "type": "corner",
+          "minute": 50,
+          "data": {
+            "team": "home"
+          },
+          "timestamp": "2026-01-04T15:36:20.658Z"
+        },
+        {
+          "type": "full_time",
+          "minute": 92,
+          "data": {},
+          "timestamp": "2026-01-04T15:36:29.705Z"
+        }
+      ],
+      "playerRatings": {},
+      "date": "2026-01-04T15:36:29.733Z"
+    },
+    {
+      "home": {
+        "club": {
+          "club_id": "chelsea",
+          "name": "Chelsea",
+          "short_name": "CFC",
+          "league": "premier_league",
+          "country": "England",
+          "founded": 1905,
+          "reputation": {
+            "global": 90,
+            "domestic": 89,
+            "continental": 88
+          },
+          "finances": {
+            "transfer_budget": 150000000,
+            "wage_budget_weekly": 3500000,
+            "debt": 600000000,
+            "revenue_annual": 580000000
+          },
+          "stadium": {
+            "name": "Stamford Bridge",
+            "capacity": 40341,
+            "atmosphere": 85
+          },
+          "squad": {
+            "current_players": [],
+            "squad_size": 0,
+            "average_age": 23.4,
+            "average_rating": 81
+          },
+          "tactics": {
+            "default_formation": "4-2-3-1",
+            "alternative_formations": [
+              "4-3-3",
+              "3-2-4-1"
+            ],
+            "mentality": "attacking",
+            "play_style": {
+              "possession": 72,
+              "pressing": 80,
+              "tempo": 65,
+              "width": 80,
+              "defensive_line": 85
+            }
+          },
+          "staff": {
+            "manager": {
+              "name": "Enzo Maresca",
+              "rating": 81,
+              "preferred_formation": "4-2-3-1",
+              "tactical_approach": "positional_play"
+            }
+          },
+          "objectives": {
+            "league_position": {
+              "min": 5,
+              "target": 4
+            },
+            "champions_league": "none",
+            "domestic_cup": "semi_finals"
+          },
+          "currentForm": 7
+        },
+        "score": 0,
+        "stats": {
+          "possession": 43,
+          "shots": 0,
+          "shotsOnTarget": 0,
+          "corners": 0,
+          "fouls": 1,
+          "yellowCards": 0,
+          "redCards": 0
+        }
+      },
+      "away": {
+        "club": {
+          "club_id": "manchester_city",
+          "name": "Manchester City",
+          "short_name": "MCI",
+          "league": "premier_league",
+          "country": "England",
+          "founded": 1880,
+          "reputation": {
+            "global": 99,
+            "domestic": 99,
+            "continental": 98
+          },
+          "finances": {
+            "transfer_budget": 200000000,
+            "wage_budget_weekly": 4200000,
+            "debt": 50000000,
+            "revenue_annual": 750000000
+          },
+          "stadium": {
+            "name": "Etihad Stadium",
+            "capacity": 53400,
+            "atmosphere": 88
+          },
+          "squad": {
+            "current_players": [],
+            "squad_size": 0,
+            "average_age": 27.5,
+            "average_rating": 90
+          },
+          "tactics": {
+            "default_formation": "3-2-4-1",
+            "alternative_formations": [
+              "4-3-3",
+              "4-2-3-1"
+            ],
+            "mentality": "control",
+            "play_style": {
+              "possession": 75,
+              "pressing": 88,
+              "tempo": 70,
+              "width": 90,
+              "defensive_line": 85
+            }
+          },
+          "staff": {
+            "manager": {
+              "name": "Pep Guardiola",
+              "rating": 99,
+              "preferred_formation": "3-2-4-1",
+              "tactical_approach": "total_football"
+            }
+          },
+          "objectives": {
+            "league_position": {
+              "min": 1,
+              "target": 1
+            },
+            "champions_league": "winner",
+            "domestic_cup": "winner"
+          },
+          "currentForm": 9
+        },
+        "score": 0,
+        "stats": {
+          "possession": 57,
+          "shots": 0,
+          "shotsOnTarget": 0,
+          "corners": 0,
+          "fouls": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        }
+      },
+      "events": [
+        {
+          "type": "half_time",
+          "minute": 45,
+          "data": {},
+          "timestamp": "2026-01-04T15:37:00.776Z"
+        },
+        {
+          "type": "foul",
+          "minute": 45,
+          "data": {
+            "team": "home"
+          },
+          "timestamp": "2026-01-04T15:37:03.801Z"
+        },
+        {
+          "type": "full_time",
+          "minute": 95,
+          "data": {},
+          "timestamp": "2026-01-04T15:37:12.823Z"
+        }
+      ],
+      "playerRatings": {},
+      "date": "2026-01-04T15:37:12.826Z"
+    },
+    {
+      "home": {
+        "club": {
+          "club_id": "newcastle",
+          "name": "Newcastle United",
+          "short_name": "NEW",
+          "league": "premier_league",
+          "country": "England",
+          "founded": 1892,
+          "reputation": {
+            "global": 82,
+            "domestic": 85,
+            "continental": 80
+          },
+          "finances": {
+            "transfer_budget": 250000000,
+            "wage_budget_weekly": 2800000,
+            "debt": 0,
+            "revenue_annual": 300000000
+          },
+          "stadium": {
+            "name": "St James Park",
+            "capacity": 52305,
+            "atmosphere": 95
+          },
+          "squad": {
+            "current_players": [],
+            "squad_size": 0,
+            "average_age": 27.2,
+            "average_rating": 81
+          },
+          "tactics": {
+            "default_formation": "4-3-3",
+            "alternative_formations": [
+              "4-5-1",
+              "5-4-1"
+            ],
+            "mentality": "balanced",
+            "play_style": {
+              "possession": 45,
+              "pressing": 88,
+              "tempo": 80,
+              "width": 70,
+              "defensive_line": 60
+            }
+          },
+          "staff": {
+            "manager": {
+              "name": "Eddie Howe",
+              "rating": 82,
+              "preferred_formation": "4-3-3",
+              "tactical_approach": "intense_workrate"
+            }
+          },
+          "objectives": {
+            "league_position": {
+              "min": 7,
+              "target": 5
+            },
+            "champions_league": "none",
+            "domestic_cup": "quarter_finals"
+          },
+          "currentForm": 6
+        },
+        "score": 0,
+        "stats": {
+          "possession": 47,
+          "shots": 0,
+          "shotsOnTarget": 0,
+          "corners": 0,
+          "fouls": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        }
+      },
+      "away": {
+        "club": {
+          "club_id": "chelsea",
+          "name": "Chelsea",
+          "short_name": "CFC",
+          "league": "premier_league",
+          "country": "England",
+          "founded": 1905,
+          "reputation": {
+            "global": 90,
+            "domestic": 89,
+            "continental": 88
+          },
+          "finances": {
+            "transfer_budget": 150000000,
+            "wage_budget_weekly": 3500000,
+            "debt": 600000000,
+            "revenue_annual": 580000000
+          },
+          "stadium": {
+            "name": "Stamford Bridge",
+            "capacity": 40341,
+            "atmosphere": 85
+          },
+          "squad": {
+            "current_players": [],
+            "squad_size": 0,
+            "average_age": 23.4,
+            "average_rating": 81
+          },
+          "tactics": {
+            "default_formation": "4-2-3-1",
+            "alternative_formations": [
+              "4-3-3",
+              "3-2-4-1"
+            ],
+            "mentality": "attacking",
+            "play_style": {
+              "possession": 72,
+              "pressing": 80,
+              "tempo": 65,
+              "width": 80,
+              "defensive_line": 85
+            }
+          },
+          "staff": {
+            "manager": {
+              "name": "Enzo Maresca",
+              "rating": 81,
+              "preferred_formation": "4-2-3-1",
+              "tactical_approach": "positional_play"
+            }
+          },
+          "objectives": {
+            "league_position": {
+              "min": 5,
+              "target": 4
+            },
+            "champions_league": "none",
+            "domestic_cup": "semi_finals"
+          },
+          "currentForm": 7
+        },
+        "score": 0,
+        "stats": {
+          "possession": 53,
+          "shots": 0,
+          "shotsOnTarget": 0,
+          "corners": 0,
+          "fouls": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        }
+      },
+      "events": [
+        {
+          "type": "half_time",
+          "minute": 45,
+          "data": {},
+          "timestamp": "2026-01-04T15:37:52.899Z"
+        },
+        {
+          "type": "full_time",
+          "minute": 92,
+          "data": {},
+          "timestamp": "2026-01-04T15:38:04.986Z"
+        }
+      ],
+      "playerRatings": {},
+      "date": "2026-01-04T15:38:05.010Z"
+    },
+    {
+      "home": {
+        "club": {
+          "club_id": "chelsea",
+          "name": "Chelsea",
+          "short_name": "CFC",
+          "league": "premier_league",
+          "country": "England",
+          "founded": 1905,
+          "reputation": {
+            "global": 90,
+            "domestic": 89,
+            "continental": 88
+          },
+          "finances": {
+            "transfer_budget": 150000000,
+            "wage_budget_weekly": 3500000,
+            "debt": 600000000,
+            "revenue_annual": 580000000
+          },
+          "stadium": {
+            "name": "Stamford Bridge",
+            "capacity": 40341,
+            "atmosphere": 85
+          },
+          "squad": {
+            "current_players": [],
+            "squad_size": 0,
+            "average_age": 23.4,
+            "average_rating": 81
+          },
+          "tactics": {
+            "default_formation": "4-2-3-1",
+            "alternative_formations": [
+              "4-3-3",
+              "3-2-4-1"
+            ],
+            "mentality": "attacking",
+            "play_style": {
+              "possession": 72,
+              "pressing": 80,
+              "tempo": 65,
+              "width": 80,
+              "defensive_line": 85
+            }
+          },
+          "staff": {
+            "manager": {
+              "name": "Enzo Maresca",
+              "rating": 81,
+              "preferred_formation": "4-2-3-1",
+              "tactical_approach": "positional_play"
+            }
+          },
+          "objectives": {
+            "league_position": {
+              "min": 5,
+              "target": 4
+            },
+            "champions_league": "none",
+            "domestic_cup": "semi_finals"
+          },
+          "currentForm": 7
+        },
+        "score": 0,
+        "stats": {
+          "possession": 53,
+          "shots": 0,
+          "shotsOnTarget": 0,
+          "corners": 1,
+          "fouls": 0,
+          "yellowCards": 1,
+          "redCards": 0
+        }
+      },
+      "away": {
+        "club": {
+          "club_id": "manchester_united",
+          "name": "Manchester United",
+          "short_name": "MUN",
+          "league": "premier_league",
+          "country": "England",
+          "founded": 1878,
+          "reputation": {
+            "global": 95,
+            "domestic": 92,
+            "continental": 90
+          },
+          "finances": {
+            "transfer_budget": 100000000,
+            "wage_budget_weekly": 3900000,
+            "debt": 700000000,
+            "revenue_annual": 680000000
+          },
+          "stadium": {
+            "name": "Old Trafford",
+            "capacity": 74310,
+            "atmosphere": 92
+          },
+          "squad": {
+            "current_players": [],
+            "squad_size": 0,
+            "average_age": 26,
+            "average_rating": 82
+          },
+          "tactics": {
+            "default_formation": "3-4-3",
+            "alternative_formations": [
+              "4-2-3-1",
+              "3-4-2-1"
+            ],
+            "mentality": "balanced",
+            "play_style": {
+              "possession": 55,
+              "pressing": 85,
+              "tempo": 75,
+              "width": 65,
+              "defensive_line": 70
+            }
+          },
+          "staff": {
+            "manager": {
+              "name": "Ruben Amorim",
+              "rating": 85,
+              "preferred_formation": "3-4-3",
+              "tactical_approach": "pragmatic_press"
+            }
+          },
+          "objectives": {
+            "league_position": {
+              "min": 6,
+              "target": 4
+            },
+            "champions_league": "none",
+            "domestic_cup": "winner"
+          },
+          "currentForm": 7
+        },
+        "score": 0,
+        "stats": {
+          "possession": 47,
+          "shots": 0,
+          "shotsOnTarget": 0,
+          "corners": 0,
+          "fouls": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        }
+      },
+      "events": [
+        {
+          "type": "corner",
+          "minute": 32,
+          "data": {
+            "team": "home"
+          },
+          "timestamp": "2026-01-04T15:38:22.028Z"
+        },
+        {
+          "type": "half_time",
+          "minute": 45,
+          "data": {},
+          "timestamp": "2026-01-04T15:38:22.031Z"
+        },
+        {
+          "type": "full_time",
+          "minute": 95,
+          "data": {},
+          "timestamp": "2026-01-04T15:38:34.095Z"
+        }
+      ],
+      "playerRatings": {},
+      "date": "2026-01-04T15:38:34.115Z"
+    },
+    {
+      "home": {
+        "club": {
+          "club_id": "chelsea",
+          "name": "Chelsea",
+          "short_name": "CFC",
+          "league": "premier_league",
+          "country": "England",
+          "founded": 1905,
+          "reputation": {
+            "global": 90,
+            "domestic": 89,
+            "continental": 88
+          },
+          "finances": {
+            "transfer_budget": 150000000,
+            "wage_budget_weekly": 3500000,
+            "debt": 600000000,
+            "revenue_annual": 580000000
+          },
+          "stadium": {
+            "name": "Stamford Bridge",
+            "capacity": 40341,
+            "atmosphere": 85
+          },
+          "squad": {
+            "current_players": [],
+            "squad_size": 0,
+            "average_age": 23.4,
+            "average_rating": 81
+          },
+          "tactics": {
+            "default_formation": "4-2-3-1",
+            "alternative_formations": [
+              "4-3-3",
+              "3-2-4-1"
+            ],
+            "mentality": "attacking",
+            "play_style": {
+              "possession": 72,
+              "pressing": 80,
+              "tempo": 65,
+              "width": 80,
+              "defensive_line": 85
+            }
+          },
+          "staff": {
+            "manager": {
+              "name": "Enzo Maresca",
+              "rating": 81,
+              "preferred_formation": "4-2-3-1",
+              "tactical_approach": "positional_play"
+            }
+          },
+          "objectives": {
+            "league_position": {
+              "min": 5,
+              "target": 4
+            },
+            "champions_league": "none",
+            "domestic_cup": "semi_finals"
+          },
+          "currentForm": 7
+        },
+        "score": 0,
+        "stats": {
+          "possession": 49,
+          "shots": 0,
+          "shotsOnTarget": 0,
+          "corners": 1,
+          "fouls": 0,
+          "yellowCards": 2,
+          "redCards": 0
+        }
+      },
+      "away": {
+        "club": {
+          "club_id": "liverpool",
+          "name": "Liverpool",
+          "short_name": "LFC",
+          "league": "premier_league",
+          "country": "England",
+          "founded": 1892,
+          "reputation": {
+            "global": 96,
+            "domestic": 97,
+            "continental": 95
+          },
+          "finances": {
+            "transfer_budget": 180000000,
+            "wage_budget_weekly": 3800000,
+            "debt": 450000000,
+            "revenue_annual": 700000000
+          },
+          "stadium": {
+            "name": "Anfield",
+            "capacity": 61276,
+            "atmosphere": 98
+          },
+          "squad": {
+            "current_players": [],
+            "squad_size": 0,
+            "average_age": 26.1,
+            "average_rating": 86
+          },
+          "tactics": {
+            "default_formation": "4-3-3",
+            "alternative_formations": [
+              "4-2-3-1",
+              "4-4-2"
+            ],
+            "mentality": "attacking",
+            "play_style": {
+              "possession": 68,
+              "pressing": 90,
+              "tempo": 85,
+              "width": 75,
+              "defensive_line": 78
+            }
+          },
+          "staff": {
+            "manager": {
+              "name": "Arne Slot",
+              "rating": 84,
+              "preferred_formation": "4-3-3",
+              "tactical_approach": "high_intensity_press"
+            }
+          },
+          "objectives": {
+            "league_position": {
+              "min": 3,
+              "target": 1
+            },
+            "champions_league": "semi_finals",
+            "domestic_cup": "quarter_finals"
+          },
+          "currentForm": 8
+        },
+        "score": 0,
+        "stats": {
+          "possession": 51,
+          "shots": 0,
+          "shotsOnTarget": 0,
+          "corners": 0,
+          "fouls": 0,
+          "yellowCards": 1,
+          "redCards": 0
+        }
+      },
+      "events": [
+        {
+          "type": "half_time",
+          "minute": 45,
+          "data": {},
+          "timestamp": "2026-01-04T15:39:13.215Z"
+        },
+        {
+          "type": "corner",
+          "minute": 64,
+          "data": {
+            "team": "home"
+          },
+          "timestamp": "2026-01-04T15:39:20.769Z"
+        },
+        {
+          "type": "full_time",
+          "minute": 94,
+          "data": {},
+          "timestamp": "2026-01-04T15:39:25.297Z"
+        }
+      ],
+      "playerRatings": {},
+      "date": "2026-01-04T15:39:25.313Z"
+    }
+  ],
+  "aiCoachMemory": {
+    "previousMatches": [
+      {
+        "home": {
+          "club": {
+            "club_id": "arsenal",
+            "name": "Arsenal",
+            "short_name": "ARS",
+            "league": "premier_league",
+            "country": "England",
+            "founded": 1886,
+            "reputation": {
+              "global": 93,
+              "domestic": 95,
+              "continental": 91
+            },
+            "finances": {
+              "transfer_budget": 120000000,
+              "wage_budget_weekly": 3600000,
+              "debt": 200000000,
+              "revenue_annual": 600000000
+            },
+            "stadium": {
+              "name": "Emirates Stadium",
+              "capacity": 60704,
+              "atmosphere": 94
+            },
+            "squad": {
+              "current_players": [],
+              "squad_size": 0,
+              "average_age": 25.5,
+              "average_rating": 85
+            },
+            "tactics": {
+              "default_formation": "4-3-3",
+              "alternative_formations": [
+                "4-2-3-1",
+                "3-2-2-3"
+              ],
+              "mentality": "control",
+              "play_style": {
+                "possession": 70,
+                "pressing": 92,
+                "tempo": 78,
+                "width": 85,
+                "defensive_line": 90
+              }
+            },
+            "staff": {
+              "manager": {
+                "name": "Mikel Arteta",
+                "rating": 88,
+                "preferred_formation": "4-3-3",
+                "tactical_approach": "positional_play_control"
+              }
+            },
+            "objectives": {
+              "league_position": {
+                "min": 2,
+                "target": 1
+              },
+              "champions_league": "semi_finals",
+              "domestic_cup": "winner"
+            },
+            "currentForm": 8
+          },
+          "score": 0,
+          "stats": {
+            "possession": 50,
+            "shots": 0,
+            "shotsOnTarget": 0,
+            "corners": 1,
+            "fouls": 0,
+            "yellowCards": 0,
+            "redCards": 0
+          }
+        },
+        "away": {
+          "club": {
+            "club_id": "chelsea",
+            "name": "Chelsea",
+            "short_name": "CFC",
+            "league": "premier_league",
+            "country": "England",
+            "founded": 1905,
+            "reputation": {
+              "global": 90,
+              "domestic": 89,
+              "continental": 88
+            },
+            "finances": {
+              "transfer_budget": 150000000,
+              "wage_budget_weekly": 3500000,
+              "debt": 600000000,
+              "revenue_annual": 580000000
+            },
+            "stadium": {
+              "name": "Stamford Bridge",
+              "capacity": 40341,
+              "atmosphere": 85
+            },
+            "squad": {
+              "current_players": [],
+              "squad_size": 0,
+              "average_age": 23.4,
+              "average_rating": 81
+            },
+            "tactics": {
+              "default_formation": "4-2-3-1",
+              "alternative_formations": [
+                "4-3-3",
+                "3-2-4-1"
+              ],
+              "mentality": "attacking",
+              "play_style": {
+                "possession": 72,
+                "pressing": 80,
+                "tempo": 65,
+                "width": 80,
+                "defensive_line": 85
+              }
+            },
+            "staff": {
+              "manager": {
+                "name": "Enzo Maresca",
+                "rating": 81,
+                "preferred_formation": "4-2-3-1",
+                "tactical_approach": "positional_play"
+              }
+            },
+            "objectives": {
+              "league_position": {
+                "min": 5,
+                "target": 4
+              },
+              "champions_league": "none",
+              "domestic_cup": "semi_finals"
+            },
+            "currentForm": 7
+          },
+          "score": 0,
+          "stats": {
+            "possession": 50,
+            "shots": 0,
+            "shotsOnTarget": 0,
+            "corners": 0,
+            "fouls": 0,
+            "yellowCards": 0,
+            "redCards": 0
+          }
+        },
+        "events": [
+          {
+            "type": "half_time",
+            "minute": 45,
+            "data": {},
+            "timestamp": "2026-01-04T15:36:17.641Z"
+          },
+          {
+            "type": "corner",
+            "minute": 50,
+            "data": {
+              "team": "home"
+            },
+            "timestamp": "2026-01-04T15:36:20.658Z"
+          },
+          {
+            "type": "full_time",
+            "minute": 92,
+            "data": {},
+            "timestamp": "2026-01-04T15:36:29.705Z"
+          }
+        ],
+        "playerRatings": {},
+        "date": "2026-01-04T15:36:29.733Z"
+      },
+      {
+        "home": {
+          "club": {
+            "club_id": "chelsea",
+            "name": "Chelsea",
+            "short_name": "CFC",
+            "league": "premier_league",
+            "country": "England",
+            "founded": 1905,
+            "reputation": {
+              "global": 90,
+              "domestic": 89,
+              "continental": 88
+            },
+            "finances": {
+              "transfer_budget": 150000000,
+              "wage_budget_weekly": 3500000,
+              "debt": 600000000,
+              "revenue_annual": 580000000
+            },
+            "stadium": {
+              "name": "Stamford Bridge",
+              "capacity": 40341,
+              "atmosphere": 85
+            },
+            "squad": {
+              "current_players": [],
+              "squad_size": 0,
+              "average_age": 23.4,
+              "average_rating": 81
+            },
+            "tactics": {
+              "default_formation": "4-2-3-1",
+              "alternative_formations": [
+                "4-3-3",
+                "3-2-4-1"
+              ],
+              "mentality": "attacking",
+              "play_style": {
+                "possession": 72,
+                "pressing": 80,
+                "tempo": 65,
+                "width": 80,
+                "defensive_line": 85
+              }
+            },
+            "staff": {
+              "manager": {
+                "name": "Enzo Maresca",
+                "rating": 81,
+                "preferred_formation": "4-2-3-1",
+                "tactical_approach": "positional_play"
+              }
+            },
+            "objectives": {
+              "league_position": {
+                "min": 5,
+                "target": 4
+              },
+              "champions_league": "none",
+              "domestic_cup": "semi_finals"
+            },
+            "currentForm": 7
+          },
+          "score": 0,
+          "stats": {
+            "possession": 43,
+            "shots": 0,
+            "shotsOnTarget": 0,
+            "corners": 0,
+            "fouls": 1,
+            "yellowCards": 0,
+            "redCards": 0
+          }
+        },
+        "away": {
+          "club": {
+            "club_id": "manchester_city",
+            "name": "Manchester City",
+            "short_name": "MCI",
+            "league": "premier_league",
+            "country": "England",
+            "founded": 1880,
+            "reputation": {
+              "global": 99,
+              "domestic": 99,
+              "continental": 98
+            },
+            "finances": {
+              "transfer_budget": 200000000,
+              "wage_budget_weekly": 4200000,
+              "debt": 50000000,
+              "revenue_annual": 750000000
+            },
+            "stadium": {
+              "name": "Etihad Stadium",
+              "capacity": 53400,
+              "atmosphere": 88
+            },
+            "squad": {
+              "current_players": [],
+              "squad_size": 0,
+              "average_age": 27.5,
+              "average_rating": 90
+            },
+            "tactics": {
+              "default_formation": "3-2-4-1",
+              "alternative_formations": [
+                "4-3-3",
+                "4-2-3-1"
+              ],
+              "mentality": "control",
+              "play_style": {
+                "possession": 75,
+                "pressing": 88,
+                "tempo": 70,
+                "width": 90,
+                "defensive_line": 85
+              }
+            },
+            "staff": {
+              "manager": {
+                "name": "Pep Guardiola",
+                "rating": 99,
+                "preferred_formation": "3-2-4-1",
+                "tactical_approach": "total_football"
+              }
+            },
+            "objectives": {
+              "league_position": {
+                "min": 1,
+                "target": 1
+              },
+              "champions_league": "winner",
+              "domestic_cup": "winner"
+            },
+            "currentForm": 9
+          },
+          "score": 0,
+          "stats": {
+            "possession": 57,
+            "shots": 0,
+            "shotsOnTarget": 0,
+            "corners": 0,
+            "fouls": 0,
+            "yellowCards": 0,
+            "redCards": 0
+          }
+        },
+        "events": [
+          {
+            "type": "half_time",
+            "minute": 45,
+            "data": {},
+            "timestamp": "2026-01-04T15:37:00.776Z"
+          },
+          {
+            "type": "foul",
+            "minute": 45,
+            "data": {
+              "team": "home"
+            },
+            "timestamp": "2026-01-04T15:37:03.801Z"
+          },
+          {
+            "type": "full_time",
+            "minute": 95,
+            "data": {},
+            "timestamp": "2026-01-04T15:37:12.823Z"
+          }
+        ],
+        "playerRatings": {},
+        "date": "2026-01-04T15:37:12.826Z"
+      },
+      {
+        "home": {
+          "club": {
+            "club_id": "newcastle",
+            "name": "Newcastle United",
+            "short_name": "NEW",
+            "league": "premier_league",
+            "country": "England",
+            "founded": 1892,
+            "reputation": {
+              "global": 82,
+              "domestic": 85,
+              "continental": 80
+            },
+            "finances": {
+              "transfer_budget": 250000000,
+              "wage_budget_weekly": 2800000,
+              "debt": 0,
+              "revenue_annual": 300000000
+            },
+            "stadium": {
+              "name": "St James Park",
+              "capacity": 52305,
+              "atmosphere": 95
+            },
+            "squad": {
+              "current_players": [],
+              "squad_size": 0,
+              "average_age": 27.2,
+              "average_rating": 81
+            },
+            "tactics": {
+              "default_formation": "4-3-3",
+              "alternative_formations": [
+                "4-5-1",
+                "5-4-1"
+              ],
+              "mentality": "balanced",
+              "play_style": {
+                "possession": 45,
+                "pressing": 88,
+                "tempo": 80,
+                "width": 70,
+                "defensive_line": 60
+              }
+            },
+            "staff": {
+              "manager": {
+                "name": "Eddie Howe",
+                "rating": 82,
+                "preferred_formation": "4-3-3",
+                "tactical_approach": "intense_workrate"
+              }
+            },
+            "objectives": {
+              "league_position": {
+                "min": 7,
+                "target": 5
+              },
+              "champions_league": "none",
+              "domestic_cup": "quarter_finals"
+            },
+            "currentForm": 6
+          },
+          "score": 0,
+          "stats": {
+            "possession": 47,
+            "shots": 0,
+            "shotsOnTarget": 0,
+            "corners": 0,
+            "fouls": 0,
+            "yellowCards": 0,
+            "redCards": 0
+          }
+        },
+        "away": {
+          "club": {
+            "club_id": "chelsea",
+            "name": "Chelsea",
+            "short_name": "CFC",
+            "league": "premier_league",
+            "country": "England",
+            "founded": 1905,
+            "reputation": {
+              "global": 90,
+              "domestic": 89,
+              "continental": 88
+            },
+            "finances": {
+              "transfer_budget": 150000000,
+              "wage_budget_weekly": 3500000,
+              "debt": 600000000,
+              "revenue_annual": 580000000
+            },
+            "stadium": {
+              "name": "Stamford Bridge",
+              "capacity": 40341,
+              "atmosphere": 85
+            },
+            "squad": {
+              "current_players": [],
+              "squad_size": 0,
+              "average_age": 23.4,
+              "average_rating": 81
+            },
+            "tactics": {
+              "default_formation": "4-2-3-1",
+              "alternative_formations": [
+                "4-3-3",
+                "3-2-4-1"
+              ],
+              "mentality": "attacking",
+              "play_style": {
+                "possession": 72,
+                "pressing": 80,
+                "tempo": 65,
+                "width": 80,
+                "defensive_line": 85
+              }
+            },
+            "staff": {
+              "manager": {
+                "name": "Enzo Maresca",
+                "rating": 81,
+                "preferred_formation": "4-2-3-1",
+                "tactical_approach": "positional_play"
+              }
+            },
+            "objectives": {
+              "league_position": {
+                "min": 5,
+                "target": 4
+              },
+              "champions_league": "none",
+              "domestic_cup": "semi_finals"
+            },
+            "currentForm": 7
+          },
+          "score": 0,
+          "stats": {
+            "possession": 53,
+            "shots": 0,
+            "shotsOnTarget": 0,
+            "corners": 0,
+            "fouls": 0,
+            "yellowCards": 0,
+            "redCards": 0
+          }
+        },
+        "events": [
+          {
+            "type": "half_time",
+            "minute": 45,
+            "data": {},
+            "timestamp": "2026-01-04T15:37:52.899Z"
+          },
+          {
+            "type": "full_time",
+            "minute": 92,
+            "data": {},
+            "timestamp": "2026-01-04T15:38:04.986Z"
+          }
+        ],
+        "playerRatings": {},
+        "date": "2026-01-04T15:38:05.010Z"
+      },
+      {
+        "home": {
+          "club": {
+            "club_id": "chelsea",
+            "name": "Chelsea",
+            "short_name": "CFC",
+            "league": "premier_league",
+            "country": "England",
+            "founded": 1905,
+            "reputation": {
+              "global": 90,
+              "domestic": 89,
+              "continental": 88
+            },
+            "finances": {
+              "transfer_budget": 150000000,
+              "wage_budget_weekly": 3500000,
+              "debt": 600000000,
+              "revenue_annual": 580000000
+            },
+            "stadium": {
+              "name": "Stamford Bridge",
+              "capacity": 40341,
+              "atmosphere": 85
+            },
+            "squad": {
+              "current_players": [],
+              "squad_size": 0,
+              "average_age": 23.4,
+              "average_rating": 81
+            },
+            "tactics": {
+              "default_formation": "4-2-3-1",
+              "alternative_formations": [
+                "4-3-3",
+                "3-2-4-1"
+              ],
+              "mentality": "attacking",
+              "play_style": {
+                "possession": 72,
+                "pressing": 80,
+                "tempo": 65,
+                "width": 80,
+                "defensive_line": 85
+              }
+            },
+            "staff": {
+              "manager": {
+                "name": "Enzo Maresca",
+                "rating": 81,
+                "preferred_formation": "4-2-3-1",
+                "tactical_approach": "positional_play"
+              }
+            },
+            "objectives": {
+              "league_position": {
+                "min": 5,
+                "target": 4
+              },
+              "champions_league": "none",
+              "domestic_cup": "semi_finals"
+            },
+            "currentForm": 7
+          },
+          "score": 0,
+          "stats": {
+            "possession": 53,
+            "shots": 0,
+            "shotsOnTarget": 0,
+            "corners": 1,
+            "fouls": 0,
+            "yellowCards": 1,
+            "redCards": 0
+          }
+        },
+        "away": {
+          "club": {
+            "club_id": "manchester_united",
+            "name": "Manchester United",
+            "short_name": "MUN",
+            "league": "premier_league",
+            "country": "England",
+            "founded": 1878,
+            "reputation": {
+              "global": 95,
+              "domestic": 92,
+              "continental": 90
+            },
+            "finances": {
+              "transfer_budget": 100000000,
+              "wage_budget_weekly": 3900000,
+              "debt": 700000000,
+              "revenue_annual": 680000000
+            },
+            "stadium": {
+              "name": "Old Trafford",
+              "capacity": 74310,
+              "atmosphere": 92
+            },
+            "squad": {
+              "current_players": [],
+              "squad_size": 0,
+              "average_age": 26,
+              "average_rating": 82
+            },
+            "tactics": {
+              "default_formation": "3-4-3",
+              "alternative_formations": [
+                "4-2-3-1",
+                "3-4-2-1"
+              ],
+              "mentality": "balanced",
+              "play_style": {
+                "possession": 55,
+                "pressing": 85,
+                "tempo": 75,
+                "width": 65,
+                "defensive_line": 70
+              }
+            },
+            "staff": {
+              "manager": {
+                "name": "Ruben Amorim",
+                "rating": 85,
+                "preferred_formation": "3-4-3",
+                "tactical_approach": "pragmatic_press"
+              }
+            },
+            "objectives": {
+              "league_position": {
+                "min": 6,
+                "target": 4
+              },
+              "champions_league": "none",
+              "domestic_cup": "winner"
+            },
+            "currentForm": 7
+          },
+          "score": 0,
+          "stats": {
+            "possession": 47,
+            "shots": 0,
+            "shotsOnTarget": 0,
+            "corners": 0,
+            "fouls": 0,
+            "yellowCards": 0,
+            "redCards": 0
+          }
+        },
+        "events": [
+          {
+            "type": "corner",
+            "minute": 32,
+            "data": {
+              "team": "home"
+            },
+            "timestamp": "2026-01-04T15:38:22.028Z"
+          },
+          {
+            "type": "half_time",
+            "minute": 45,
+            "data": {},
+            "timestamp": "2026-01-04T15:38:22.031Z"
+          },
+          {
+            "type": "full_time",
+            "minute": 95,
+            "data": {},
+            "timestamp": "2026-01-04T15:38:34.095Z"
+          }
+        ],
+        "playerRatings": {},
+        "date": "2026-01-04T15:38:34.115Z"
+      },
+      {
+        "home": {
+          "club": {
+            "club_id": "chelsea",
+            "name": "Chelsea",
+            "short_name": "CFC",
+            "league": "premier_league",
+            "country": "England",
+            "founded": 1905,
+            "reputation": {
+              "global": 90,
+              "domestic": 89,
+              "continental": 88
+            },
+            "finances": {
+              "transfer_budget": 150000000,
+              "wage_budget_weekly": 3500000,
+              "debt": 600000000,
+              "revenue_annual": 580000000
+            },
+            "stadium": {
+              "name": "Stamford Bridge",
+              "capacity": 40341,
+              "atmosphere": 85
+            },
+            "squad": {
+              "current_players": [],
+              "squad_size": 0,
+              "average_age": 23.4,
+              "average_rating": 81
+            },
+            "tactics": {
+              "default_formation": "4-2-3-1",
+              "alternative_formations": [
+                "4-3-3",
+                "3-2-4-1"
+              ],
+              "mentality": "attacking",
+              "play_style": {
+                "possession": 72,
+                "pressing": 80,
+                "tempo": 65,
+                "width": 80,
+                "defensive_line": 85
+              }
+            },
+            "staff": {
+              "manager": {
+                "name": "Enzo Maresca",
+                "rating": 81,
+                "preferred_formation": "4-2-3-1",
+                "tactical_approach": "positional_play"
+              }
+            },
+            "objectives": {
+              "league_position": {
+                "min": 5,
+                "target": 4
+              },
+              "champions_league": "none",
+              "domestic_cup": "semi_finals"
+            },
+            "currentForm": 7
+          },
+          "score": 0,
+          "stats": {
+            "possession": 49,
+            "shots": 0,
+            "shotsOnTarget": 0,
+            "corners": 1,
+            "fouls": 0,
+            "yellowCards": 2,
+            "redCards": 0
+          }
+        },
+        "away": {
+          "club": {
+            "club_id": "liverpool",
+            "name": "Liverpool",
+            "short_name": "LFC",
+            "league": "premier_league",
+            "country": "England",
+            "founded": 1892,
+            "reputation": {
+              "global": 96,
+              "domestic": 97,
+              "continental": 95
+            },
+            "finances": {
+              "transfer_budget": 180000000,
+              "wage_budget_weekly": 3800000,
+              "debt": 450000000,
+              "revenue_annual": 700000000
+            },
+            "stadium": {
+              "name": "Anfield",
+              "capacity": 61276,
+              "atmosphere": 98
+            },
+            "squad": {
+              "current_players": [],
+              "squad_size": 0,
+              "average_age": 26.1,
+              "average_rating": 86
+            },
+            "tactics": {
+              "default_formation": "4-3-3",
+              "alternative_formations": [
+                "4-2-3-1",
+                "4-4-2"
+              ],
+              "mentality": "attacking",
+              "play_style": {
+                "possession": 68,
+                "pressing": 90,
+                "tempo": 85,
+                "width": 75,
+                "defensive_line": 78
+              }
+            },
+            "staff": {
+              "manager": {
+                "name": "Arne Slot",
+                "rating": 84,
+                "preferred_formation": "4-3-3",
+                "tactical_approach": "high_intensity_press"
+              }
+            },
+            "objectives": {
+              "league_position": {
+                "min": 3,
+                "target": 1
+              },
+              "champions_league": "semi_finals",
+              "domestic_cup": "quarter_finals"
+            },
+            "currentForm": 8
+          },
+          "score": 0,
+          "stats": {
+            "possession": 51,
+            "shots": 0,
+            "shotsOnTarget": 0,
+            "corners": 0,
+            "fouls": 0,
+            "yellowCards": 1,
+            "redCards": 0
+          }
+        },
+        "events": [
+          {
+            "type": "half_time",
+            "minute": 45,
+            "data": {},
+            "timestamp": "2026-01-04T15:39:13.215Z"
+          },
+          {
+            "type": "corner",
+            "minute": 64,
+            "data": {
+              "team": "home"
+            },
+            "timestamp": "2026-01-04T15:39:20.769Z"
+          },
+          {
+            "type": "full_time",
+            "minute": 94,
+            "data": {},
+            "timestamp": "2026-01-04T15:39:25.297Z"
+          }
+        ],
+        "playerRatings": {},
+        "date": "2026-01-04T15:39:25.313Z"
+      }
+    ],
+    "opponentProfiles": {},
+    "playerPerformance": {},
+    "successfulTactics": []
+  },
+  "savedAt": "2026-01-04T15:39:50.070Z"
+}

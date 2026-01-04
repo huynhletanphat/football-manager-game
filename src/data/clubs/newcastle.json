@@ -1,0 +1,56 @@
+{
+  "club_id": "newcastle",
+  "name": "Newcastle United",
+  "short_name": "NEW",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1892,
+  "reputation": {
+    "global": 82,
+    "domestic": 85,
+    "continental": 80
+  },
+  "finances": {
+    "transfer_budget": 250000000,
+    "wage_budget_weekly": 2800000,
+    "debt": 0,
+    "revenue_annual": 300000000
+  },
+  "stadium": {
+    "name": "St James Park",
+    "capacity": 52305,
+    "atmosphere": 95
+  },
+  "squad": {
+    "current_players": [],
+    "squad_size": 0,
+    "average_age": 27.2,
+    "average_rating": 81
+  },
+  "tactics": {
+    "default_formation": "4-3-3",
+    "alternative_formations": ["4-5-1", "5-4-1"],
+    "mentality": "balanced",
+    "play_style": {
+      "possession": 45,
+      "pressing": 88,
+      "tempo": 80,
+      "width": 70,
+      "defensive_line": 60
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Eddie Howe",
+      "rating": 82,
+      "preferred_formation": "4-3-3",
+      "tactical_approach": "intense_workrate"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 7, "target": 5},
+    "champions_league": "none",
+    "domestic_cup": "quarter_finals"
+  },
+  "currentForm": 6
+}

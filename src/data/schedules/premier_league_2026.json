@@ -1,22 +1,43 @@
 {
   "league": "premier_league",
   "season": 2026,
-  "generated": "2026-01-04T14:40:14.436Z",
-  "totalMatchdays": 2,
+  "generated": "2026-01-04T15:35:59.797Z",
+  "totalMatchdays": 14,
   "fixtures": [
     {
       "matchday": 1,
       "matches": [
         {
-          "home": "manchester_united",
-          "away": "manchester_city",
-          "homeName": "Manchester United",
-          "awayName": "Manchester City",
+          "home": "manchester_city",
+          "away": "newcastle",
+          "homeName": "Manchester City",
+          "awayName": "Newcastle United",
           "date": "2026-08-15",
-          "time": "16:30",
+          "time": "15:00",
+          "matchday": 1
+        },
+        {
+          "home": "liverpool",
+          "away": "tottenham",
+          "homeName": "Liverpool",
+          "awayName": "Tottenham Hotspur",
+          "date": "2026-08-15",
+          "time": "17:30",
           "matchday": 1,
-          "isDerby": true,
-          "importance": "HIGH",
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "arsenal",
+          "away": "chelsea",
+          "homeName": "Arsenal",
+          "awayName": "Chelsea",
+          "date": "2026-08-15",
+          "time": "17:30",
+          "matchday": 1,
+          "isTopClash": true,
+          "importance": "MEDIUM",
           "tvCoverage": true
         }
       ],
@@ -27,19 +48,526 @@
       "matchday": 2,
       "matches": [
         {
-          "home": "manchester_city",
+          "home": "newcastle",
           "away": "manchester_united",
-          "homeName": "Manchester City",
+          "homeName": "Newcastle United",
           "awayName": "Manchester United",
           "date": "2026-08-26",
-          "time": "16:30",
+          "time": "20:00",
+          "matchday": 2
+        },
+        {
+          "home": "chelsea",
+          "away": "manchester_city",
+          "homeName": "Chelsea",
+          "awayName": "Manchester City",
+          "date": "2026-08-26",
+          "time": "17:30",
           "matchday": 2,
-          "isDerby": true,
-          "importance": "HIGH",
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "arsenal",
+          "away": "liverpool",
+          "homeName": "Arsenal",
+          "awayName": "Liverpool",
+          "date": "2026-08-26",
+          "time": "17:30",
+          "matchday": 2,
+          "isTopClash": true,
+          "importance": "MEDIUM",
           "tvCoverage": true
         }
       ],
       "date": "2026-08-26",
+      "defaultTime": "20:00"
+    },
+    {
+      "matchday": 3,
+      "matches": [
+        {
+          "home": "manchester_united",
+          "away": "tottenham",
+          "homeName": "Manchester United",
+          "awayName": "Tottenham Hotspur",
+          "date": "2026-09-05",
+          "time": "17:30",
+          "matchday": 3,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "newcastle",
+          "away": "chelsea",
+          "homeName": "Newcastle United",
+          "awayName": "Chelsea",
+          "date": "2026-09-05",
+          "time": "15:00",
+          "matchday": 3
+        },
+        {
+          "home": "manchester_city",
+          "away": "liverpool",
+          "homeName": "Manchester City",
+          "awayName": "Liverpool",
+          "date": "2026-09-05",
+          "time": "17:30",
+          "matchday": 3,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        }
+      ],
+      "date": "2026-09-05",
+      "defaultTime": "15:00"
+    },
+    {
+      "matchday": 4,
+      "matches": [
+        {
+          "home": "chelsea",
+          "away": "manchester_united",
+          "homeName": "Chelsea",
+          "awayName": "Manchester United",
+          "date": "2026-09-16",
+          "time": "17:30",
+          "matchday": 4,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "arsenal",
+          "away": "tottenham",
+          "homeName": "Arsenal",
+          "awayName": "Tottenham Hotspur",
+          "date": "2026-09-16",
+          "time": "16:30",
+          "matchday": 4,
+          "isDerby": true,
+          "importance": "HIGH",
+          "tvCoverage": true
+        },
+        {
+          "home": "liverpool",
+          "away": "newcastle",
+          "homeName": "Liverpool",
+          "awayName": "Newcastle United",
+          "date": "2026-09-16",
+          "time": "20:00",
+          "matchday": 4
+        }
+      ],
+      "date": "2026-09-16",
+      "defaultTime": "20:00"
+    },
+    {
+      "matchday": 5,
+      "matches": [
+        {
+          "home": "manchester_united",
+          "away": "arsenal",
+          "homeName": "Manchester United",
+          "awayName": "Arsenal",
+          "date": "2026-09-26",
+          "time": "17:30",
+          "matchday": 5,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "chelsea",
+          "away": "liverpool",
+          "homeName": "Chelsea",
+          "awayName": "Liverpool",
+          "date": "2026-09-26",
+          "time": "17:30",
+          "matchday": 5,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "tottenham",
+          "away": "manchester_city",
+          "homeName": "Tottenham Hotspur",
+          "awayName": "Manchester City",
+          "date": "2026-09-26",
+          "time": "17:30",
+          "matchday": 5,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        }
+      ],
+      "date": "2026-09-26",
+      "defaultTime": "15:00"
+    },
+    {
+      "matchday": 6,
+      "matches": [
+        {
+          "home": "liverpool",
+          "away": "manchester_united",
+          "homeName": "Liverpool",
+          "awayName": "Manchester United",
+          "date": "2026-10-07",
+          "time": "17:30",
+          "matchday": 6,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "manchester_city",
+          "away": "arsenal",
+          "homeName": "Manchester City",
+          "awayName": "Arsenal",
+          "date": "2026-10-07",
+          "time": "17:30",
+          "matchday": 6,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "newcastle",
+          "away": "tottenham",
+          "homeName": "Newcastle United",
+          "awayName": "Tottenham Hotspur",
+          "date": "2026-10-07",
+          "time": "20:00",
+          "matchday": 6
+        }
+      ],
+      "date": "2026-10-07",
+      "defaultTime": "20:00"
+    },
+    {
+      "matchday": 7,
+      "matches": [
+        {
+          "home": "manchester_united",
+          "away": "manchester_city",
+          "homeName": "Manchester United",
+          "awayName": "Manchester City",
+          "date": "2026-10-17",
+          "time": "16:30",
+          "matchday": 7,
+          "isDerby": true,
+          "importance": "HIGH",
+          "tvCoverage": true
+        },
+        {
+          "home": "arsenal",
+          "away": "newcastle",
+          "homeName": "Arsenal",
+          "awayName": "Newcastle United",
+          "date": "2026-10-17",
+          "time": "15:00",
+          "matchday": 7
+        },
+        {
+          "home": "chelsea",
+          "away": "tottenham",
+          "homeName": "Chelsea",
+          "awayName": "Tottenham Hotspur",
+          "date": "2026-10-17",
+          "time": "17:30",
+          "matchday": 7,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        }
+      ],
+      "date": "2026-10-17",
+      "defaultTime": "15:00"
+    },
+    {
+      "matchday": 8,
+      "matches": [
+        {
+          "home": "newcastle",
+          "away": "manchester_city",
+          "homeName": "Newcastle United",
+          "awayName": "Manchester City",
+          "date": "2026-10-28",
+          "time": "20:00",
+          "matchday": 8
+        },
+        {
+          "home": "tottenham",
+          "away": "liverpool",
+          "homeName": "Tottenham Hotspur",
+          "awayName": "Liverpool",
+          "date": "2026-10-28",
+          "time": "17:30",
+          "matchday": 8,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "chelsea",
+          "away": "arsenal",
+          "homeName": "Chelsea",
+          "awayName": "Arsenal",
+          "date": "2026-10-28",
+          "time": "17:30",
+          "matchday": 8,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        }
+      ],
+      "date": "2026-10-28",
+      "defaultTime": "20:00"
+    },
+    {
+      "matchday": 9,
+      "matches": [
+        {
+          "home": "manchester_united",
+          "away": "newcastle",
+          "homeName": "Manchester United",
+          "awayName": "Newcastle United",
+          "date": "2026-11-07",
+          "time": "15:00",
+          "matchday": 9
+        },
+        {
+          "home": "manchester_city",
+          "away": "chelsea",
+          "homeName": "Manchester City",
+          "awayName": "Chelsea",
+          "date": "2026-11-07",
+          "time": "17:30",
+          "matchday": 9,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "liverpool",
+          "away": "arsenal",
+          "homeName": "Liverpool",
+          "awayName": "Arsenal",
+          "date": "2026-11-07",
+          "time": "17:30",
+          "matchday": 9,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        }
+      ],
+      "date": "2026-11-07",
+      "defaultTime": "15:00"
+    },
+    {
+      "matchday": 10,
+      "matches": [
+        {
+          "home": "tottenham",
+          "away": "manchester_united",
+          "homeName": "Tottenham Hotspur",
+          "awayName": "Manchester United",
+          "date": "2026-11-18",
+          "time": "17:30",
+          "matchday": 10,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "chelsea",
+          "away": "newcastle",
+          "homeName": "Chelsea",
+          "awayName": "Newcastle United",
+          "date": "2026-11-18",
+          "time": "20:00",
+          "matchday": 10
+        },
+        {
+          "home": "liverpool",
+          "away": "manchester_city",
+          "homeName": "Liverpool",
+          "awayName": "Manchester City",
+          "date": "2026-11-18",
+          "time": "17:30",
+          "matchday": 10,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        }
+      ],
+      "date": "2026-11-18",
+      "defaultTime": "20:00"
+    },
+    {
+      "matchday": 11,
+      "matches": [
+        {
+          "home": "manchester_united",
+          "away": "chelsea",
+          "homeName": "Manchester United",
+          "awayName": "Chelsea",
+          "date": "2026-11-28",
+          "time": "17:30",
+          "matchday": 11,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "tottenham",
+          "away": "arsenal",
+          "homeName": "Tottenham Hotspur",
+          "awayName": "Arsenal",
+          "date": "2026-11-28",
+          "time": "16:30",
+          "matchday": 11,
+          "isDerby": true,
+          "importance": "HIGH",
+          "tvCoverage": true
+        },
+        {
+          "home": "newcastle",
+          "away": "liverpool",
+          "homeName": "Newcastle United",
+          "awayName": "Liverpool",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "matchday": 11
+        }
+      ],
+      "date": "2026-11-28",
+      "defaultTime": "15:00"
+    },
+    {
+      "matchday": 12,
+      "matches": [
+        {
+          "home": "arsenal",
+          "away": "manchester_united",
+          "homeName": "Arsenal",
+          "awayName": "Manchester United",
+          "date": "2026-12-09",
+          "time": "17:30",
+          "matchday": 12,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "liverpool",
+          "away": "chelsea",
+          "homeName": "Liverpool",
+          "awayName": "Chelsea",
+          "date": "2026-12-09",
+          "time": "17:30",
+          "matchday": 12,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "manchester_city",
+          "away": "tottenham",
+          "homeName": "Manchester City",
+          "awayName": "Tottenham Hotspur",
+          "date": "2026-12-09",
+          "time": "17:30",
+          "matchday": 12,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        }
+      ],
+      "date": "2026-12-09",
+      "defaultTime": "20:00"
+    },
+    {
+      "matchday": 13,
+      "matches": [
+        {
+          "home": "manchester_united",
+          "away": "liverpool",
+          "homeName": "Manchester United",
+          "awayName": "Liverpool",
+          "date": "2026-12-19",
+          "time": "17:30",
+          "matchday": 13,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "arsenal",
+          "away": "manchester_city",
+          "homeName": "Arsenal",
+          "awayName": "Manchester City",
+          "date": "2026-12-19",
+          "time": "17:30",
+          "matchday": 13,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        },
+        {
+          "home": "tottenham",
+          "away": "newcastle",
+          "homeName": "Tottenham Hotspur",
+          "awayName": "Newcastle United",
+          "date": "2026-12-19",
+          "time": "15:00",
+          "matchday": 13
+        }
+      ],
+      "date": "2026-12-19",
+      "defaultTime": "15:00"
+    },
+    {
+      "matchday": 14,
+      "matches": [
+        {
+          "home": "manchester_city",
+          "away": "manchester_united",
+          "homeName": "Manchester City",
+          "awayName": "Manchester United",
+          "date": "2026-12-30",
+          "time": "16:30",
+          "matchday": 14,
+          "isDerby": true,
+          "importance": "HIGH",
+          "tvCoverage": true
+        },
+        {
+          "home": "newcastle",
+          "away": "arsenal",
+          "homeName": "Newcastle United",
+          "awayName": "Arsenal",
+          "date": "2026-12-30",
+          "time": "20:00",
+          "matchday": 14
+        },
+        {
+          "home": "tottenham",
+          "away": "chelsea",
+          "homeName": "Tottenham Hotspur",
+          "awayName": "Chelsea",
+          "date": "2026-12-30",
+          "time": "17:30",
+          "matchday": 14,
+          "isTopClash": true,
+          "importance": "MEDIUM",
+          "tvCoverage": true
+        }
+      ],
+      "date": "2026-12-30",
       "defaultTime": "20:00"
     }
   ]
