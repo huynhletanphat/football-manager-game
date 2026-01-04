@@ -22,14 +22,353 @@
     "atmosphere": 88
   },
   "squad": {
-    "current_players": [],
-    "squad_size": 0,
-    "average_age": 0,
-    "average_rating": 82
+    "current_players": [
+      {
+        "id": "P_2026_003",
+        "name": "André Dupont",
+        "nationality": "France",
+        "birthDate": "2008-01-10",
+        "age": 18,
+        "positions": [
+          "CAM",
+          "CM"
+        ],
+        "attributes": {
+          "currentRating": 74,
+          "potentialMin": 84,
+          "potentialMax": 89,
+          "growthSpeed": "superstar"
+        },
+        "physical": {
+          "pace": 78,
+          "acceleration": 80,
+          "stamina": 82,
+          "strength": 65,
+          "height": 175,
+          "agility": 88,
+          "balance": 85,
+          "jumping": 68
+        },
+        "technical": {
+          "finishing": 70,
+          "shotPower": 75,
+          "longShots": 78,
+          "dribbling": 86,
+          "ballControl": 88,
+          "crossing": 76,
+          "shortPassing": 85,
+          "longPassing": 80,
+          "heading": 55,
+          "tackling": 48,
+          "marking": 45
+        },
+        "mental": {
+          "positioning": 75,
+          "vision": 85,
+          "composure": 78,
+          "workRate": 75,
+          "aggression": 50
+        },
+        "traits": {
+          "preferredFoot": "left",
+          "weakFoot": 4,
+          "skillMoves": 5
+        },
+        "personality": {
+          "professionalism": 17,
+          "ambition": 19,
+          "temperament": 15,
+          "injuryProneness": 6
+        },
+        "fitness": 100,
+        "currentForm": 8,
+        "injured": false,
+        "suspended": false,
+        "aiHints": {
+          "preferredClubSize": "big",
+          "preferredLeagueLevel": "top",
+          "priorityClubs": [
+            "Manchester City",
+            "Arsenal"
+          ]
+        }
+      },
+      {
+        "id": "P_2026_001",
+        "name": "Marcus Johnson",
+        "nationality": "England",
+        "birthDate": "2008-03-15",
+        "age": 18,
+        "positions": [
+          "ST",
+          "LW"
+        ],
+        "attributes": {
+          "currentRating": 72,
+          "potentialMin": 82,
+          "potentialMax": 87,
+          "growthSpeed": "fast"
+        },
+        "physical": {
+          "pace": 85,
+          "acceleration": 88,
+          "stamina": 76,
+          "strength": 68,
+          "height": 180,
+          "agility": 82,
+          "balance": 80,
+          "jumping": 75
+        },
+        "technical": {
+          "finishing": 74,
+          "shotPower": 76,
+          "longShots": 70,
+          "dribbling": 80,
+          "ballControl": 78,
+          "crossing": 65,
+          "shortPassing": 70,
+          "longPassing": 65,
+          "heading": 66,
+          "tackling": 35,
+          "marking": 30
+        },
+        "mental": {
+          "positioning": 72,
+          "vision": 68,
+          "composure": 70,
+          "workRate": 85,
+          "aggression": 55
+        },
+        "traits": {
+          "preferredFoot": "right",
+          "weakFoot": 3,
+          "skillMoves": 4
+        },
+        "personality": {
+          "professionalism": 16,
+          "ambition": 18,
+          "temperament": 14,
+          "injuryProneness": 5
+        },
+        "fitness": 100,
+        "currentForm": 7,
+        "injured": false,
+        "suspended": false,
+        "aiHints": {
+          "preferredClubSize": "medium",
+          "preferredLeagueLevel": "top",
+          "priorityClubs": [
+            "Arsenal",
+            "Tottenham"
+          ],
+          "avoidClubs": []
+        }
+      },
+      {
+        "id": "P_2026_005",
+        "name": "Diego Martinez",
+        "nationality": "Spain",
+        "birthDate": "2008-11-30",
+        "age": 18,
+        "positions": [
+          "RW",
+          "RM"
+        ],
+        "attributes": {
+          "currentRating": 71,
+          "potentialMin": 79,
+          "potentialMax": 84,
+          "growthSpeed": "fast"
+        },
+        "physical": {
+          "pace": 88,
+          "acceleration": 90,
+          "stamina": 78,
+          "strength": 62,
+          "height": 172,
+          "agility": 86,
+          "balance": 84,
+          "jumping": 65
+        },
+        "technical": {
+          "finishing": 68,
+          "shotPower": 70,
+          "longShots": 66,
+          "dribbling": 82,
+          "ballControl": 80,
+          "crossing": 78,
+          "shortPassing": 72,
+          "longPassing": 68,
+          "heading": 50,
+          "tackling": 38,
+          "marking": 35
+        },
+        "mental": {
+          "positioning": 70,
+          "vision": 72,
+          "composure": 68,
+          "workRate": 82,
+          "aggression": 58
+        },
+        "traits": {
+          "preferredFoot": "left",
+          "weakFoot": 3,
+          "skillMoves": 4
+        },
+        "personality": {
+          "professionalism": 15,
+          "ambition": 17,
+          "temperament": 13,
+          "injuryProneness": 7
+        },
+        "fitness": 100,
+        "currentForm": 7,
+        "injured": false,
+        "suspended": false
+      },
+      {
+        "id": "P_2026_002",
+        "name": "João Silva",
+        "nationality": "Brazil",
+        "birthDate": "2008-07-22",
+        "age": 18,
+        "positions": [
+          "CB",
+          "CDM"
+        ],
+        "attributes": {
+          "currentRating": 70,
+          "potentialMin": 78,
+          "potentialMax": 82,
+          "growthSpeed": "medium"
+        },
+        "physical": {
+          "pace": 72,
+          "acceleration": 70,
+          "stamina": 80,
+          "strength": 82,
+          "height": 188,
+          "agility": 65,
+          "balance": 70,
+          "jumping": 85
+        },
+        "technical": {
+          "finishing": 35,
+          "shotPower": 60,
+          "dribbling": 55,
+          "ballControl": 68,
+          "crossing": 45,
+          "shortPassing": 68,
+          "longPassing": 72,
+          "heading": 78,
+          "tackling": 75,
+          "marking": 73
+        },
+        "mental": {
+          "positioning": 76,
+          "vision": 65,
+          "composure": 74,
+          "workRate": 80,
+          "aggression": 78
+        },
+        "traits": {
+          "preferredFoot": "right",
+          "weakFoot": 2,
+          "skillMoves": 2
+        },
+        "personality": {
+          "professionalism": 18,
+          "ambition": 15,
+          "temperament": 12,
+          "injuryProneness": 3
+        },
+        "fitness": 100,
+        "currentForm": 7,
+        "injured": false,
+        "suspended": false,
+        "aiHints": {
+          "preferredClubSize": "small",
+          "preferredLeagueLevel": "mid"
+        }
+      },
+      {
+        "id": "P_2026_004",
+        "name": "Hiroshi Tanaka",
+        "nationality": "Japan",
+        "birthDate": "2008-05-18",
+        "age": 18,
+        "positions": [
+          "GK"
+        ],
+        "attributes": {
+          "currentRating": 68,
+          "potentialMin": 76,
+          "potentialMax": 80,
+          "growthSpeed": "medium"
+        },
+        "physical": {
+          "pace": 55,
+          "acceleration": 58,
+          "stamina": 70,
+          "strength": 72,
+          "height": 192,
+          "agility": 75,
+          "balance": 70,
+          "jumping": 82
+        },
+        "technical": {
+          "finishing": 25,
+          "shotPower": 65,
+          "dribbling": 40,
+          "ballControl": 55,
+          "crossing": 30,
+          "shortPassing": 60,
+          "longPassing": 68,
+          "heading": 50,
+          "tackling": 25,
+          "marking": 30
+        },
+        "mental": {
+          "positioning": 72,
+          "vision": 65,
+          "composure": 80,
+          "workRate": 70,
+          "aggression": 45
+        },
+        "goalkeeper": {
+          "diving": 75,
+          "handling": 73,
+          "kicking": 68,
+          "reflexes": 78,
+          "positioning": 72
+        },
+        "traits": {
+          "preferredFoot": "right",
+          "weakFoot": 2,
+          "skillMoves": 1
+        },
+        "personality": {
+          "professionalism": 19,
+          "ambition": 16,
+          "temperament": 18,
+          "injuryProneness": 2
+        },
+        "fitness": 100,
+        "currentForm": 7,
+        "injured": false,
+        "suspended": false
+      }
+    ],
+    "squad_size": 5,
+    "average_age": 18,
+    "average_rating": 71
   },
   "tactics": {
     "default_formation": "4-3-3",
-    "alternative_formations": ["3-2-4-1", "4-2-3-1"],
+    "alternative_formations": [
+      "3-2-4-1",
+      "4-2-3-1"
+    ],
     "mentality": "attacking",
     "play_style": {
       "possession": 75,
@@ -48,7 +387,10 @@
     }
   },
   "objectives": {
-    "league_position": {"min": 1, "target": 1},
+    "league_position": {
+      "min": 1,
+      "target": 1
+    },
     "champions_league": "final",
     "domestic_cup": "final"
   },

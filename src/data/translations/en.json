@@ -1,0 +1,91 @@
+{
+  "menu": {
+    "main_title": "CONSOLE FOOTBALL MANAGER",
+    "new_game": "New Game",
+    "load_game": "Load Game",
+    "settings": "Settings",
+    "exit": "Exit",
+    "select_language": "Select Language",
+    "select_club": "Select Your Club",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "back": "Back"
+  },
+  "game": {
+    "season": "Season",
+    "matchday": "Matchday",
+    "continue": "Continue",
+    "tactics": "Change Tactics",
+    "substitution": "Substitution",
+    "match_prep": "Match Preparation",
+    "league_table": "League Table",
+    "squad": "Squad",
+    "transfers": "Transfers",
+    "save_game": "Save Game"
+  },
+  "match": {
+    "vs": "vs",
+    "home": "Home",
+    "away": "Away",
+    "kick_off": "Kick Off",
+    "half_time": "Half Time",
+    "full_time": "Full Time",
+    "goal": "GOAL",
+    "yellow_card": "Yellow Card",
+    "red_card": "Red Card",
+    "substitution": "Substitution",
+    "injury": "Injury"
+  },
+  "stats": {
+    "possession": "Possession",
+    "shots": "Shots",
+    "on_target": "On Target",
+    "corners": "Corners",
+    "fouls": "Fouls",
+    "pass_accuracy": "Pass Accuracy",
+    "tackles": "Tackles"
+  },
+  "ai_coach": {
+    "analyzing": "AI Coach analyzing opponent...",
+    "preparation": "Match Preparation by AI Coach",
+    "strategy": "Strategy",
+    "formation": "Formation",
+    "lineup": "Starting XI",
+    "instructions": "Match Instructions",
+    "suggestion": "AI Suggestion",
+    "warning": "Warning",
+    "good": "Good",
+    "concern": "Concern",
+    "decision": "AI Coach Decision",
+    "substitution_reason": "Substitution Reason",
+    "tactical_change": "Tactical Change"
+  },
+  "positions": {
+    "GK": "Goalkeeper",
+    "LB": "Left Back",
+    "CB": "Center Back",
+    "RB": "Right Back",
+    "LWB": "Left Wing Back",
+    "RWB": "Right Wing Back",
+    "CDM": "Defensive Midfielder",
+    "CM": "Central Midfielder",
+    "CAM": "Attacking Midfielder",
+    "LM": "Left Midfielder",
+    "RM": "Right Midfielder",
+    "LW": "Left Winger",
+    "RW": "Right Winger",
+    "ST": "Striker",
+    "CF": "Center Forward"
+  },
+  "tactics": {
+    "ultra_attacking": "Ultra Attacking",
+    "attacking": "Attacking",
+    "balanced": "Balanced",
+    "defensive": "Defensive",
+    "ultra_defensive": "Ultra Defensive",
+    "counter": "Counter Attack",
+    "possession": "Possession",
+    "high_press": "High Press",
+    "low_block": "Low Block"
+  }
+}

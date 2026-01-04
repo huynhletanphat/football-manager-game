@@ -1,0 +1,29 @@
+{
+  "players": [
+    {
+      "player": "André Dupont",
+      "club": "Manchester City",
+      "potential": 89
+    },
+    {
+      "player": "Marcus Johnson",
+      "club": "Manchester City",
+      "potential": 87
+    },
+    {
+      "player": "Diego Martinez",
+      "club": "Manchester City",
+      "potential": 84
+    },
+    {
+      "player": "João Silva",
+      "club": "Manchester City",
+      "potential": 82
+    },
+    {
+      "player": "Hiroshi Tanaka",
+      "club": "Manchester City",
+      "potential": 80
+    }
+  ]
+}

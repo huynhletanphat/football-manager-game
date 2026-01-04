@@ -1,0 +1,91 @@
+{
+  "menu": {
+    "main_title": "QUẢN LÝ BÓNG ĐÁ",
+    "new_game": "Trò Chơi Mới",
+    "load_game": "Tải Game",
+    "settings": "Cài Đặt",
+    "exit": "Thoát",
+    "select_language": "Chọn Ngôn Ngữ",
+    "select_club": "Chọn Câu Lạc Bộ",
+    "confirm": "Xác Nhận",
+    "cancel": "Hủy",
+    "back": "Quay Lại"
+  },
+  "game": {
+    "season": "Mùa Giải",
+    "matchday": "Vòng Đấu",
+    "continue": "Tiếp Tục",
+    "tactics": "Đổi Chiến Thuật",
+    "substitution": "Thay Người",
+    "match_prep": "Chuẩn Bị Trận Đấu",
+    "league_table": "Bảng Xếp Hạng",
+    "squad": "Đội Hình",
+    "transfers": "Chuyển Nhượng",
+    "save_game": "Lưu Game"
+  },
+  "match": {
+    "vs": "vs",
+    "home": "Sân Nhà",
+    "away": "Sân Khách",
+    "kick_off": "Bắt Đầu",
+    "half_time": "Hiệp Một",
+    "full_time": "Kết Thúc",
+    "goal": "BÀN THẮNG",
+    "yellow_card": "Thẻ Vàng",
+    "red_card": "Thẻ Đỏ",
+    "substitution": "Thay Người",
+    "injury": "Chấn Thương"
+  },
+  "stats": {
+    "possession": "Kiểm Soát Bóng",
+    "shots": "Cú Sút",
+    "on_target": "Trúng Đích",
+    "corners": "Phạt Góc",
+    "fouls": "Phạm Lỗi",
+    "pass_accuracy": "Độ Chính Xác",
+    "tackles": "Tắc Bóng"
+  },
+  "ai_coach": {
+    "analyzing": "AI Coach đang phân tích đối thủ...",
+    "preparation": "Chuẩn Bị Trận Đấu bởi AI Coach",
+    "strategy": "Chiến Lược",
+    "formation": "Sơ Đồ",
+    "lineup": "Đội Hình Xuất Phát",
+    "instructions": "Chỉ Dẫn Trận Đấu",
+    "suggestion": "Gợi Ý từ AI",
+    "warning": "Cảnh Báo",
+    "good": "Tốt",
+    "concern": "Lo Ngại",
+    "decision": "Quyết Định của AI Coach",
+    "substitution_reason": "Lý Do Thay Người",
+    "tactical_change": "Thay Đổi Chiến Thuật"
+  },
+  "positions": {
+    "GK": "Thủ Môn",
+    "LB": "Hậu Vệ Trái",
+    "CB": "Trung Vệ",
+    "RB": "Hậu Vệ Phải",
+    "LWB": "Biên Trái",
+    "RWB": "Biên Phải",
+    "CDM": "Tiền Vệ Phòng Ngự",
+    "CM": "Tiền Vệ Trung Tâm",
+    "CAM": "Tiền Vệ Tấn Công",
+    "LM": "Tiền Vệ Trái",
+    "RM": "Tiền Vệ Phải",
+    "LW": "Cánh Trái",
+    "RW": "Cánh Phải",
+    "ST": "Tiền Đạo",
+    "CF": "Tiền Đạo Trung Tâm"
+  },
+  "tactics": {
+    "ultra_attacking": "Siêu Tấn Công",
+    "attacking": "Tấn Công",
+    "balanced": "Cân Bằng",
+    "defensive": "Phòng Thủ",
+    "ultra_defensive": "Siêu Phòng Thủ",
+    "counter": "Phản Công",
+    "possession": "Kiểm Soát",
+    "high_press": "Ép Sân Cao",
+    "low_block": "Phòng Thủ Thấp"
+  }
+}

@@ -29,7 +29,10 @@
   },
   "tactics": {
     "default_formation": "4-2-3-1",
-    "alternative_formations": ["4-3-3", "3-5-2"],
+    "alternative_formations": [
+      "4-3-3",
+      "3-5-2"
+    ],
     "mentality": "attacking",
     "play_style": {
       "possession": 65,
@@ -48,7 +51,10 @@
     }
   },
   "objectives": {
-    "league_position": {"min": 4, "target": 1},
+    "league_position": {
+      "min": 4,
+      "target": 1
+    },
     "champions_league": "quarter_finals",
     "domestic_cup": "semi_finals"
   },

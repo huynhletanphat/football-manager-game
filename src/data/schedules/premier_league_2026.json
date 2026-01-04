@@ -1,0 +1,46 @@
+{
+  "league": "premier_league",
+  "season": 2026,
+  "generated": "2026-01-04T14:40:14.436Z",
+  "totalMatchdays": 2,
+  "fixtures": [
+    {
+      "matchday": 1,
+      "matches": [
+        {
+          "home": "manchester_united",
+          "away": "manchester_city",
+          "homeName": "Manchester United",
+          "awayName": "Manchester City",
+          "date": "2026-08-15",
+          "time": "16:30",
+          "matchday": 1,
+          "isDerby": true,
+          "importance": "HIGH",
+          "tvCoverage": true
+        }
+      ],
+      "date": "2026-08-15",
+      "defaultTime": "15:00"
+    },
+    {
+      "matchday": 2,
+      "matches": [
+        {
+          "home": "manchester_city",
+          "away": "manchester_united",
+          "homeName": "Manchester City",
+          "awayName": "Manchester United",
+          "date": "2026-08-26",
+          "time": "16:30",
+          "matchday": 2,
+          "isDerby": true,
+          "importance": "HIGH",
+          "tvCoverage": true
+        }
+      ],
+      "date": "2026-08-26",
+      "defaultTime": "20:00"
+    }
+  ]
+}
