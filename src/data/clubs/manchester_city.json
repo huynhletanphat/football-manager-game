@@ -1,0 +1,56 @@
+{
+  "club_id": "manchester_city",
+  "name": "Manchester City",
+  "short_name": "Man City",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1880,
+  "reputation": {
+    "global": 97,
+    "domestic": 99,
+    "continental": 96
+  },
+  "finances": {
+    "transfer_budget": 200000000,
+    "wage_budget_weekly": 4000000,
+    "debt": 100000000,
+    "revenue_annual": 750000000
+  },
+  "stadium": {
+    "name": "Etihad Stadium",
+    "capacity": 55017,
+    "atmosphere": 88
+  },
+  "squad": {
+    "current_players": [],
+    "squad_size": 0,
+    "average_age": 0,
+    "average_rating": 82
+  },
+  "tactics": {
+    "default_formation": "4-3-3",
+    "alternative_formations": ["3-2-4-1", "4-2-3-1"],
+    "mentality": "attacking",
+    "play_style": {
+      "possession": 75,
+      "pressing": 90,
+      "tempo": 80,
+      "width": 75,
+      "defensive_line": 80
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Pep Guardiola",
+      "rating": 95,
+      "preferred_formation": "4-3-3",
+      "tactical_approach": "possession_domination"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 1, "target": 1},
+    "champions_league": "final",
+    "domestic_cup": "final"
+  },
+  "currentForm": 9
+}
