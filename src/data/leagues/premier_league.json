@@ -1,60 +1,39 @@
 {
-  "league_id": "premier_league",
+  "id": "premier_league",
   "name": "Premier League",
   "country": "England",
-  "tier": 1,
   "reputation": 95,
-  
-  "structure": {
-    "teams": 7,
-    "matchdays": 12,
-    "format": "double_round_robin",
-    "points_for_win": 3,
-    "points_for_draw": 1
-  },
-  
   "season": {
+    "year": 2026,
     "start_date": "2026-08-15",
-    "end_date": "2027-05-23",
-    "winter_break": null,
-    "match_frequency": "weekly"
+    "end_date": "2027-05-23"
   },
-  
+  "rules": {
+    "relegation_spots": 3,
+    "champions_league_spots": 4,
+    "europa_league_spots": 1,
+    "conference_league_spots": 1
+  },
   "clubs": [
-    "manchester_united",
-    "manchester_city",
-    "liverpool",
     "arsenal",
+    "aston_villa",
+    "bournemouth",
+    "brentford",
+    "brighton",
     "chelsea",
+    "crystal_palace",
+    "everton",
+    "fulham",
+    "ipswich",
+    "leicester",
+    "liverpool",
+    "manchester_city",
+    "manchester_united",
+    "newcastle",
+    "nottingham_forest",
+    "southampton",
     "tottenham",
-    "newcastle"
-  ],
-  
-  "prize_money": {
-    "1": 50000000,
-    "2": 45000000,
-    "3": 40000000,
-    "4": 35000000,
-    "5": 30000000,
-    "6": 25000000,
-    "7": 20000000
-  },
-  
-  "qualification_spots": {
-    "champions_league": [1, 2, 3, 4],
-    "europa_league": [5],
-    "conference_league": [6],
-    "relegation": []
-  },
-  
-  "schedule_generation": {
-    "algorithm": "round_robin_balanced",
-    "constraints": [
-      "no_team_plays_3_home_in_row",
-      "derby_matches_spread_evenly",
-      "top_6_clash_not_consecutive",
-      "christmas_fixtures_local_derbies"
-    ]
-  }
+    "west_ham",
+    "wolves"
+  ]
 }
-

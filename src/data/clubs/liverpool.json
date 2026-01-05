@@ -11,9 +11,9 @@
     "continental": 95
   },
   "finances": {
-    "transfer_budget": 180000000,
-    "wage_budget_weekly": 3800000,
-    "debt": 450000000,
+    "transfer_budget": 100000000,
+    "wage_budget_weekly": 4000000,
+    "debt": 50000000,
     "revenue_annual": 700000000
   },
   "stadium": {
@@ -21,28 +21,22 @@
     "capacity": 61276,
     "atmosphere": 98
   },
-  "squad": {
-    "current_players": [],
-    "squad_size": 0,
-    "average_age": 26.1,
-    "average_rating": 86
-  },
   "tactics": {
     "default_formation": "4-3-3",
     "alternative_formations": ["4-2-3-1", "4-4-2"],
     "mentality": "attacking",
     "play_style": {
-      "possession": 68,
-      "pressing": 90,
+      "possession": 60,
+      "pressing": 95,
       "tempo": 85,
       "width": 75,
-      "defensive_line": 78
+      "defensive_line": 80
     }
   },
   "staff": {
     "manager": {
       "name": "Arne Slot",
-      "rating": 84,
+      "rating": 88,
       "preferred_formation": "4-3-3",
       "tactical_approach": "high_intensity_press"
     }
@@ -50,7 +44,207 @@
   "objectives": {
     "league_position": {"min": 3, "target": 1},
     "champions_league": "semi_finals",
-    "domestic_cup": "quarter_finals"
+    "domestic_cup": "winner"
   },
-  "currentForm": 8
+  "currentForm": 8,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 27.2,
+    "average_rating": 87,
+    "current_players": [
+      {
+        "id": "LFC_001",
+        "name": "Alisson Becker",
+        "nationality": "Brazil",
+        "age": 33,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 91, "potentialMax": 92 },
+        "physical": { "pace": 50, "acceleration": 55, "stamina": 72, "strength": 80, "height": 193, "agility": 75, "balance": 70, "jumping": 80 },
+        "technical": { "finishing": 20, "shotPower": 75, "dribbling": 65, "ballControl": 84, "crossing": 40, "shortPassing": 88, "longPassing": 92, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 94, "vision": 82, "composure": 90, "workRate": 75, "aggression": 60 },
+        "goalkeeper": { "diving": 90, "handling": 88, "kicking": 92, "reflexes": 92, "positioning": 94 },
+        "fitness": 95, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_002",
+        "name": "Trent Alexander-Arnold",
+        "nationality": "England",
+        "age": 27,
+        "positions": ["RB", "CM"],
+        "attributes": { "currentRating": 90, "potentialMax": 92 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 90, "strength": 70, "height": 175, "agility": 80, "balance": 82, "jumping": 65 },
+        "technical": { "finishing": 70, "shotPower": 85, "dribbling": 82, "ballControl": 90, "crossing": 98, "shortPassing": 92, "longPassing": 99, "heading": 60, "tackling": 70, "marking": 68 },
+        "mental": { "positioning": 80, "vision": 98, "composure": 88, "workRate": 85, "aggression": 70 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_003",
+        "name": "Virgil van Dijk",
+        "nationality": "Netherlands",
+        "age": 35,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 88, "potentialMax": 89 },
+        "physical": { "pace": 70, "acceleration": 68, "stamina": 75, "strength": 92, "height": 195, "agility": 65, "balance": 75, "jumping": 90 },
+        "technical": { "finishing": 60, "shotPower": 80, "dribbling": 70, "ballControl": 85, "crossing": 50, "shortPassing": 88, "longPassing": 92, "heading": 94, "tackling": 92, "marking": 94 },
+        "mental": { "positioning": 96, "vision": 75, "composure": 95, "workRate": 75, "aggression": 80 },
+        "fitness": 90, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_004",
+        "name": "Ibrahima Konaté",
+        "nationality": "France",
+        "age": 27,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 87, "potentialMax": 89 },
+        "physical": { "pace": 84, "acceleration": 80, "stamina": 82, "strength": 95, "height": 194, "agility": 70, "balance": 75, "jumping": 88 },
+        "technical": { "finishing": 40, "shotPower": 60, "dribbling": 65, "ballControl": 75, "crossing": 40, "shortPassing": 82, "longPassing": 75, "heading": 90, "tackling": 88, "marking": 86 },
+        "mental": { "positioning": 84, "vision": 60, "composure": 82, "workRate": 85, "aggression": 88 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_005",
+        "name": "Andrew Robertson",
+        "nationality": "Scotland",
+        "age": 32,
+        "positions": ["LB"],
+        "attributes": { "currentRating": 84, "potentialMax": 85 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 90, "strength": 72, "height": 178, "agility": 78, "balance": 75, "jumping": 70 },
+        "technical": { "finishing": 60, "shotPower": 75, "dribbling": 76, "ballControl": 80, "crossing": 86, "shortPassing": 82, "longPassing": 78, "heading": 65, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 84, "vision": 72, "composure": 80, "workRate": 95, "aggression": 88 },
+        "fitness": 92, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_006",
+        "name": "Alexis Mac Allister",
+        "nationality": "Argentina",
+        "age": 27,
+        "positions": ["CM", "CDM", "CAM"],
+        "attributes": { "currentRating": 89, "potentialMax": 91 },
+        "physical": { "pace": 75, "acceleration": 76, "stamina": 92, "strength": 75, "height": 174, "agility": 84, "balance": 86, "jumping": 65 },
+        "technical": { "finishing": 78, "shotPower": 82, "dribbling": 86, "ballControl": 90, "crossing": 78, "shortPassing": 92, "longPassing": 88, "heading": 60, "tackling": 76, "marking": 72 },
+        "mental": { "positioning": 88, "vision": 92, "composure": 94, "workRate": 92, "aggression": 82 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_007",
+        "name": "Dominik Szoboszlai",
+        "nationality": "Hungary",
+        "age": 25,
+        "positions": ["CM", "CAM", "RW"],
+        "attributes": { "currentRating": 88, "potentialMax": 92 },
+        "physical": { "pace": 86, "acceleration": 85, "stamina": 96, "strength": 78, "height": 186, "agility": 82, "balance": 80, "jumping": 75 },
+        "technical": { "finishing": 82, "shotPower": 92, "dribbling": 85, "ballControl": 88, "crossing": 85, "shortPassing": 86, "longPassing": 88, "heading": 65, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 85, "vision": 86, "composure": 84, "workRate": 98, "aggression": 78 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_008",
+        "name": "Mohamed Salah",
+        "nationality": "Egypt",
+        "age": 34,
+        "positions": ["RW", "ST"],
+        "attributes": { "currentRating": 90, "potentialMax": 92 },
+        "physical": { "pace": 80, "acceleration": 82, "stamina": 80, "strength": 75, "height": 175, "agility": 85, "balance": 90, "jumping": 65 },
+        "technical": { "finishing": 94, "shotPower": 86, "dribbling": 88, "ballControl": 90, "crossing": 80, "shortPassing": 85, "longPassing": 78, "heading": 70, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 95, "vision": 86, "composure": 92, "workRate": 80, "aggression": 70 },
+        "fitness": 90, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_009",
+        "name": "Luis Díaz",
+        "nationality": "Colombia",
+        "age": 29,
+        "positions": ["LW"],
+        "attributes": { "currentRating": 87, "potentialMax": 88 },
+        "physical": { "pace": 92, "acceleration": 94, "stamina": 88, "strength": 70, "height": 178, "agility": 94, "balance": 85, "jumping": 75 },
+        "technical": { "finishing": 78, "shotPower": 80, "dribbling": 92, "ballControl": 88, "crossing": 75, "shortPassing": 80, "longPassing": 72, "heading": 65, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 84, "vision": 76, "composure": 78, "workRate": 92, "aggression": 80 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_010",
+        "name": "Darwin Núñez",
+        "nationality": "Uruguay",
+        "age": 27,
+        "positions": ["ST", "LW"],
+        "attributes": { "currentRating": 86, "potentialMax": 89 },
+        "physical": { "pace": 94, "acceleration": 92, "stamina": 90, "strength": 88, "height": 187, "agility": 80, "balance": 75, "jumping": 88 },
+        "technical": { "finishing": 80, "shotPower": 88, "dribbling": 78, "ballControl": 76, "crossing": 65, "shortPassing": 75, "longPassing": 65, "heading": 85, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 90, "vision": 70, "composure": 70, "workRate": 96, "aggression": 90 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_011",
+        "name": "Ryan Gravenberch",
+        "nationality": "Netherlands",
+        "age": 24,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 85, "potentialMax": 90 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 86, "strength": 80, "height": 190, "agility": 84, "balance": 82, "jumping": 75 },
+        "technical": { "finishing": 70, "shotPower": 76, "dribbling": 88, "ballControl": 88, "crossing": 65, "shortPassing": 86, "longPassing": 82, "heading": 70, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 82, "vision": 84, "composure": 85, "workRate": 84, "aggression": 70 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_012",
+        "name": "Cody Gakpo",
+        "nationality": "Netherlands",
+        "age": 27,
+        "positions": ["LW", "ST", "CAM"],
+        "attributes": { "currentRating": 85, "potentialMax": 87 },
+        "physical": { "pace": 85, "acceleration": 84, "stamina": 85, "strength": 82, "height": 193, "agility": 78, "balance": 76, "jumping": 75 },
+        "technical": { "finishing": 82, "shotPower": 85, "dribbling": 84, "ballControl": 85, "crossing": 78, "shortPassing": 82, "longPassing": 75, "heading": 75, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 86, "vision": 80, "composure": 82, "workRate": 88, "aggression": 70 },
+        "fitness": 98, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_013",
+        "name": "Harvey Elliott",
+        "nationality": "England",
+        "age": 23,
+        "positions": ["CAM", "RW", "CM"],
+        "attributes": { "currentRating": 84, "potentialMax": 89 },
+        "physical": { "pace": 76, "acceleration": 82, "stamina": 88, "strength": 60, "height": 170, "agility": 90, "balance": 92, "jumping": 55 },
+        "technical": { "finishing": 76, "shotPower": 75, "dribbling": 88, "ballControl": 90, "crossing": 80, "shortPassing": 88, "longPassing": 84, "heading": 50, "tackling": 55, "marking": 50 },
+        "mental": { "positioning": 82, "vision": 88, "composure": 80, "workRate": 90, "aggression": 65 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_014",
+        "name": "Curtis Jones",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["CM", "CAM"],
+        "attributes": { "currentRating": 83, "potentialMax": 86 },
+        "physical": { "pace": 76, "acceleration": 75, "stamina": 88, "strength": 76, "height": 185, "agility": 78, "balance": 80, "jumping": 70 },
+        "technical": { "finishing": 74, "shotPower": 76, "dribbling": 85, "ballControl": 88, "crossing": 70, "shortPassing": 86, "longPassing": 82, "heading": 65, "tackling": 68, "marking": 65 },
+        "mental": { "positioning": 82, "vision": 80, "composure": 84, "workRate": 88, "aggression": 75 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_015",
+        "name": "Conor Bradley",
+        "nationality": "Northern Ireland",
+        "age": 23,
+        "positions": ["RB"],
+        "attributes": { "currentRating": 81, "potentialMax": 87 },
+        "physical": { "pace": 86, "acceleration": 85, "stamina": 92, "strength": 70, "height": 181, "agility": 82, "balance": 78, "jumping": 72 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 76, "ballControl": 78, "crossing": 78, "shortPassing": 80, "longPassing": 75, "heading": 65, "tackling": 78, "marking": 75 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 76, "workRate": 95, "aggression": 85 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LFC_016",
+        "name": "Jarell Quansah",
+        "nationality": "England",
+        "age": 23,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 80, "potentialMax": 88 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 80, "strength": 85, "height": 190, "agility": 72, "balance": 75, "jumping": 84 },
+        "technical": { "finishing": 40, "shotPower": 60, "dribbling": 68, "ballControl": 78, "crossing": 45, "shortPassing": 82, "longPassing": 80, "heading": 85, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 80, "vision": 70, "composure": 82, "workRate": 82, "aggression": 75 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      }
+    ]
+  }
 }

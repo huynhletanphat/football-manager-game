@@ -1,0 +1,250 @@
+{
+  "club_id": "aston_villa",
+  "name": "Aston Villa",
+  "short_name": "AVL",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1874,
+  "reputation": {
+    "global": 86,
+    "domestic": 88,
+    "continental": 85
+  },
+  "finances": {
+    "transfer_budget": 80000000,
+    "wage_budget_weekly": 2800000,
+    "debt": 0,
+    "revenue_annual": 350000000
+  },
+  "stadium": {
+    "name": "Villa Park",
+    "capacity": 42682,
+    "atmosphere": 92
+  },
+  "tactics": {
+    "default_formation": "4-2-3-1",
+    "alternative_formations": ["4-4-2", "4-3-3"],
+    "mentality": "balanced",
+    "play_style": {
+      "possession": 52,
+      "pressing": 80,
+      "tempo": 78,
+      "width": 65,
+      "defensive_line": 85
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Unai Emery",
+      "rating": 89,
+      "preferred_formation": "4-2-3-1",
+      "tactical_approach": "tactical_chameleon"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 7, "target": 5},
+    "champions_league": "group_stage",
+    "domestic_cup": "quarter_finals"
+  },
+  "currentForm": 7,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 26.8,
+    "average_rating": 83,
+    "current_players": [
+      {
+        "id": "AVL_001",
+        "name": "Emiliano Martínez",
+        "nationality": "Argentina",
+        "age": 33,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 88, "potentialMax": 88 },
+        "physical": { "pace": 55, "acceleration": 58, "stamina": 72, "strength": 80, "height": 195, "agility": 75, "balance": 70, "jumping": 78 },
+        "technical": { "finishing": 20, "shotPower": 70, "dribbling": 60, "ballControl": 75, "crossing": 35, "shortPassing": 78, "longPassing": 85, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 90, "vision": 75, "composure": 95, "workRate": 75, "aggression": 85 },
+        "goalkeeper": { "diving": 88, "handling": 86, "kicking": 80, "reflexes": 90, "positioning": 88 },
+        "fitness": 95, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_002",
+        "name": "Matty Cash",
+        "nationality": "Poland",
+        "age": 28,
+        "positions": ["RB", "RWB"],
+        "attributes": { "currentRating": 81, "potentialMax": 82 },
+        "physical": { "pace": 84, "acceleration": 82, "stamina": 88, "strength": 75, "height": 185, "agility": 78, "balance": 76, "jumping": 75 },
+        "technical": { "finishing": 60, "shotPower": 75, "dribbling": 75, "ballControl": 76, "crossing": 78, "shortPassing": 78, "longPassing": 72, "heading": 65, "tackling": 78, "marking": 75 },
+        "mental": { "positioning": 78, "vision": 70, "composure": 75, "workRate": 90, "aggression": 80 },
+        "fitness": 92, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_003",
+        "name": "Ezri Konsa",
+        "nationality": "England",
+        "age": 28,
+        "positions": ["CB", "RB"],
+        "attributes": { "currentRating": 84, "potentialMax": 86 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 82, "strength": 80, "height": 183, "agility": 75, "balance": 78, "jumping": 82 },
+        "technical": { "finishing": 40, "shotPower": 60, "dribbling": 70, "ballControl": 78, "crossing": 60, "shortPassing": 82, "longPassing": 78, "heading": 82, "tackling": 86, "marking": 85 },
+        "mental": { "positioning": 85, "vision": 70, "composure": 86, "workRate": 80, "aggression": 75 },
+        "fitness": 98, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_004",
+        "name": "Pau Torres",
+        "nationality": "Spain",
+        "age": 29,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 85, "potentialMax": 87 },
+        "physical": { "pace": 74, "acceleration": 72, "stamina": 78, "strength": 78, "height": 191, "agility": 70, "balance": 75, "jumping": 80 },
+        "technical": { "finishing": 45, "shotPower": 65, "dribbling": 72, "ballControl": 84, "crossing": 50, "shortPassing": 88, "longPassing": 86, "heading": 80, "tackling": 84, "marking": 82 },
+        "mental": { "positioning": 86, "vision": 80, "composure": 88, "workRate": 75, "aggression": 70 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_005",
+        "name": "Ian Maatsen",
+        "nationality": "Netherlands",
+        "age": 24,
+        "positions": ["LB", "LWB"],
+        "attributes": { "currentRating": 82, "potentialMax": 87 },
+        "physical": { "pace": 86, "acceleration": 88, "stamina": 85, "strength": 65, "height": 167, "agility": 88, "balance": 86, "jumping": 60 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 80, "ballControl": 82, "crossing": 80, "shortPassing": 80, "longPassing": 75, "heading": 55, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 76, "workRate": 88, "aggression": 75 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_006",
+        "name": "Amadou Onana",
+        "nationality": "Belgium",
+        "age": 24,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 84, "potentialMax": 88 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 90, "strength": 88, "height": 195, "agility": 75, "balance": 78, "jumping": 85 },
+        "technical": { "finishing": 60, "shotPower": 75, "dribbling": 75, "ballControl": 80, "crossing": 60, "shortPassing": 82, "longPassing": 80, "heading": 85, "tackling": 86, "marking": 82 },
+        "mental": { "positioning": 82, "vision": 75, "composure": 80, "workRate": 85, "aggression": 88 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_007",
+        "name": "Youri Tielemans",
+        "nationality": "Belgium",
+        "age": 28,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 84, "potentialMax": 85 },
+        "physical": { "pace": 65, "acceleration": 68, "stamina": 82, "strength": 75, "height": 176, "agility": 75, "balance": 78, "jumping": 65 },
+        "technical": { "finishing": 78, "shotPower": 88, "dribbling": 80, "ballControl": 86, "crossing": 80, "shortPassing": 88, "longPassing": 90, "heading": 60, "tackling": 70, "marking": 68 },
+        "mental": { "positioning": 80, "vision": 88, "composure": 85, "workRate": 82, "aggression": 70 },
+        "fitness": 92, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_008",
+        "name": "John McGinn",
+        "nationality": "Scotland",
+        "age": 31,
+        "positions": ["CM", "RM", "LM"],
+        "attributes": { "currentRating": 83, "potentialMax": 83 },
+        "physical": { "pace": 72, "acceleration": 74, "stamina": 90, "strength": 82, "height": 178, "agility": 75, "balance": 88, "jumping": 70 },
+        "technical": { "finishing": 70, "shotPower": 80, "dribbling": 78, "ballControl": 80, "crossing": 75, "shortPassing": 82, "longPassing": 80, "heading": 65, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 82, "vision": 80, "composure": 80, "workRate": 98, "aggression": 90 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_009",
+        "name": "Leon Bailey",
+        "nationality": "Jamaica",
+        "age": 28,
+        "positions": ["RW", "LM"],
+        "attributes": { "currentRating": 83, "potentialMax": 84 },
+        "physical": { "pace": 92, "acceleration": 90, "stamina": 78, "strength": 68, "height": 178, "agility": 88, "balance": 80, "jumping": 70 },
+        "technical": { "finishing": 78, "shotPower": 80, "dribbling": 86, "ballControl": 84, "crossing": 80, "shortPassing": 78, "longPassing": 70, "heading": 60, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 80, "vision": 76, "composure": 75, "workRate": 78, "aggression": 65 },
+        "fitness": 90, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_010",
+        "name": "Morgan Rogers",
+        "nationality": "England",
+        "age": 23,
+        "positions": ["CAM", "LM", "ST"],
+        "attributes": { "currentRating": 81, "potentialMax": 87 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 84, "strength": 80, "height": 188, "agility": 80, "balance": 78, "jumping": 75 },
+        "technical": { "finishing": 75, "shotPower": 78, "dribbling": 84, "ballControl": 82, "crossing": 70, "shortPassing": 80, "longPassing": 75, "heading": 70, "tackling": 55, "marking": 50 },
+        "mental": { "positioning": 80, "vision": 78, "composure": 76, "workRate": 85, "aggression": 70 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_011",
+        "name": "Ollie Watkins",
+        "nationality": "England",
+        "age": 30,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 86, "potentialMax": 87 },
+        "physical": { "pace": 86, "acceleration": 85, "stamina": 90, "strength": 78, "height": 180, "agility": 82, "balance": 78, "jumping": 80 },
+        "technical": { "finishing": 86, "shotPower": 82, "dribbling": 78, "ballControl": 80, "crossing": 70, "shortPassing": 78, "longPassing": 70, "heading": 78, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 88, "vision": 78, "composure": 84, "workRate": 95, "aggression": 75 },
+        "fitness": 95, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_012",
+        "name": "Jhon Durán",
+        "nationality": "Colombia",
+        "age": 22,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 82, "potentialMax": 89 },
+        "physical": { "pace": 85, "acceleration": 84, "stamina": 80, "strength": 88, "height": 185, "agility": 78, "balance": 75, "jumping": 82 },
+        "technical": { "finishing": 80, "shotPower": 88, "dribbling": 75, "ballControl": 78, "crossing": 60, "shortPassing": 72, "longPassing": 65, "heading": 82, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 80, "vision": 65, "composure": 75, "workRate": 85, "aggression": 85 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_013",
+        "name": "Jacob Ramsey",
+        "nationality": "England",
+        "age": 24,
+        "positions": ["LM", "CM", "CAM"],
+        "attributes": { "currentRating": 81, "potentialMax": 86 },
+        "physical": { "pace": 80, "acceleration": 82, "stamina": 84, "strength": 72, "height": 180, "agility": 82, "balance": 80, "jumping": 65 },
+        "technical": { "finishing": 72, "shotPower": 75, "dribbling": 82, "ballControl": 80, "crossing": 72, "shortPassing": 80, "longPassing": 75, "heading": 60, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 80, "vision": 78, "composure": 76, "workRate": 88, "aggression": 70 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_014",
+        "name": "Boubacar Kamara",
+        "nationality": "France",
+        "age": 26,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 83, "potentialMax": 86 },
+        "physical": { "pace": 72, "acceleration": 74, "stamina": 88, "strength": 78, "height": 184, "agility": 75, "balance": 78, "jumping": 75 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 75, "ballControl": 82, "crossing": 60, "shortPassing": 85, "longPassing": 82, "heading": 70, "tackling": 85, "marking": 84 },
+        "mental": { "positioning": 84, "vision": 78, "composure": 84, "workRate": 85, "aggression": 78 },
+        "fitness": 98, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_015",
+        "name": "Emiliano Buendía",
+        "nationality": "Argentina",
+        "age": 29,
+        "positions": ["RM", "CAM"],
+        "attributes": { "currentRating": 80, "potentialMax": 80 },
+        "physical": { "pace": 75, "acceleration": 78, "stamina": 82, "strength": 70, "height": 172, "agility": 85, "balance": 82, "jumping": 60 },
+        "technical": { "finishing": 72, "shotPower": 75, "dribbling": 84, "ballControl": 85, "crossing": 80, "shortPassing": 82, "longPassing": 80, "heading": 55, "tackling": 60, "marking": 55 },
+        "mental": { "positioning": 78, "vision": 84, "composure": 78, "workRate": 90, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "AVL_016",
+        "name": "Tyrone Mings",
+        "nationality": "England",
+        "age": 33,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 70, "acceleration": 68, "stamina": 75, "strength": 86, "height": 196, "agility": 60, "balance": 65, "jumping": 82 },
+        "technical": { "finishing": 45, "shotPower": 65, "dribbling": 60, "ballControl": 70, "crossing": 45, "shortPassing": 75, "longPassing": 72, "heading": 85, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 80, "vision": 60, "composure": 75, "workRate": 80, "aggression": 85 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      }
+    ]
+  }
+}

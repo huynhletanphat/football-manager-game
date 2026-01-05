@@ -1,12 +1,12 @@
 {
   "menu": {
-    "main_title": "CONSOLE FOOTBALL MANAGER",
+    "main_title": "FOOTBALL MANAGER",
     "new_game": "New Game",
     "load_game": "Load Game",
     "settings": "Settings",
     "exit": "Exit",
     "select_language": "Select Language",
-    "select_club": "Select Your Club",
+    "select_club": "Select Club",
     "confirm": "Confirm",
     "cancel": "Cancel",
     "back": "Back"
@@ -46,7 +46,7 @@
     "tackles": "Tackles"
   },
   "ai_coach": {
-    "analyzing": "AI Coach analyzing opponent...",
+    "analyzing": "AI Coach is analyzing opponent...",
     "preparation": "Match Preparation by AI Coach",
     "strategy": "Strategy",
     "formation": "Formation",

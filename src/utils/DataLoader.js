@@ -1,142 +1,70 @@
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
-import { join, dirname } from 'path';
+import fs from 'fs';
+import path from 'path';
 import { fileURLToPath } from 'url';
-import logger from './Logger.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DATA_PATH = path.join(__dirname, '../data/clubs');
+const SAVE_PATH = path.join(process.cwd(), 'saves');
 
 class DataLoader {
   constructor() {
-    this.dataPath = join(__dirname, '../data');
-    this.cache = {};
+    if (!fs.existsSync(SAVE_PATH)) fs.mkdirSync(SAVE_PATH, { recursive: true });
   }
 
-  // Load JSON file
-  loadJSON(filepath) {
+  loadAllClubs() {
     try {
-      const fullPath = join(this.dataPath, filepath);
+      if (!fs.existsSync(DATA_PATH)) return [];
       
-      // Check cache first
-      if (this.cache[fullPath]) {
-        return this.cache[fullPath];
-      }
+      const files = fs.readdirSync(DATA_PATH);
+      const clubs = [];
 
-      if (!existsSync(fullPath)) {
-        logger.warning(`File not found: ${filepath}`);
-        return null;
-      }
-
-      const data = JSON.parse(readFileSync(fullPath, 'utf-8'));
-      this.cache[fullPath] = data;
-      return data;
+      files.forEach(file => {
+        if (file.endsWith('.json')) {
+          try {
+            const raw = fs.readFileSync(path.join(DATA_PATH, file), 'utf-8');
+            const club = JSON.parse(raw);
+            // Chuẩn hóa ID
+            club.id = club.id || club.club_id; 
+            clubs.push(club);
+          } catch (err) {
+            // Chỉ log lỗi màu đỏ, KHÔNG throw error làm sập game
+            console.error(`❌ BỎ QUA FILE LỖI: ${file}`); 
+            // console.error(err.message); // Bỏ comment nếu muốn xem chi tiết
+          }
+        }
+      });
+      return clubs;
     } catch (error) {
-      logger.error(`Error loading ${filepath}: ${error.message}`);
-      return null;
+      console.error("Lỗi đọc thư mục data:", error);
+      return [];
     }
   }
 
-  // Save JSON file
-  saveJSON(filepath, data) {
+  saveGame(slot, data) {
     try {
-      const fullPath = join(this.dataPath, filepath);
-      const dir = dirname(fullPath);
-
-      // Create directory if not exists
-      if (!existsSync(dir)) {
-        mkdirSync(dir, { recursive: true });
-      }
-
-      writeFileSync(fullPath, JSON.stringify(data, null, 2), 'utf-8');
-      
-      // Update cache
-      this.cache[fullPath] = data;
-      
-      logger.success(`Saved: ${filepath}`);
+      const filePath = path.join(SAVE_PATH, `save_${slot}.json`);
+      fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
       return true;
     } catch (error) {
-      logger.error(`Error saving ${filepath}: ${error.message}`);
+      console.error("Lỗi save game:", error);
       return false;
     }
   }
 
-  // Load player intake for a specific year
-  loadPlayerIntake(year) {
-    return this.loadJSON(`players/${year}_intake.json`);
-  }
-
-  // Load all clubs from a league
-  loadLeagueClubs(leagueId) {
-    const league = this.loadJSON(`leagues/${leagueId}.json`);
-    if (!league) return [];
-
-    const clubs = [];
-    for (const clubId of league.clubs) {
-      const club = this.loadJSON(`clubs/${clubId}.json`);
-      if (club) clubs.push(club);
+  loadSave(slot) {
+    try {
+      const filePath = path.join(SAVE_PATH, `save_${slot}.json`);
+      if (!fs.existsSync(filePath)) return null;
+      return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    } catch (error) {
+      console.error("Lỗi load game:", error);
+      return null;
     }
-    
-    return clubs;
   }
 
-  // Load league data
-  loadLeague(leagueId) {
-    return this.loadJSON(`leagues/${leagueId}.json`);
-  }
-
-  // Load club data
-  loadClub(clubId) {
-    return this.loadJSON(`clubs/${clubId}.json`);
-  }
-
-  // Save club data
-  saveClub(club) {
-    return this.saveJSON(`clubs/${club.club_id}.json`, club);
-  }
-
-  // Load active players
-  loadActivePlayers() {
-    return this.loadJSON('players/active_players.json') || { players: [] };
-  }
-
-  // Save active players
-  saveActivePlayers(players) {
-    return this.saveJSON('players/active_players.json', { players });
-  }
-
-  // Load game save
-  loadSave(slotNumber) {
-    return this.loadJSON(`saves/save_slot_${slotNumber}.json`);
-  }
-
-  // Save game
-  saveGame(slotNumber, saveData) {
-    return this.saveJSON(`saves/save_slot_${slotNumber}.json`, saveData);
-  }
-
-  // Check if save exists
-  saveExists(slotNumber) {
-    const path = join(this.dataPath, `saves/save_slot_${slotNumber}.json`);
-    return existsSync(path);
-  }
-
-  // Clear cache
-  clearCache() {
-    this.cache = {};
-    logger.info('Cache cleared');
-  }
-
-  // Get cache statistics
-  getCacheStats() {
-    return {
-      entries: Object.keys(this.cache).length,
-      keys: Object.keys(this.cache)
-    };
+  saveExists(slot) {
+    return fs.existsSync(path.join(SAVE_PATH, `save_${slot}.json`));
   }
 }
 
-// Singleton
-const dataLoader = new DataLoader();
-
-export default dataLoader;
-export { DataLoader };
+export default new DataLoader();

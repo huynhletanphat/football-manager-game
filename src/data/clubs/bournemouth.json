@@ -1,0 +1,250 @@
+{
+  "club_id": "bournemouth",
+  "name": "AFC Bournemouth",
+  "short_name": "BOU",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1899,
+  "reputation": {
+    "global": 75,
+    "domestic": 78,
+    "continental": 72
+  },
+  "finances": {
+    "transfer_budget": 35000000,
+    "wage_budget_weekly": 1500000,
+    "debt": 0,
+    "revenue_annual": 150000000
+  },
+  "stadium": {
+    "name": "Vitality Stadium",
+    "capacity": 11329,
+    "atmosphere": 82
+  },
+  "tactics": {
+    "default_formation": "4-2-3-1",
+    "alternative_formations": ["4-4-2", "4-3-3"],
+    "mentality": "attacking",
+    "play_style": {
+      "possession": 48,
+      "pressing": 90,
+      "tempo": 85,
+      "width": 75,
+      "defensive_line": 75
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Andoni Iraola",
+      "rating": 81,
+      "preferred_formation": "4-2-3-1",
+      "tactical_approach": "high_pressing"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 15, "target": 12},
+    "champions_league": "none",
+    "domestic_cup": "quarter_finals"
+  },
+  "currentForm": 6,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 25.2,
+    "average_rating": 78,
+    "current_players": [
+      {
+        "id": "BOU_001",
+        "name": "Kepa Arrizabalaga",
+        "nationality": "Spain",
+        "age": 31,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 79, "potentialMax": 79 },
+        "physical": { "pace": 55, "acceleration": 58, "stamina": 65, "strength": 68, "height": 186, "agility": 80, "balance": 70, "jumping": 75 },
+        "technical": { "finishing": 20, "shotPower": 65, "dribbling": 60, "ballControl": 82, "crossing": 35, "shortPassing": 84, "longPassing": 80, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 78, "vision": 70, "composure": 72, "workRate": 70, "aggression": 60 },
+        "goalkeeper": { "diving": 82, "handling": 75, "kicking": 85, "reflexes": 86, "positioning": 78 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_002",
+        "name": "Milos Kerkez",
+        "nationality": "Hungary",
+        "age": 22,
+        "positions": ["LB", "LWB"],
+        "attributes": { "currentRating": 81, "potentialMax": 88 },
+        "physical": { "pace": 88, "acceleration": 90, "stamina": 92, "strength": 70, "height": 176, "agility": 85, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 78, "ballControl": 76, "crossing": 78, "shortPassing": 76, "longPassing": 72, "heading": 60, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 76, "vision": 72, "composure": 75, "workRate": 95, "aggression": 88 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_003",
+        "name": "Illia Zabarnyi",
+        "nationality": "Ukraine",
+        "age": 23,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 82, "potentialMax": 88 },
+        "physical": { "pace": 78, "acceleration": 75, "stamina": 80, "strength": 86, "height": 189, "agility": 70, "balance": 75, "jumping": 84 },
+        "technical": { "finishing": 35, "shotPower": 60, "dribbling": 68, "ballControl": 75, "crossing": 40, "shortPassing": 80, "longPassing": 78, "heading": 86, "tackling": 85, "marking": 84 },
+        "mental": { "positioning": 84, "vision": 65, "composure": 82, "workRate": 80, "aggression": 78 },
+        "fitness": 98, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_004",
+        "name": "Marcos Senesi",
+        "nationality": "Argentina",
+        "age": 28,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 79, "potentialMax": 80 },
+        "physical": { "pace": 70, "acceleration": 68, "stamina": 78, "strength": 84, "height": 185, "agility": 65, "balance": 72, "jumping": 80 },
+        "technical": { "finishing": 45, "shotPower": 70, "dribbling": 65, "ballControl": 76, "crossing": 50, "shortPassing": 82, "longPassing": 84, "heading": 82, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 80, "vision": 70, "composure": 78, "workRate": 85, "aggression": 90 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_005",
+        "name": "Julián Araujo",
+        "nationality": "Mexico",
+        "age": 24,
+        "positions": ["RB", "RWB"],
+        "attributes": { "currentRating": 77, "potentialMax": 82 },
+        "physical": { "pace": 84, "acceleration": 85, "stamina": 85, "strength": 68, "height": 178, "agility": 82, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 50, "shotPower": 65, "dribbling": 74, "ballControl": 75, "crossing": 76, "shortPassing": 75, "longPassing": 70, "heading": 60, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 76, "vision": 68, "composure": 72, "workRate": 88, "aggression": 80 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_006",
+        "name": "Tyler Adams",
+        "nationality": "USA",
+        "age": 27,
+        "positions": ["CDM", "CM", "RB"],
+        "attributes": { "currentRating": 79, "potentialMax": 81 },
+        "physical": { "pace": 76, "acceleration": 78, "stamina": 92, "strength": 75, "height": 175, "agility": 80, "balance": 82, "jumping": 75 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 72, "ballControl": 78, "crossing": 65, "shortPassing": 80, "longPassing": 75, "heading": 65, "tackling": 84, "marking": 82 },
+        "mental": { "positioning": 82, "vision": 75, "composure": 80, "workRate": 95, "aggression": 88 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_007",
+        "name": "Lewis Cook",
+        "nationality": "England",
+        "age": 29,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 70, "acceleration": 72, "stamina": 85, "strength": 72, "height": 175, "agility": 78, "balance": 80, "jumping": 65 },
+        "technical": { "finishing": 60, "shotPower": 72, "dribbling": 75, "ballControl": 80, "crossing": 75, "shortPassing": 84, "longPassing": 82, "heading": 55, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 78, "vision": 82, "composure": 80, "workRate": 85, "aggression": 75 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_008",
+        "name": "Ryan Christie",
+        "nationality": "Scotland",
+        "age": 31,
+        "positions": ["CAM", "CM", "RW"],
+        "attributes": { "currentRating": 77, "potentialMax": 77 },
+        "physical": { "pace": 72, "acceleration": 74, "stamina": 90, "strength": 70, "height": 178, "agility": 78, "balance": 76, "jumping": 65 },
+        "technical": { "finishing": 70, "shotPower": 75, "dribbling": 76, "ballControl": 78, "crossing": 75, "shortPassing": 80, "longPassing": 76, "heading": 60, "tackling": 65, "marking": 62 },
+        "mental": { "positioning": 78, "vision": 78, "composure": 75, "workRate": 92, "aggression": 80 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_009",
+        "name": "Marcus Tavernier",
+        "nationality": "England",
+        "age": 27,
+        "positions": ["LM", "LW", "CM"],
+        "attributes": { "currentRating": 78, "potentialMax": 80 },
+        "physical": { "pace": 84, "acceleration": 86, "stamina": 92, "strength": 72, "height": 178, "agility": 82, "balance": 80, "jumping": 70 },
+        "technical": { "finishing": 70, "shotPower": 75, "dribbling": 80, "ballControl": 78, "crossing": 80, "shortPassing": 78, "longPassing": 74, "heading": 60, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 72, "workRate": 95, "aggression": 75 },
+        "fitness": 98, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_010",
+        "name": "Antoine Semenyo",
+        "nationality": "Ghana",
+        "age": 26,
+        "positions": ["RW", "ST"],
+        "attributes": { "currentRating": 80, "potentialMax": 83 },
+        "physical": { "pace": 88, "acceleration": 90, "stamina": 85, "strength": 82, "height": 185, "agility": 84, "balance": 80, "jumping": 75 },
+        "technical": { "finishing": 76, "shotPower": 82, "dribbling": 82, "ballControl": 78, "crossing": 72, "shortPassing": 75, "longPassing": 65, "heading": 70, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 80, "vision": 70, "composure": 75, "workRate": 88, "aggression": 80 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_011",
+        "name": "Evanilson",
+        "nationality": "Brazil",
+        "age": 26,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 81, "potentialMax": 84 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 82, "strength": 80, "height": 183, "agility": 80, "balance": 78, "jumping": 78 },
+        "technical": { "finishing": 82, "shotPower": 80, "dribbling": 78, "ballControl": 80, "crossing": 60, "shortPassing": 75, "longPassing": 65, "heading": 80, "tackling": 35, "marking": 30 },
+        "mental": { "positioning": 84, "vision": 72, "composure": 80, "workRate": 85, "aggression": 75 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_012",
+        "name": "Justin Kluivert",
+        "nationality": "Netherlands",
+        "age": 27,
+        "positions": ["LW", "CAM", "RW"],
+        "attributes": { "currentRating": 79, "potentialMax": 80 },
+        "physical": { "pace": 86, "acceleration": 88, "stamina": 78, "strength": 65, "height": 171, "agility": 90, "balance": 85, "jumping": 65 },
+        "technical": { "finishing": 75, "shotPower": 78, "dribbling": 84, "ballControl": 82, "crossing": 75, "shortPassing": 78, "longPassing": 70, "heading": 55, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 74, "workRate": 75, "aggression": 65 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_013",
+        "name": "Luis Sinisterra",
+        "nationality": "Colombia",
+        "age": 27,
+        "positions": ["LW", "RW"],
+        "attributes": { "currentRating": 78, "potentialMax": 80 },
+        "physical": { "pace": 85, "acceleration": 86, "stamina": 75, "strength": 72, "height": 172, "agility": 88, "balance": 84, "jumping": 65 },
+        "technical": { "finishing": 76, "shotPower": 78, "dribbling": 85, "ballControl": 82, "crossing": 76, "shortPassing": 75, "longPassing": 70, "heading": 55, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 78, "vision": 74, "composure": 72, "workRate": 75, "aggression": 60 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_014",
+        "name": "Alex Scott",
+        "nationality": "England",
+        "age": 22,
+        "positions": ["CM", "CAM"],
+        "attributes": { "currentRating": 77, "potentialMax": 85 },
+        "physical": { "pace": 75, "acceleration": 76, "stamina": 82, "strength": 70, "height": 178, "agility": 82, "balance": 80, "jumping": 65 },
+        "technical": { "finishing": 65, "shotPower": 70, "dribbling": 82, "ballControl": 84, "crossing": 75, "shortPassing": 84, "longPassing": 80, "heading": 60, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 76, "vision": 82, "composure": 78, "workRate": 85, "aggression": 70 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_015",
+        "name": "Dango Ouattara",
+        "nationality": "Burkina Faso",
+        "age": 24,
+        "positions": ["RW", "LW"],
+        "attributes": { "currentRating": 77, "potentialMax": 82 },
+        "physical": { "pace": 90, "acceleration": 92, "stamina": 82, "strength": 75, "height": 177, "agility": 85, "balance": 80, "jumping": 75 },
+        "technical": { "finishing": 70, "shotPower": 75, "dribbling": 80, "ballControl": 76, "crossing": 72, "shortPassing": 74, "longPassing": 68, "heading": 65, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 76, "vision": 70, "composure": 70, "workRate": 85, "aggression": 70 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BOU_016",
+        "name": "Dean Huijsen",
+        "nationality": "Spain",
+        "age": 21,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 76, "potentialMax": 86 },
+        "physical": { "pace": 74, "acceleration": 72, "stamina": 78, "strength": 80, "height": 195, "agility": 70, "balance": 72, "jumping": 80 },
+        "technical": { "finishing": 40, "shotPower": 60, "dribbling": 70, "ballControl": 80, "crossing": 45, "shortPassing": 82, "longPassing": 84, "heading": 80, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 75, "vision": 70, "composure": 80, "workRate": 75, "aggression": 70 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      }
+    ]
+  }
+}

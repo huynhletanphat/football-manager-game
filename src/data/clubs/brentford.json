@@ -1,0 +1,250 @@
+{
+  "club_id": "brentford",
+  "name": "Brentford",
+  "short_name": "BRE",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1889,
+  "reputation": {
+    "global": 74,
+    "domestic": 77,
+    "continental": 70
+  },
+  "finances": {
+    "transfer_budget": 30000000,
+    "wage_budget_weekly": 1200000,
+    "debt": 0,
+    "revenue_annual": 140000000
+  },
+  "stadium": {
+    "name": "Gtech Community Stadium",
+    "capacity": 17250,
+    "atmosphere": 84
+  },
+  "tactics": {
+    "default_formation": "4-3-3",
+    "alternative_formations": ["3-5-2", "5-3-2"],
+    "mentality": "counter",
+    "play_style": {
+      "possession": 45,
+      "pressing": 82,
+      "tempo": 80,
+      "width": 70,
+      "defensive_line": 60
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Thomas Frank",
+      "rating": 83,
+      "preferred_formation": "4-3-3",
+      "tactical_approach": "direct_counter"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 14, "target": 11},
+    "champions_league": "none",
+    "domestic_cup": "quarter_finals"
+  },
+  "currentForm": 6,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 26.5,
+    "average_rating": 77,
+    "current_players": [
+      {
+        "id": "BRE_001",
+        "name": "Mark Flekken",
+        "nationality": "Netherlands",
+        "age": 32,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 50, "acceleration": 55, "stamina": 65, "strength": 72, "height": 194, "agility": 65, "balance": 60, "jumping": 75 },
+        "technical": { "finishing": 20, "shotPower": 65, "dribbling": 55, "ballControl": 78, "crossing": 35, "shortPassing": 82, "longPassing": 85, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 80, "vision": 70, "composure": 75, "workRate": 70, "aggression": 60 },
+        "goalkeeper": { "diving": 80, "handling": 78, "kicking": 85, "reflexes": 82, "positioning": 80 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_002",
+        "name": "Ethan Pinnock",
+        "nationality": "Jamaica",
+        "age": 32,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 65, "acceleration": 62, "stamina": 75, "strength": 88, "height": 192, "agility": 60, "balance": 65, "jumping": 85 },
+        "technical": { "finishing": 40, "shotPower": 60, "dribbling": 55, "ballControl": 68, "crossing": 35, "shortPassing": 75, "longPassing": 72, "heading": 90, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 82, "vision": 55, "composure": 75, "workRate": 75, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_003",
+        "name": "Nathan Collins",
+        "nationality": "Ireland",
+        "age": 25,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 79, "potentialMax": 82 },
+        "physical": { "pace": 75, "acceleration": 72, "stamina": 80, "strength": 82, "height": 193, "agility": 68, "balance": 70, "jumping": 82 },
+        "technical": { "finishing": 35, "shotPower": 60, "dribbling": 65, "ballControl": 75, "crossing": 40, "shortPassing": 80, "longPassing": 78, "heading": 84, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 78, "vision": 65, "composure": 76, "workRate": 78, "aggression": 75 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_004",
+        "name": "Rico Henry",
+        "nationality": "England",
+        "age": 28,
+        "positions": ["LB", "LWB"],
+        "attributes": { "currentRating": 77, "potentialMax": 77 },
+        "physical": { "pace": 90, "acceleration": 88, "stamina": 85, "strength": 65, "height": 170, "agility": 85, "balance": 82, "jumping": 65 },
+        "technical": { "finishing": 50, "shotPower": 65, "dribbling": 75, "ballControl": 72, "crossing": 75, "shortPassing": 75, "longPassing": 68, "heading": 60, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 76, "vision": 65, "composure": 72, "workRate": 85, "aggression": 70 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_005",
+        "name": "Aaron Hickey",
+        "nationality": "Scotland",
+        "age": 23,
+        "positions": ["RB", "LB", "RWB"],
+        "attributes": { "currentRating": 79, "potentialMax": 84 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 82, "strength": 70, "height": 175, "agility": 80, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 76, "ballControl": 78, "crossing": 75, "shortPassing": 78, "longPassing": 75, "heading": 65, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 78, "vision": 72, "composure": 75, "workRate": 82, "aggression": 75 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_006",
+        "name": "Christian Nørgaard",
+        "nationality": "Denmark",
+        "age": 31,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 65, "acceleration": 62, "stamina": 85, "strength": 78, "height": 185, "agility": 70, "balance": 75, "jumping": 75 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 70, "ballControl": 78, "crossing": 60, "shortPassing": 82, "longPassing": 78, "heading": 75, "tackling": 84, "marking": 82 },
+        "mental": { "positioning": 85, "vision": 75, "composure": 82, "workRate": 90, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_007",
+        "name": "Mathias Jensen",
+        "nationality": "Denmark",
+        "age": 30,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 68, "acceleration": 65, "stamina": 88, "strength": 72, "height": 180, "agility": 75, "balance": 75, "jumping": 65 },
+        "technical": { "finishing": 65, "shotPower": 75, "dribbling": 75, "ballControl": 82, "crossing": 85, "shortPassing": 84, "longPassing": 86, "heading": 60, "tackling": 70, "marking": 68 },
+        "mental": { "positioning": 78, "vision": 84, "composure": 80, "workRate": 85, "aggression": 70 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_008",
+        "name": "Vitaly Janelt",
+        "nationality": "Germany",
+        "age": 27,
+        "positions": ["CM", "CDM", "LB"],
+        "attributes": { "currentRating": 77, "potentialMax": 79 },
+        "physical": { "pace": 72, "acceleration": 70, "stamina": 90, "strength": 78, "height": 184, "agility": 72, "balance": 75, "jumping": 70 },
+        "technical": { "finishing": 60, "shotPower": 72, "dribbling": 72, "ballControl": 76, "crossing": 65, "shortPassing": 78, "longPassing": 75, "heading": 70, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 80, "vision": 72, "composure": 78, "workRate": 90, "aggression": 78 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_009",
+        "name": "Bryan Mbeumo",
+        "nationality": "Cameroon",
+        "age": 26,
+        "positions": ["RW", "ST"],
+        "attributes": { "currentRating": 82, "potentialMax": 84 },
+        "physical": { "pace": 88, "acceleration": 90, "stamina": 85, "strength": 75, "height": 171, "agility": 85, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 80, "shotPower": 78, "dribbling": 84, "ballControl": 82, "crossing": 80, "shortPassing": 78, "longPassing": 70, "heading": 65, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 82, "vision": 75, "composure": 78, "workRate": 88, "aggression": 70 },
+        "fitness": 98, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_010",
+        "name": "Yoane Wissa",
+        "nationality": "DR Congo",
+        "age": 29,
+        "positions": ["LW", "ST"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 86, "acceleration": 88, "stamina": 80, "strength": 70, "height": 176, "agility": 84, "balance": 80, "jumping": 72 },
+        "technical": { "finishing": 76, "shotPower": 75, "dribbling": 78, "ballControl": 76, "crossing": 70, "shortPassing": 72, "longPassing": 65, "heading": 65, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 78, "vision": 70, "composure": 75, "workRate": 82, "aggression": 65 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_011",
+        "name": "Kevin Schade",
+        "nationality": "Germany",
+        "age": 24,
+        "positions": ["RW", "LW", "ST"],
+        "attributes": { "currentRating": 77, "potentialMax": 82 },
+        "physical": { "pace": 94, "acceleration": 92, "stamina": 78, "strength": 70, "height": 185, "agility": 82, "balance": 75, "jumping": 80 },
+        "technical": { "finishing": 70, "shotPower": 72, "dribbling": 78, "ballControl": 75, "crossing": 72, "shortPassing": 70, "longPassing": 65, "heading": 70, "tackling": 35, "marking": 30 },
+        "mental": { "positioning": 75, "vision": 65, "composure": 70, "workRate": 78, "aggression": 60 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_012",
+        "name": "Igor Thiago",
+        "nationality": "Brazil",
+        "age": 24,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 77, "potentialMax": 81 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 82, "strength": 88, "height": 188, "agility": 72, "balance": 75, "jumping": 82 },
+        "technical": { "finishing": 76, "shotPower": 78, "dribbling": 72, "ballControl": 74, "crossing": 55, "shortPassing": 70, "longPassing": 60, "heading": 80, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 78, "vision": 65, "composure": 74, "workRate": 85, "aggression": 80 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_013",
+        "name": "Fabio Carvalho",
+        "nationality": "Portugal",
+        "age": 23,
+        "positions": ["CAM", "LW", "RW"],
+        "attributes": { "currentRating": 77, "potentialMax": 83 },
+        "physical": { "pace": 80, "acceleration": 84, "stamina": 78, "strength": 60, "height": 170, "agility": 88, "balance": 86, "jumping": 55 },
+        "technical": { "finishing": 74, "shotPower": 72, "dribbling": 84, "ballControl": 85, "crossing": 75, "shortPassing": 80, "longPassing": 75, "heading": 50, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 78, "vision": 80, "composure": 76, "workRate": 75, "aggression": 60 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_014",
+        "name": "Sepp van den Berg",
+        "nationality": "Netherlands",
+        "age": 24,
+        "positions": ["CB", "RB"],
+        "attributes": { "currentRating": 77, "potentialMax": 82 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 78, "strength": 80, "height": 189, "agility": 70, "balance": 72, "jumping": 80 },
+        "technical": { "finishing": 35, "shotPower": 60, "dribbling": 65, "ballControl": 74, "crossing": 50, "shortPassing": 78, "longPassing": 75, "heading": 80, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 76, "vision": 65, "composure": 75, "workRate": 75, "aggression": 72 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_015",
+        "name": "Keane Lewis-Potter",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["LW", "LWB"],
+        "attributes": { "currentRating": 76, "potentialMax": 79 },
+        "physical": { "pace": 85, "acceleration": 86, "stamina": 82, "strength": 68, "height": 170, "agility": 84, "balance": 80, "jumping": 65 },
+        "technical": { "finishing": 70, "shotPower": 72, "dribbling": 78, "ballControl": 76, "crossing": 76, "shortPassing": 74, "longPassing": 68, "heading": 55, "tackling": 55, "marking": 50 },
+        "mental": { "positioning": 75, "vision": 70, "composure": 72, "workRate": 85, "aggression": 65 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "BRE_016",
+        "name": "Ben Mee",
+        "nationality": "England",
+        "age": 36,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 75, "potentialMax": 75 },
+        "physical": { "pace": 50, "acceleration": 48, "stamina": 65, "strength": 80, "height": 180, "agility": 55, "balance": 65, "jumping": 75 },
+        "technical": { "finishing": 35, "shotPower": 60, "dribbling": 55, "ballControl": 68, "crossing": 40, "shortPassing": 72, "longPassing": 70, "heading": 85, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 84, "vision": 55, "composure": 80, "workRate": 75, "aggression": 85 },
+        "fitness": 85, "currentForm": 5, "injured": false, "suspended": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "club_id": "everton",
+  "name": "Everton",
+  "short_name": "EVE",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1878,
+  "reputation": {
+    "global": 79,
+    "domestic": 83,
+    "continental": 76
+  },
+  "finances": {
+    "transfer_budget": 30000000,
+    "wage_budget_weekly": 1800000,
+    "debt": 500000000,
+    "revenue_annual": 220000000
+  },
+  "stadium": {
+    "name": "Everton Stadium",
+    "capacity": 52888,
+    "atmosphere": 90
+  },
+  "tactics": {
+    "default_formation": "4-4-1-1",
+    "alternative_formations": ["4-5-1", "5-4-1"],
+    "mentality": "defensive",
+    "play_style": {
+      "possession": 42,
+      "pressing": 75,
+      "tempo": 70,
+      "width": 65,
+      "defensive_line": 60
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Sean Dyche",
+      "rating": 81,
+      "preferred_formation": "4-4-1-1",
+      "tactical_approach": "defensive_solidity"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 15, "target": 11},
+    "champions_league": "none",
+    "domestic_cup": "quarter_finals"
+  },
+  "currentForm": 5,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 28.1,
+    "average_rating": 78,
+    "current_players": [
+      {
+        "id": "EVE_001",
+        "name": "Jordan Pickford",
+        "nationality": "England",
+        "age": 32,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 83, "potentialMax": 83 },
+        "physical": { "pace": 60, "acceleration": 62, "stamina": 75, "strength": 70, "height": 185, "agility": 80, "balance": 75, "jumping": 85 },
+        "technical": { "finishing": 20, "shotPower": 85, "dribbling": 60, "ballControl": 75, "crossing": 40, "shortPassing": 78, "longPassing": 90, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 82, "vision": 70, "composure": 75, "workRate": 80, "aggression": 90 },
+        "goalkeeper": { "diving": 86, "handling": 80, "kicking": 88, "reflexes": 88, "positioning": 82 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_002",
+        "name": "Jarrad Branthwaite",
+        "nationality": "England",
+        "age": 23,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 84, "potentialMax": 89 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 80, "strength": 90, "height": 195, "agility": 75, "balance": 80, "jumping": 88 },
+        "technical": { "finishing": 40, "shotPower": 65, "dribbling": 70, "ballControl": 78, "crossing": 45, "shortPassing": 82, "longPassing": 80, "heading": 90, "tackling": 88, "marking": 86 },
+        "mental": { "positioning": 85, "vision": 65, "composure": 82, "workRate": 80, "aggression": 80 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_003",
+        "name": "James Tarkowski",
+        "nationality": "England",
+        "age": 33,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 79, "potentialMax": 79 },
+        "physical": { "pace": 60, "acceleration": 58, "stamina": 75, "strength": 92, "height": 185, "agility": 60, "balance": 70, "jumping": 85 },
+        "technical": { "finishing": 45, "shotPower": 65, "dribbling": 60, "ballControl": 72, "crossing": 40, "shortPassing": 75, "longPassing": 80, "heading": 92, "tackling": 86, "marking": 84 },
+        "mental": { "positioning": 84, "vision": 60, "composure": 80, "workRate": 85, "aggression": 90 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_004",
+        "name": "Vitalii Mykolenko",
+        "nationality": "Ukraine",
+        "age": 27,
+        "positions": ["LB", "LWB"],
+        "attributes": { "currentRating": 79, "potentialMax": 81 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 88, "strength": 75, "height": 179, "agility": 78, "balance": 75, "jumping": 72 },
+        "technical": { "finishing": 50, "shotPower": 70, "dribbling": 72, "ballControl": 75, "crossing": 76, "shortPassing": 78, "longPassing": 72, "heading": 65, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 80, "vision": 65, "composure": 75, "workRate": 85, "aggression": 80 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_005",
+        "name": "Nathan Patterson",
+        "nationality": "Scotland",
+        "age": 24,
+        "positions": ["RB", "RWB"],
+        "attributes": { "currentRating": 77, "potentialMax": 82 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 85, "strength": 72, "height": 183, "agility": 78, "balance": 75, "jumping": 70 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 75, "ballControl": 76, "crossing": 75, "shortPassing": 76, "longPassing": 72, "heading": 65, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 76, "vision": 65, "composure": 72, "workRate": 88, "aggression": 78 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_006",
+        "name": "Idrissa Gueye",
+        "nationality": "Senegal",
+        "age": 36,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 76, "potentialMax": 76 },
+        "physical": { "pace": 65, "acceleration": 68, "stamina": 75, "strength": 70, "height": 174, "agility": 75, "balance": 80, "jumping": 70 },
+        "technical": { "finishing": 50, "shotPower": 65, "dribbling": 70, "ballControl": 75, "crossing": 55, "shortPassing": 80, "longPassing": 75, "heading": 60, "tackling": 85, "marking": 82 },
+        "mental": { "positioning": 82, "vision": 70, "composure": 78, "workRate": 85, "aggression": 85 },
+        "fitness": 85, "currentForm": 5, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_007",
+        "name": "Amadou Onana",
+        "nationality": "Belgium",
+        "age": 24,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 83, "potentialMax": 88 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 90, "strength": 88, "height": 195, "agility": 75, "balance": 78, "jumping": 85 },
+        "technical": { "finishing": 60, "shotPower": 75, "dribbling": 75, "ballControl": 80, "crossing": 60, "shortPassing": 82, "longPassing": 80, "heading": 85, "tackling": 85, "marking": 82 },
+        "mental": { "positioning": 82, "vision": 75, "composure": 80, "workRate": 85, "aggression": 88 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_008",
+        "name": "James Garner",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["CM", "CDM", "RM"],
+        "attributes": { "currentRating": 79, "potentialMax": 82 },
+        "physical": { "pace": 75, "acceleration": 74, "stamina": 88, "strength": 72, "height": 182, "agility": 78, "balance": 76, "jumping": 65 },
+        "technical": { "finishing": 65, "shotPower": 75, "dribbling": 75, "ballControl": 80, "crossing": 82, "shortPassing": 82, "longPassing": 80, "heading": 60, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 78, "vision": 80, "composure": 78, "workRate": 90, "aggression": 75 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_009",
+        "name": "Abdoulaye Doucouré",
+        "nationality": "Mali",
+        "age": 33,
+        "positions": ["CAM", "CM"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 70, "acceleration": 72, "stamina": 85, "strength": 82, "height": 184, "agility": 70, "balance": 72, "jumping": 75 },
+        "technical": { "finishing": 75, "shotPower": 78, "dribbling": 72, "ballControl": 76, "crossing": 65, "shortPassing": 78, "longPassing": 75, "heading": 70, "tackling": 72, "marking": 70 },
+        "mental": { "positioning": 80, "vision": 72, "composure": 75, "workRate": 92, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_010",
+        "name": "Dwight McNeil",
+        "nationality": "England",
+        "age": 26,
+        "positions": ["LM", "LW", "CAM"],
+        "attributes": { "currentRating": 80, "potentialMax": 82 },
+        "physical": { "pace": 76, "acceleration": 78, "stamina": 90, "strength": 75, "height": 183, "agility": 75, "balance": 72, "jumping": 65 },
+        "technical": { "finishing": 70, "shotPower": 80, "dribbling": 80, "ballControl": 82, "crossing": 86, "shortPassing": 78, "longPassing": 75, "heading": 60, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 78, "vision": 78, "composure": 75, "workRate": 95, "aggression": 70 },
+        "fitness": 98, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_011",
+        "name": "Jack Harrison",
+        "nationality": "England",
+        "age": 29,
+        "positions": ["RM", "RW", "LM"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 78, "acceleration": 80, "stamina": 85, "strength": 70, "height": 175, "agility": 82, "balance": 78, "jumping": 65 },
+        "technical": { "finishing": 70, "shotPower": 75, "dribbling": 80, "ballControl": 78, "crossing": 80, "shortPassing": 76, "longPassing": 72, "heading": 55, "tackling": 60, "marking": 58 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 72, "workRate": 90, "aggression": 65 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_012",
+        "name": "Dominic Calvert-Lewin",
+        "nationality": "England",
+        "age": 29,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 79, "potentialMax": 79 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 75, "strength": 82, "height": 187, "agility": 75, "balance": 72, "jumping": 92 },
+        "technical": { "finishing": 78, "shotPower": 76, "dribbling": 72, "ballControl": 75, "crossing": 60, "shortPassing": 70, "longPassing": 65, "heading": 90, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 82, "vision": 65, "composure": 72, "workRate": 85, "aggression": 75 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_013",
+        "name": "Beto",
+        "nationality": "Portugal",
+        "age": 28,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 78, "potentialMax": 79 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 80, "strength": 90, "height": 194, "agility": 70, "balance": 75, "jumping": 85 },
+        "technical": { "finishing": 76, "shotPower": 80, "dribbling": 70, "ballControl": 72, "crossing": 55, "shortPassing": 68, "longPassing": 60, "heading": 82, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 80, "vision": 60, "composure": 70, "workRate": 90, "aggression": 85 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_014",
+        "name": "Iliman Ndiaye",
+        "nationality": "Senegal",
+        "age": 26,
+        "positions": ["ST", "CAM", "LW"],
+        "attributes": { "currentRating": 79, "potentialMax": 82 },
+        "physical": { "pace": 82, "acceleration": 84, "stamina": 80, "strength": 72, "height": 180, "agility": 86, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 75, "shotPower": 74, "dribbling": 85, "ballControl": 82, "crossing": 70, "shortPassing": 78, "longPassing": 72, "heading": 65, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 75, "workRate": 85, "aggression": 65 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_015",
+        "name": "Jesper Lindstrøm",
+        "nationality": "Denmark",
+        "age": 26,
+        "positions": ["CAM", "RW", "LW"],
+        "attributes": { "currentRating": 78, "potentialMax": 81 },
+        "physical": { "pace": 84, "acceleration": 86, "stamina": 78, "strength": 68, "height": 182, "agility": 82, "balance": 78, "jumping": 65 },
+        "technical": { "finishing": 72, "shotPower": 75, "dribbling": 80, "ballControl": 80, "crossing": 75, "shortPassing": 78, "longPassing": 72, "heading": 60, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 78, "vision": 76, "composure": 72, "workRate": 80, "aggression": 60 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "EVE_016",
+        "name": "Tim Iroegbunam",
+        "nationality": "England",
+        "age": 22,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 76, "potentialMax": 83 },
+        "physical": { "pace": 75, "acceleration": 76, "stamina": 82, "strength": 78, "height": 184, "agility": 75, "balance": 78, "jumping": 72 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 72, "ballControl": 75, "crossing": 60, "shortPassing": 78, "longPassing": 75, "heading": 65, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 75, "vision": 70, "composure": 72, "workRate": 85, "aggression": 78 },
+        "fitness": 100, "currentForm": 6, "injured": false, "suspended": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "year": 2026,
+  "leagues": {
+    "premier_league": {
+      "players": [
+        {
+          "name": "Leo Santoro",
+          "nationality": "Brazil",
+          "age": 16,
+          "positions": ["ST", "CF"],
+          "attributes": { "currentRating": 68, "potentialMax": 94 },
+          "physical": { "pace": 88, "acceleration": 90, "stamina": 70, "strength": 65, "height": 178, "agility": 85, "balance": 82, "jumping": 75 },
+          "technical": { "finishing": 78, "shotPower": 75, "dribbling": 85, "ballControl": 82, "crossing": 60, "shortPassing": 70, "longPassing": 60, "heading": 70, "tackling": 20, "marking": 15 },
+          "mental": { "positioning": 75, "vision": 70, "composure": 80, "workRate": 75, "aggression": 70 },
+          "aiHints": { "priorityClubs": ["manchester_city", "chelsea", "real_madrid"] }
+        },
+        {
+          "name": "Harry Ashworth",
+          "nationality": "England",
+          "age": 17,
+          "positions": ["CM", "CDM"],
+          "attributes": { "currentRating": 65, "potentialMax": 91 },
+          "physical": { "pace": 70, "acceleration": 72, "stamina": 85, "strength": 75, "height": 182, "agility": 75, "balance": 78, "jumping": 70 },
+          "technical": { "finishing": 60, "shotPower": 75, "dribbling": 72, "ballControl": 78, "crossing": 70, "shortPassing": 82, "longPassing": 85, "heading": 65, "tackling": 78, "marking": 75 },
+          "mental": { "positioning": 75, "vision": 85, "composure": 80, "workRate": 90, "aggression": 80 },
+          "aiHints": { "priorityClubs": ["manchester_united", "liverpool", "arsenal"] }
+        },
+        {
+          "name": "Jean-Luc Dubois",
+          "nationality": "France",
+          "age": 16,
+          "positions": ["CB"],
+          "attributes": { "currentRating": 66, "potentialMax": 92 },
+          "physical": { "pace": 78, "acceleration": 76, "stamina": 75, "strength": 82, "height": 190, "agility": 70, "balance": 75, "jumping": 85 },
+          "technical": { "finishing": 30, "shotPower": 60, "dribbling": 60, "ballControl": 72, "crossing": 40, "shortPassing": 75, "longPassing": 70, "heading": 85, "tackling": 82, "marking": 80 },
+          "mental": { "positioning": 78, "vision": 60, "composure": 82, "workRate": 75, "aggression": 80 },
+          "aiHints": { "priorityClubs": ["arsenal", "chelsea", "tottenham"] }
+        },
+        {
+          "name": "Mateo Vega",
+          "nationality": "Spain",
+          "age": 17,
+          "positions": ["CAM", "RW"],
+          "attributes": { "currentRating": 67, "potentialMax": 90 },
+          "physical": { "pace": 80, "acceleration": 82, "stamina": 72, "strength": 60, "height": 170, "agility": 90, "balance": 88, "jumping": 55 },
+          "technical": { "finishing": 70, "shotPower": 72, "dribbling": 88, "ballControl": 86, "crossing": 78, "shortPassing": 85, "longPassing": 80, "heading": 40, "tackling": 35, "marking": 30 },
+          "mental": { "positioning": 75, "vision": 88, "composure": 78, "workRate": 70, "aggression": 60 },
+          "aiHints": { "priorityClubs": ["manchester_city", "arsenal"] }
+        },
+        {
+          "name": "Magnus Eriksson",
+          "nationality": "Norway",
+          "age": 18,
+          "positions": ["ST"],
+          "attributes": { "currentRating": 69, "potentialMax": 88 },
+          "physical": { "pace": 85, "acceleration": 84, "stamina": 80, "strength": 85, "height": 192, "agility": 75, "balance": 70, "jumping": 80 },
+          "technical": { "finishing": 80, "shotPower": 82, "dribbling": 70, "ballControl": 75, "crossing": 50, "shortPassing": 70, "longPassing": 60, "heading": 82, "tackling": 30, "marking": 25 },
+          "mental": { "positioning": 80, "vision": 65, "composure": 75, "workRate": 85, "aggression": 80 }
+        },
+        {
+          "name": "Kieran O'Malley",
+          "nationality": "Ireland",
+          "age": 16,
+          "positions": ["LB", "LM"],
+          "attributes": { "currentRating": 62, "potentialMax": 85 },
+          "physical": { "pace": 86, "acceleration": 88, "stamina": 82, "strength": 65, "height": 176, "agility": 80, "balance": 78, "jumping": 65 },
+          "technical": { "finishing": 55, "shotPower": 65, "dribbling": 75, "ballControl": 72, "crossing": 78, "shortPassing": 74, "longPassing": 70, "heading": 55, "tackling": 70, "marking": 68 },
+          "mental": { "positioning": 70, "vision": 68, "composure": 70, "workRate": 90, "aggression": 80 }
+        },
+        {
+          "name": "Alessandro Conti",
+          "nationality": "Italy",
+          "age": 17,
+          "positions": ["GK"],
+          "attributes": { "currentRating": 65, "potentialMax": 89 },
+          "physical": { "pace": 50, "acceleration": 55, "stamina": 60, "strength": 70, "height": 191, "agility": 72, "balance": 65, "jumping": 75 },
+          "technical": { "finishing": 15, "shotPower": 60, "dribbling": 50, "ballControl": 65, "crossing": 30, "shortPassing": 70, "longPassing": 75, "heading": 40, "tackling": 15, "marking": 10 },
+          "mental": { "positioning": 75, "vision": 60, "composure": 75, "workRate": 70, "aggression": 60 },
+          "goalkeeper": { "diving": 75, "handling": 72, "kicking": 70, "reflexes": 78, "positioning": 75 }
+        },
+        {
+          "name": "Tariq Lamptey Jr",
+          "nationality": "Ghana",
+          "age": 16,
+          "positions": ["RWB", "RB", "RW"],
+          "attributes": { "currentRating": 64, "potentialMax": 84 },
+          "physical": { "pace": 92, "acceleration": 94, "stamina": 78, "strength": 55, "height": 165, "agility": 92, "balance": 90, "jumping": 60 },
+          "technical": { "finishing": 50, "shotPower": 60, "dribbling": 78, "ballControl": 75, "crossing": 72, "shortPassing": 70, "longPassing": 65, "heading": 40, "tackling": 65, "marking": 60 },
+          "mental": { "positioning": 65, "vision": 65, "composure": 68, "workRate": 85, "aggression": 70 }
+        },
+        {
+          "name": "Callum McGregor",
+          "nationality": "Scotland",
+          "age": 17,
+          "positions": ["CB", "CDM"],
+          "attributes": { "currentRating": 63, "potentialMax": 82 },
+          "physical": { "pace": 68, "acceleration": 65, "stamina": 80, "strength": 80, "height": 186, "agility": 65, "balance": 70, "jumping": 80 },
+          "technical": { "finishing": 40, "shotPower": 65, "dribbling": 60, "ballControl": 70, "crossing": 45, "shortPassing": 75, "longPassing": 72, "heading": 80, "tackling": 78, "marking": 76 },
+          "mental": { "positioning": 75, "vision": 60, "composure": 75, "workRate": 85, "aggression": 90 }
+        },
+        {
+          "name": "Yusuf Demir",
+          "nationality": "Turkey",
+          "age": 18,
+          "positions": ["RW", "CAM"],
+          "attributes": { "currentRating": 68, "potentialMax": 85 },
+          "physical": { "pace": 82, "acceleration": 84, "stamina": 75, "strength": 65, "height": 175, "agility": 85, "balance": 80, "jumping": 60 },
+          "technical": { "finishing": 70, "shotPower": 75, "dribbling": 82, "ballControl": 80, "crossing": 75, "shortPassing": 78, "longPassing": 72, "heading": 50, "tackling": 40, "marking": 35 },
+          "mental": { "positioning": 72, "vision": 75, "composure": 70, "workRate": 70, "aggression": 65 }
+        },
+        {
+          "name": "Liam Delap-Peters",
+          "nationality": "England",
+          "age": 16,
+          "positions": ["ST"],
+          "attributes": { "currentRating": 60, "potentialMax": 80 },
+          "physical": { "pace": 78, "acceleration": 76, "stamina": 75, "strength": 75, "height": 184, "agility": 72, "balance": 70, "jumping": 75 },
+          "technical": { "finishing": 72, "shotPower": 70, "dribbling": 65, "ballControl": 68, "crossing": 50, "shortPassing": 65, "longPassing": 55, "heading": 75, "tackling": 30, "marking": 25 },
+          "mental": { "positioning": 75, "vision": 60, "composure": 68, "workRate": 80, "aggression": 70 }
+        },
+        {
+          "name": "Sven Svensson",
+          "nationality": "Sweden",
+          "age": 17,
+          "positions": ["CM"],
+          "attributes": { "currentRating": 64, "potentialMax": 81 },
+          "physical": { "pace": 72, "acceleration": 74, "stamina": 88, "strength": 70, "height": 180, "agility": 75, "balance": 75, "jumping": 65 },
+          "technical": { "finishing": 60, "shotPower": 70, "dribbling": 70, "ballControl": 75, "crossing": 65, "shortPassing": 80, "longPassing": 78, "heading": 60, "tackling": 65, "marking": 60 },
+          "mental": { "positioning": 72, "vision": 78, "composure": 75, "workRate": 90, "aggression": 75 }
+        },
+        {
+          "name": "Diego Costa Jr",
+          "nationality": "Spain",
+          "age": 16,
+          "positions": ["ST"],
+          "attributes": { "currentRating": 65, "potentialMax": 83 },
+          "physical": { "pace": 75, "acceleration": 72, "stamina": 78, "strength": 85, "height": 185, "agility": 70, "balance": 72, "jumping": 78 },
+          "technical": { "finishing": 75, "shotPower": 78, "dribbling": 68, "ballControl": 70, "crossing": 45, "shortPassing": 65, "longPassing": 55, "heading": 80, "tackling": 40, "marking": 35 },
+          "mental": { "positioning": 78, "vision": 60, "composure": 70, "workRate": 85, "aggression": 95 }
+        },
+        {
+          "name": "Lucas Silva",
+          "nationality": "Portugal",
+          "age": 17,
+          "positions": ["LW", "RW"],
+          "attributes": { "currentRating": 66, "potentialMax": 84 },
+          "physical": { "pace": 88, "acceleration": 90, "stamina": 75, "strength": 60, "height": 172, "agility": 88, "balance": 85, "jumping": 60 },
+          "technical": { "finishing": 68, "shotPower": 70, "dribbling": 82, "ballControl": 80, "crossing": 75, "shortPassing": 72, "longPassing": 65, "heading": 50, "tackling": 35, "marking": 30 },
+          "mental": { "positioning": 70, "vision": 72, "composure": 68, "workRate": 75, "aggression": 60 }
+        },
+        {
+          "name": "Arthur Williams",
+          "nationality": "Wales",
+          "age": 16,
+          "positions": ["LB"],
+          "attributes": { "currentRating": 58, "potentialMax": 78 },
+          "physical": { "pace": 80, "acceleration": 78, "stamina": 80, "strength": 65, "height": 178, "agility": 75, "balance": 72, "jumping": 65 },
+          "technical": { "finishing": 45, "shotPower": 60, "dribbling": 65, "ballControl": 68, "crossing": 70, "shortPassing": 72, "longPassing": 65, "heading": 55, "tackling": 68, "marking": 65 },
+          "mental": { "positioning": 65, "vision": 60, "composure": 65, "workRate": 80, "aggression": 70 }
+        },
+        {
+          "name": "James Bond",
+          "nationality": "England",
+          "age": 18,
+          "positions": ["CDM", "CB"],
+          "attributes": { "currentRating": 62, "potentialMax": 79 },
+          "physical": { "pace": 70, "acceleration": 68, "stamina": 85, "strength": 78, "height": 183, "agility": 70, "balance": 72, "jumping": 75 },
+          "technical": { "finishing": 40, "shotPower": 65, "dribbling": 60, "ballControl": 70, "crossing": 50, "shortPassing": 75, "longPassing": 72, "heading": 70, "tackling": 75, "marking": 72 },
+          "mental": { "positioning": 75, "vision": 65, "composure": 78, "workRate": 90, "aggression": 85 }
+        },
+        {
+          "name": "Takumi Ito",
+          "nationality": "Japan",
+          "age": 17,
+          "positions": ["CAM", "CM"],
+          "attributes": { "currentRating": 65, "potentialMax": 83 },
+          "physical": { "pace": 78, "acceleration": 80, "stamina": 82, "strength": 60, "height": 170, "agility": 85, "balance": 82, "jumping": 55 },
+          "technical": { "finishing": 65, "shotPower": 68, "dribbling": 78, "ballControl": 80, "crossing": 72, "shortPassing": 82, "longPassing": 78, "heading": 45, "tackling": 50, "marking": 45 },
+          "mental": { "positioning": 72, "vision": 80, "composure": 75, "workRate": 85, "aggression": 60 }
+        },
+        {
+          "name": "Kim Min-su",
+          "nationality": "South Korea",
+          "age": 16,
+          "positions": ["CB"],
+          "attributes": { "currentRating": 63, "potentialMax": 85 },
+          "physical": { "pace": 75, "acceleration": 72, "stamina": 78, "strength": 82, "height": 188, "agility": 68, "balance": 70, "jumping": 80 },
+          "technical": { "finishing": 30, "shotPower": 55, "dribbling": 55, "ballControl": 65, "crossing": 40, "shortPassing": 72, "longPassing": 70, "heading": 82, "tackling": 78, "marking": 75 },
+          "mental": { "positioning": 75, "vision": 55, "composure": 72, "workRate": 80, "aggression": 78 }
+        },
+        {
+          "name": "Mohammed Al-Fayed",
+          "nationality": "Egypt",
+          "age": 17,
+          "positions": ["RW"],
+          "attributes": { "currentRating": 64, "potentialMax": 81 },
+          "physical": { "pace": 88, "acceleration": 90, "stamina": 75, "strength": 62, "height": 174, "agility": 86, "balance": 82, "jumping": 60 },
+          "technical": { "finishing": 65, "shotPower": 70, "dribbling": 78, "ballControl": 75, "crossing": 70, "shortPassing": 72, "longPassing": 65, "heading": 45, "tackling": 35, "marking": 30 },
+          "mental": { "positioning": 70, "vision": 68, "composure": 65, "workRate": 80, "aggression": 65 }
+        },
+        {
+          "name": "Stefan Petrovic",
+          "nationality": "Serbia",
+          "age": 18,
+          "positions": ["ST"],
+          "attributes": { "currentRating": 66, "potentialMax": 80 },
+          "physical": { "pace": 72, "acceleration": 70, "stamina": 75, "strength": 88, "height": 194, "agility": 65, "balance": 68, "jumping": 82 },
+          "technical": { "finishing": 75, "shotPower": 78, "dribbling": 60, "ballControl": 68, "crossing": 40, "shortPassing": 65, "longPassing": 55, "heading": 85, "tackling": 30, "marking": 25 },
+          "mental": { "positioning": 78, "vision": 55, "composure": 70, "workRate": 75, "aggression": 80 }
+        },
+        {
+          "name": "Oliver Twist",
+          "nationality": "England",
+          "age": 16,
+          "positions": ["RW", "LW"],
+          "attributes": { "currentRating": 55, "potentialMax": 72 },
+          "physical": { "pace": 80, "acceleration": 82, "stamina": 70, "strength": 55, "height": 170, "agility": 80, "balance": 75, "jumping": 60 },
+          "technical": { "finishing": 55, "shotPower": 60, "dribbling": 70, "ballControl": 65, "crossing": 65, "shortPassing": 60, "longPassing": 55, "heading": 40, "tackling": 30, "marking": 25 },
+          "mental": { "positioning": 60, "vision": 55, "composure": 55, "workRate": 75, "aggression": 60 }
+        },
+        {
+          "name": "Hans Gruber",
+          "nationality": "Germany",
+          "age": 17,
+          "positions": ["CB"],
+          "attributes": { "currentRating": 68, "potentialMax": 86 },
+          "physical": { "pace": 70, "acceleration": 68, "stamina": 78, "strength": 84, "height": 190, "agility": 65, "balance": 70, "jumping": 80 },
+          "technical": { "finishing": 30, "shotPower": 55, "dribbling": 55, "ballControl": 68, "crossing": 35, "shortPassing": 75, "longPassing": 72, "heading": 82, "tackling": 80, "marking": 78 },
+          "mental": { "positioning": 80, "vision": 60, "composure": 75, "workRate": 75, "aggression": 80 }
+        },
+        {
+          "name": "Pedro Santos",
+          "nationality": "Portugal",
+          "age": 16,
+          "positions": ["CM", "CAM"],
+          "attributes": { "currentRating": 62, "potentialMax": 83 },
+          "physical": { "pace": 75, "acceleration": 78, "stamina": 80, "strength": 65, "height": 175, "agility": 82, "balance": 80, "jumping": 60 },
+          "technical": { "finishing": 60, "shotPower": 65, "dribbling": 75, "ballControl": 78, "crossing": 70, "shortPassing": 80, "longPassing": 75, "heading": 50, "tackling": 55, "marking": 50 },
+          "mental": { "positioning": 70, "vision": 82, "composure": 70, "workRate": 80, "aggression": 65 }
+        },
+        {
+          "name": "Jack Hammer",
+          "nationality": "England",
+          "age": 18,
+          "positions": ["CB", "RB"],
+          "attributes": { "currentRating": 60, "potentialMax": 75 },
+          "physical": { "pace": 70, "acceleration": 68, "stamina": 75, "strength": 80, "height": 185, "agility": 65, "balance": 70, "jumping": 75 },
+          "technical": { "finishing": 35, "shotPower": 55, "dribbling": 50, "ballControl": 60, "crossing": 45, "shortPassing": 65, "longPassing": 60, "heading": 75, "tackling": 72, "marking": 70 },
+          "mental": { "positioning": 70, "vision": 50, "composure": 65, "workRate": 85, "aggression": 85 }
+        },
+        {
+          "name": "Enzo Ferrari",
+          "nationality": "Italy",
+          "age": 16,
+          "positions": ["RW", "LW"],
+          "attributes": { "currentRating": 65, "potentialMax": 88 },
+          "physical": { "pace": 90, "acceleration": 92, "stamina": 75, "strength": 55, "height": 170, "agility": 90, "balance": 85, "jumping": 60 },
+          "technical": { "finishing": 65, "shotPower": 70, "dribbling": 82, "ballControl": 78, "crossing": 75, "shortPassing": 70, "longPassing": 60, "heading": 40, "tackling": 30, "marking": 25 },
+          "mental": { "positioning": 70, "vision": 65, "composure": 70, "workRate": 80, "aggression": 65 }
+        },
+        {
+          "name": "Bjorn Ironside",
+          "nationality": "Norway",
+          "age": 17,
+          "positions": ["CB"],
+          "attributes": { "currentRating": 66, "potentialMax": 82 },
+          "physical": { "pace": 65, "acceleration": 62, "stamina": 80, "strength": 90, "height": 195, "agility": 55, "balance": 65, "jumping": 85 },
+          "technical": { "finishing": 30, "shotPower": 60, "dribbling": 50, "ballControl": 65, "crossing": 35, "shortPassing": 68, "longPassing": 65, "heading": 85, "tackling": 78, "marking": 75 },
+          "mental": { "positioning": 75, "vision": 50, "composure": 72, "workRate": 80, "aggression": 90 }
+        },
+        {
+          "name": "Charlie Chaplin",
+          "nationality": "England",
+          "age": 16,
+          "positions": ["CAM"],
+          "attributes": { "currentRating": 58, "potentialMax": 76 },
+          "physical": { "pace": 75, "acceleration": 78, "stamina": 70, "strength": 55, "height": 172, "agility": 80, "balance": 78, "jumping": 55 },
+          "technical": { "finishing": 55, "shotPower": 60, "dribbling": 70, "ballControl": 72, "crossing": 65, "shortPassing": 70, "longPassing": 65, "heading": 40, "tackling": 35, "marking": 30 },
+          "mental": { "positioning": 65, "vision": 72, "composure": 65, "workRate": 70, "aggression": 55 }
+        },
+        {
+          "name": "Ivan Ivanov",
+          "nationality": "Bulgaria",
+          "age": 18,
+          "positions": ["ST"],
+          "attributes": { "currentRating": 64, "potentialMax": 78 },
+          "physical": { "pace": 78, "acceleration": 76, "stamina": 75, "strength": 78, "height": 185, "agility": 70, "balance": 72, "jumping": 75 },
+          "technical": { "finishing": 72, "shotPower": 75, "dribbling": 65, "ballControl": 68, "crossing": 50, "shortPassing": 62, "longPassing": 55, "heading": 78, "tackling": 30, "marking": 25 },
+          "mental": { "positioning": 75, "vision": 55, "composure": 70, "workRate": 75, "aggression": 70 }
+        },
+        {
+          "name": "George Best Jr",
+          "nationality": "Northern Ireland",
+          "age": 16,
+          "positions": ["RW", "LW"],
+          "attributes": { "currentRating": 60, "potentialMax": 85 },
+          "physical": { "pace": 82, "acceleration": 84, "stamina": 70, "strength": 58, "height": 175, "agility": 85, "balance": 80, "jumping": 60 },
+          "technical": { "finishing": 60, "shotPower": 65, "dribbling": 78, "ballControl": 75, "crossing": 70, "shortPassing": 68, "longPassing": 60, "heading": 45, "tackling": 30, "marking": 25 },
+          "mental": { "positioning": 65, "vision": 68, "composure": 60, "workRate": 75, "aggression": 65 }
+        },
+        {
+          "name": "David Seaman Jr",
+          "nationality": "England",
+          "age": 17,
+          "positions": ["GK"],
+          "attributes": { "currentRating": 62, "potentialMax": 82 },
+          "physical": { "pace": 45, "acceleration": 50, "stamina": 60, "strength": 68, "height": 192, "agility": 65, "balance": 60, "jumping": 70 },
+          "technical": { "finishing": 15, "shotPower": 55, "dribbling": 45, "ballControl": 60, "crossing": 30, "shortPassing": 65, "longPassing": 70, "heading": 40, "tackling": 15, "marking": 10 },
+          "mental": { "positioning": 72, "vision": 55, "composure": 70, "workRate": 65, "aggression": 55 },
+          "goalkeeper": { "diving": 72, "handling": 70, "kicking": 68, "reflexes": 75, "positioning": 72 }
+        },
+        {
+          "name": "Samuel Eto'o Jr",
+          "nationality": "Cameroon",
+          "age": 16,
+          "positions": ["ST"],
+          "attributes": { "currentRating": 65, "potentialMax": 88 },
+          "physical": { "pace": 85, "acceleration": 88, "stamina": 75, "strength": 70, "height": 180, "agility": 82, "balance": 78, "jumping": 75 },
+          "technical": { "finishing": 75, "shotPower": 72, "dribbling": 75, "ballControl": 72, "crossing": 60, "shortPassing": 68, "longPassing": 60, "heading": 70, "tackling": 30, "marking": 25 },
+          "mental": { "positioning": 75, "vision": 65, "composure": 72, "workRate": 80, "aggression": 70 }
+        },
+        {
+          "name": "Luka Modric Jr",
+          "nationality": "Croatia",
+          "age": 16,
+          "positions": ["CM", "CAM"],
+          "attributes": { "currentRating": 64, "potentialMax": 89 },
+          "physical": { "pace": 70, "acceleration": 72, "stamina": 78, "strength": 60, "height": 172, "agility": 80, "balance": 82, "jumping": 55 },
+          "technical": { "finishing": 55, "shotPower": 65, "dribbling": 75, "ballControl": 80, "crossing": 72, "shortPassing": 82, "longPassing": 80, "heading": 45, "tackling": 50, "marking": 45 },
+          "mental": { "positioning": 70, "vision": 85, "composure": 75, "workRate": 75, "aggression": 60 }
+        },
+        {
+          "name": "Rio Ferdinand Jr",
+          "nationality": "England",
+          "age": 17,
+          "positions": ["CB"],
+          "attributes": { "currentRating": 66, "potentialMax": 86 },
+          "physical": { "pace": 75, "acceleration": 72, "stamina": 78, "strength": 80, "height": 189, "agility": 68, "balance": 72, "jumping": 80 },
+          "technical": { "finishing": 35, "shotPower": 60, "dribbling": 60, "ballControl": 70, "crossing": 40, "shortPassing": 75, "longPassing": 72, "heading": 80, "tackling": 78, "marking": 76 },
+          "mental": { "positioning": 78, "vision": 60, "composure": 75, "workRate": 75, "aggression": 80 }
+        },
+        {
+          "name": "Ashley Cole Jr",
+          "nationality": "England",
+          "age": 16,
+          "positions": ["LB"],
+          "attributes": { "currentRating": 63, "potentialMax": 84 },
+          "physical": { "pace": 82, "acceleration": 84, "stamina": 80, "strength": 65, "height": 176, "agility": 80, "balance": 78, "jumping": 65 },
+          "technical": { "finishing": 50, "shotPower": 60, "dribbling": 70, "ballControl": 72, "crossing": 75, "shortPassing": 72, "longPassing": 68, "heading": 55, "tackling": 72, "marking": 70 },
+          "mental": { "positioning": 70, "vision": 65, "composure": 70, "workRate": 85, "aggression": 75 }
+        },
+        {
+          "name": "Didier Drogba Jr",
+          "nationality": "Ivory Coast",
+          "age": 17,
+          "positions": ["ST"],
+          "attributes": { "currentRating": 68, "potentialMax": 87 },
+          "physical": { "pace": 80, "acceleration": 78, "stamina": 80, "strength": 88, "height": 188, "agility": 72, "balance": 75, "jumping": 82 },
+          "technical": { "finishing": 78, "shotPower": 82, "dribbling": 68, "ballControl": 72, "crossing": 55, "shortPassing": 65, "longPassing": 60, "heading": 85, "tackling": 35, "marking": 30 },
+          "mental": { "positioning": 75, "vision": 60, "composure": 72, "workRate": 85, "aggression": 85 }
+        },
+        {
+          "name": "Thierry Henry Jr",
+          "nationality": "France",
+          "age": 16,
+          "positions": ["LW", "ST"],
+          "attributes": { "currentRating": 67, "potentialMax": 90 },
+          "physical": { "pace": 88, "acceleration": 90, "stamina": 75, "strength": 70, "height": 182, "agility": 85, "balance": 80, "jumping": 70 },
+          "technical": { "finishing": 75, "shotPower": 78, "dribbling": 80, "ballControl": 78, "crossing": 70, "shortPassing": 72, "longPassing": 65, "heading": 65, "tackling": 30, "marking": 25 },
+          "mental": { "positioning": 72, "vision": 70, "composure": 75, "workRate": 80, "aggression": 65 }
+        },
+        {
+          "name": "Steven Gerrard Jr",
+          "nationality": "England",
+          "age": 17,
+          "positions": ["CM", "CAM", "CDM"],
+          "attributes": { "currentRating": 66, "potentialMax": 88 },
+          "physical": { "pace": 72, "acceleration": 70, "stamina": 85, "strength": 75, "height": 183, "agility": 70, "balance": 72, "jumping": 70 },
+          "technical": { "finishing": 70, "shotPower": 80, "dribbling": 70, "ballControl": 75, "crossing": 75, "shortPassing": 80, "longPassing": 85, "heading": 65, "tackling": 70, "marking": 68 },
+          "mental": { "positioning": 75, "vision": 78, "composure": 75, "workRate": 90, "aggression": 85 }
+        },
+        {
+          "name": "Frank Lampard Jr",
+          "nationality": "England",
+          "age": 17,
+          "positions": ["CM", "CAM"],
+          "attributes": { "currentRating": 66, "potentialMax": 87 },
+          "physical": { "pace": 70, "acceleration": 68, "stamina": 82, "strength": 72, "height": 184, "agility": 68, "balance": 70, "jumping": 65 },
+          "technical": { "finishing": 78, "shotPower": 75, "dribbling": 68, "ballControl": 75, "crossing": 70, "shortPassing": 78, "longPassing": 75, "heading": 68, "tackling": 65, "marking": 60 },
+          "mental": { "positioning": 85, "vision": 75, "composure": 80, "workRate": 85, "aggression": 75 }
+        },
+        {
+          "name": "Paul Scholes Jr",
+          "nationality": "England",
+          "age": 16,
+          "positions": ["CM"],
+          "attributes": { "currentRating": 64, "potentialMax": 86 },
+          "physical": { "pace": 65, "acceleration": 62, "stamina": 75, "strength": 65, "height": 170, "agility": 75, "balance": 80, "jumping": 60 },
+          "technical": { "finishing": 65, "shotPower": 75, "dribbling": 70, "ballControl": 80, "crossing": 78, "shortPassing": 85, "longPassing": 90, "heading": 50, "tackling": 60, "marking": 55 },
+          "mental": { "positioning": 75, "vision": 88, "composure": 82, "workRate": 70, "aggression": 65 }
+        },
+        {
+          "name": "Wayne Rooney Jr",
+          "nationality": "England",
+          "age": 16,
+          "positions": ["ST", "CAM"],
+          "attributes": { "currentRating": 68, "potentialMax": 90 },
+          "physical": { "pace": 82, "acceleration": 80, "stamina": 85, "strength": 80, "height": 176, "agility": 78, "balance": 80, "jumping": 75 },
+          "technical": { "finishing": 78, "shotPower": 85, "dribbling": 75, "ballControl": 78, "crossing": 65, "shortPassing": 72, "longPassing": 70, "heading": 70, "tackling": 50, "marking": 45 },
+          "mental": { "positioning": 75, "vision": 70, "composure": 72, "workRate": 95, "aggression": 90 }
+        }
+      ]
+    }
+  }
+}

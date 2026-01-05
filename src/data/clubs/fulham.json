@@ -1,0 +1,250 @@
+{
+  "club_id": "fulham",
+  "name": "Fulham",
+  "short_name": "FUL",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1879,
+  "reputation": {
+    "global": 76,
+    "domestic": 78,
+    "continental": 74
+  },
+  "finances": {
+    "transfer_budget": 45000000,
+    "wage_budget_weekly": 1800000,
+    "debt": 0,
+    "revenue_annual": 180000000
+  },
+  "stadium": {
+    "name": "Craven Cottage",
+    "capacity": 29600,
+    "atmosphere": 85
+  },
+  "tactics": {
+    "default_formation": "4-2-3-1",
+    "alternative_formations": ["4-3-3", "4-4-1-1"],
+    "mentality": "balanced",
+    "play_style": {
+      "possession": 50,
+      "pressing": 78,
+      "tempo": 75,
+      "width": 70,
+      "defensive_line": 65
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Marco Silva",
+      "rating": 82,
+      "preferred_formation": "4-2-3-1",
+      "tactical_approach": "attacking_width"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 13, "target": 10},
+    "champions_league": "none",
+    "domestic_cup": "quarter_finals"
+  },
+  "currentForm": 6,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 27.2,
+    "average_rating": 78,
+    "current_players": [
+      {
+        "id": "FUL_001",
+        "name": "Bernd Leno",
+        "nationality": "Germany",
+        "age": 34,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 81, "potentialMax": 81 },
+        "physical": { "pace": 50, "acceleration": 55, "stamina": 70, "strength": 75, "height": 190, "agility": 75, "balance": 65, "jumping": 78 },
+        "technical": { "finishing": 20, "shotPower": 65, "dribbling": 55, "ballControl": 75, "crossing": 35, "shortPassing": 78, "longPassing": 75, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 84, "vision": 60, "composure": 80, "workRate": 70, "aggression": 65 },
+        "goalkeeper": { "diving": 85, "handling": 82, "kicking": 75, "reflexes": 88, "positioning": 84 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_002",
+        "name": "Timothy Castagne",
+        "nationality": "Belgium",
+        "age": 30,
+        "positions": ["RB", "LB", "RWB"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 85, "strength": 72, "height": 185, "agility": 78, "balance": 75, "jumping": 75 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 72, "ballControl": 76, "crossing": 78, "shortPassing": 78, "longPassing": 72, "heading": 70, "tackling": 76, "marking": 75 },
+        "mental": { "positioning": 80, "vision": 70, "composure": 75, "workRate": 85, "aggression": 70 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_003",
+        "name": "Joachim Andersen",
+        "nationality": "Denmark",
+        "age": 29,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 82, "potentialMax": 83 },
+        "physical": { "pace": 68, "acceleration": 65, "stamina": 75, "strength": 85, "height": 192, "agility": 60, "balance": 70, "jumping": 82 },
+        "technical": { "finishing": 40, "shotPower": 70, "dribbling": 65, "ballControl": 78, "crossing": 50, "shortPassing": 82, "longPassing": 88, "heading": 85, "tackling": 84, "marking": 82 },
+        "mental": { "positioning": 85, "vision": 75, "composure": 82, "workRate": 75, "aggression": 80 },
+        "fitness": 98, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_004",
+        "name": "Calvin Bassey",
+        "nationality": "Nigeria",
+        "age": 26,
+        "positions": ["CB", "LB"],
+        "attributes": { "currentRating": 79, "potentialMax": 82 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 82, "strength": 90, "height": 185, "agility": 70, "balance": 75, "jumping": 85 },
+        "technical": { "finishing": 40, "shotPower": 65, "dribbling": 68, "ballControl": 72, "crossing": 60, "shortPassing": 78, "longPassing": 75, "heading": 80, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 78, "vision": 60, "composure": 72, "workRate": 80, "aggression": 85 },
+        "fitness": 100, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_005",
+        "name": "Antonee Robinson",
+        "nationality": "USA",
+        "age": 28,
+        "positions": ["LB", "LWB"],
+        "attributes": { "currentRating": 81, "potentialMax": 82 },
+        "physical": { "pace": 92, "acceleration": 90, "stamina": 94, "strength": 75, "height": 183, "agility": 80, "balance": 75, "jumping": 75 },
+        "technical": { "finishing": 50, "shotPower": 65, "dribbling": 78, "ballControl": 76, "crossing": 80, "shortPassing": 78, "longPassing": 72, "heading": 65, "tackling": 78, "marking": 75 },
+        "mental": { "positioning": 78, "vision": 70, "composure": 72, "workRate": 95, "aggression": 75 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_006",
+        "name": "Sander Berge",
+        "nationality": "Norway",
+        "age": 28,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 79, "potentialMax": 80 },
+        "physical": { "pace": 72, "acceleration": 70, "stamina": 88, "strength": 88, "height": 195, "agility": 70, "balance": 80, "jumping": 80 },
+        "technical": { "finishing": 60, "shotPower": 75, "dribbling": 78, "ballControl": 82, "crossing": 60, "shortPassing": 84, "longPassing": 80, "heading": 75, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 80, "vision": 75, "composure": 82, "workRate": 85, "aggression": 75 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_007",
+        "name": "Andreas Pereira",
+        "nationality": "Brazil",
+        "age": 30,
+        "positions": ["CAM", "CM", "LW"],
+        "attributes": { "currentRating": 79, "potentialMax": 79 },
+        "physical": { "pace": 75, "acceleration": 76, "stamina": 82, "strength": 65, "height": 178, "agility": 80, "balance": 78, "jumping": 60 },
+        "technical": { "finishing": 72, "shotPower": 78, "dribbling": 80, "ballControl": 82, "crossing": 86, "shortPassing": 82, "longPassing": 78, "heading": 55, "tackling": 55, "marking": 50 },
+        "mental": { "positioning": 78, "vision": 82, "composure": 75, "workRate": 85, "aggression": 70 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_008",
+        "name": "Emile Smith Rowe",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["CAM", "LW", "LM"],
+        "attributes": { "currentRating": 83, "potentialMax": 86 },
+        "physical": { "pace": 80, "acceleration": 82, "stamina": 78, "strength": 70, "height": 182, "agility": 85, "balance": 82, "jumping": 65 },
+        "technical": { "finishing": 78, "shotPower": 75, "dribbling": 86, "ballControl": 88, "crossing": 75, "shortPassing": 85, "longPassing": 78, "heading": 60, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 82, "vision": 85, "composure": 80, "workRate": 80, "aggression": 60 },
+        "fitness": 90, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_009",
+        "name": "Alex Iwobi",
+        "nationality": "Nigeria",
+        "age": 30,
+        "positions": ["RW", "LW", "CAM"],
+        "attributes": { "currentRating": 79, "potentialMax": 79 },
+        "physical": { "pace": 82, "acceleration": 84, "stamina": 90, "strength": 72, "height": 185, "agility": 80, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 68, "shotPower": 72, "dribbling": 82, "ballControl": 80, "crossing": 75, "shortPassing": 80, "longPassing": 75, "heading": 60, "tackling": 55, "marking": 50 },
+        "mental": { "positioning": 78, "vision": 78, "composure": 75, "workRate": 92, "aggression": 70 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_010",
+        "name": "Rodrigo Muniz",
+        "nationality": "Brazil",
+        "age": 25,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 81, "potentialMax": 84 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 80, "strength": 85, "height": 185, "agility": 82, "balance": 80, "jumping": 85 },
+        "technical": { "finishing": 82, "shotPower": 80, "dribbling": 76, "ballControl": 78, "crossing": 60, "shortPassing": 72, "longPassing": 60, "heading": 80, "tackling": 35, "marking": 30 },
+        "mental": { "positioning": 84, "vision": 65, "composure": 78, "workRate": 90, "aggression": 80 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_011",
+        "name": "Adama Traoré",
+        "nationality": "Spain",
+        "age": 30,
+        "positions": ["RW", "RM"],
+        "attributes": { "currentRating": 77, "potentialMax": 77 },
+        "physical": { "pace": 98, "acceleration": 99, "stamina": 75, "strength": 95, "height": 178, "agility": 85, "balance": 92, "jumping": 75 },
+        "technical": { "finishing": 60, "shotPower": 80, "dribbling": 90, "ballControl": 75, "crossing": 65, "shortPassing": 70, "longPassing": 60, "heading": 60, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 70, "vision": 60, "composure": 60, "workRate": 80, "aggression": 75 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_012",
+        "name": "Raúl Jiménez",
+        "nationality": "Mexico",
+        "age": 35,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 76, "potentialMax": 76 },
+        "physical": { "pace": 65, "acceleration": 62, "stamina": 65, "strength": 75, "height": 188, "agility": 65, "balance": 70, "jumping": 75 },
+        "technical": { "finishing": 80, "shotPower": 78, "dribbling": 72, "ballControl": 80, "crossing": 65, "shortPassing": 78, "longPassing": 70, "heading": 80, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 85, "vision": 75, "composure": 85, "workRate": 75, "aggression": 70 },
+        "fitness": 85, "currentForm": 5, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_013",
+        "name": "Harry Wilson",
+        "nationality": "Wales",
+        "age": 29,
+        "positions": ["RW", "CAM"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 78, "acceleration": 80, "stamina": 80, "strength": 65, "height": 173, "agility": 82, "balance": 80, "jumping": 60 },
+        "technical": { "finishing": 75, "shotPower": 82, "dribbling": 78, "ballControl": 80, "crossing": 82, "shortPassing": 78, "longPassing": 72, "heading": 55, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 75, "workRate": 82, "aggression": 60 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_014",
+        "name": "Issa Diop",
+        "nationality": "France",
+        "age": 29,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 72, "acceleration": 70, "stamina": 75, "strength": 85, "height": 194, "agility": 60, "balance": 65, "jumping": 80 },
+        "technical": { "finishing": 40, "shotPower": 60, "dribbling": 60, "ballControl": 70, "crossing": 40, "shortPassing": 75, "longPassing": 72, "heading": 84, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 80, "vision": 60, "composure": 75, "workRate": 75, "aggression": 82 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_015",
+        "name": "Kenny Tete",
+        "nationality": "Netherlands",
+        "age": 30,
+        "positions": ["RB", "CB"],
+        "attributes": { "currentRating": 77, "potentialMax": 77 },
+        "physical": { "pace": 75, "acceleration": 74, "stamina": 80, "strength": 78, "height": 184, "agility": 72, "balance": 75, "jumping": 75 },
+        "technical": { "finishing": 50, "shotPower": 65, "dribbling": 70, "ballControl": 75, "crossing": 75, "shortPassing": 76, "longPassing": 70, "heading": 70, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 78, "vision": 65, "composure": 72, "workRate": 80, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "FUL_016",
+        "name": "Sasa Lukic",
+        "nationality": "Serbia",
+        "age": 29,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 77, "potentialMax": 77 },
+        "physical": { "pace": 70, "acceleration": 72, "stamina": 85, "strength": 75, "height": 183, "agility": 75, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 75, "ballControl": 80, "crossing": 65, "shortPassing": 82, "longPassing": 78, "heading": 60, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 78, "workRate": 88, "aggression": 80 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      }
+    ]
+  }
+}

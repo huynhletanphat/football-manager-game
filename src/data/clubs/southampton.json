@@ -1,0 +1,250 @@
+{
+  "club_id": "southampton",
+  "name": "Southampton",
+  "short_name": "SOU",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1885,
+  "reputation": {
+    "global": 73,
+    "domestic": 76,
+    "continental": 70
+  },
+  "finances": {
+    "transfer_budget": 30000000,
+    "wage_budget_weekly": 1300000,
+    "debt": 50000000,
+    "revenue_annual": 130000000
+  },
+  "stadium": {
+    "name": "St Mary's Stadium",
+    "capacity": 32384,
+    "atmosphere": 82
+  },
+  "tactics": {
+    "default_formation": "4-3-3",
+    "alternative_formations": ["3-4-3", "5-3-2"],
+    "mentality": "control",
+    "play_style": {
+      "possession": 65,
+      "pressing": 75,
+      "tempo": 65,
+      "width": 75,
+      "defensive_line": 70
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Russell Martin",
+      "rating": 79,
+      "preferred_formation": "3-4-3",
+      "tactical_approach": "extreme_possession"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 17, "target": 15},
+    "champions_league": "none",
+    "domestic_cup": "fifth_round"
+  },
+  "currentForm": 5,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 24.8,
+    "average_rating": 76,
+    "current_players": [
+      {
+        "id": "SOU_001",
+        "name": "Aaron Ramsdale",
+        "nationality": "England",
+        "age": 27,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 81, "potentialMax": 84 },
+        "physical": { "pace": 55, "acceleration": 58, "stamina": 70, "strength": 75, "height": 188, "agility": 75, "balance": 65, "jumping": 80 },
+        "technical": { "finishing": 20, "shotPower": 75, "dribbling": 60, "ballControl": 82, "crossing": 35, "shortPassing": 85, "longPassing": 88, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 82, "vision": 75, "composure": 78, "workRate": 70, "aggression": 75 },
+        "goalkeeper": { "diving": 84, "handling": 80, "kicking": 85, "reflexes": 85, "positioning": 80 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_002",
+        "name": "Kyle Walker-Peters",
+        "nationality": "England",
+        "age": 29,
+        "positions": ["RB", "LB", "RWB"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 85, "strength": 65, "height": 173, "agility": 85, "balance": 82, "jumping": 65 },
+        "technical": { "finishing": 55, "shotPower": 65, "dribbling": 78, "ballControl": 80, "crossing": 75, "shortPassing": 80, "longPassing": 72, "heading": 60, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 76, "vision": 70, "composure": 75, "workRate": 85, "aggression": 65 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_003",
+        "name": "Taylor Harwood-Bellis",
+        "nationality": "England",
+        "age": 24,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 78, "potentialMax": 83 },
+        "physical": { "pace": 72, "acceleration": 70, "stamina": 78, "strength": 80, "height": 188, "agility": 68, "balance": 70, "jumping": 78 },
+        "technical": { "finishing": 35, "shotPower": 60, "dribbling": 65, "ballControl": 75, "crossing": 45, "shortPassing": 82, "longPassing": 80, "heading": 80, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 78, "vision": 65, "composure": 78, "workRate": 75, "aggression": 75 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_004",
+        "name": "Jan Bednarek",
+        "nationality": "Poland",
+        "age": 30,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 76, "potentialMax": 76 },
+        "physical": { "pace": 65, "acceleration": 62, "stamina": 75, "strength": 82, "height": 189, "agility": 60, "balance": 65, "jumping": 78 },
+        "technical": { "finishing": 35, "shotPower": 60, "dribbling": 55, "ballControl": 68, "crossing": 40, "shortPassing": 75, "longPassing": 72, "heading": 82, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 78, "vision": 55, "composure": 72, "workRate": 75, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_005",
+        "name": "Yukinari Sugawara",
+        "nationality": "Japan",
+        "age": 25,
+        "positions": ["RB", "RWB"],
+        "attributes": { "currentRating": 77, "potentialMax": 82 },
+        "physical": { "pace": 80, "acceleration": 82, "stamina": 85, "strength": 68, "height": 179, "agility": 80, "balance": 78, "jumping": 65 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 75, "ballControl": 78, "crossing": 80, "shortPassing": 78, "longPassing": 75, "heading": 60, "tackling": 74, "marking": 72 },
+        "mental": { "positioning": 76, "vision": 72, "composure": 75, "workRate": 88, "aggression": 70 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_006",
+        "name": "Flynn Downes",
+        "nationality": "England",
+        "age": 27,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 77, "potentialMax": 79 },
+        "physical": { "pace": 70, "acceleration": 72, "stamina": 90, "strength": 75, "height": 173, "agility": 75, "balance": 78, "jumping": 65 },
+        "technical": { "finishing": 55, "shotPower": 65, "dribbling": 72, "ballControl": 78, "crossing": 60, "shortPassing": 84, "longPassing": 80, "heading": 60, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 78, "workRate": 92, "aggression": 85 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_007",
+        "name": "Mateus Fernandes",
+        "nationality": "Portugal",
+        "age": 21,
+        "positions": ["CM", "CAM"],
+        "attributes": { "currentRating": 77, "potentialMax": 85 },
+        "physical": { "pace": 78, "acceleration": 80, "stamina": 82, "strength": 70, "height": 178, "agility": 84, "balance": 80, "jumping": 60 },
+        "technical": { "finishing": 65, "shotPower": 70, "dribbling": 82, "ballControl": 84, "crossing": 72, "shortPassing": 82, "longPassing": 78, "heading": 55, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 76, "vision": 80, "composure": 75, "workRate": 85, "aggression": 70 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_008",
+        "name": "Joe Aribo",
+        "nationality": "Nigeria",
+        "age": 29,
+        "positions": ["CM", "CAM", "RW"],
+        "attributes": { "currentRating": 76, "potentialMax": 76 },
+        "physical": { "pace": 72, "acceleration": 70, "stamina": 80, "strength": 78, "height": 183, "agility": 75, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 65, "shotPower": 72, "dribbling": 78, "ballControl": 80, "crossing": 70, "shortPassing": 78, "longPassing": 75, "heading": 65, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 76, "vision": 75, "composure": 78, "workRate": 80, "aggression": 65 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_009",
+        "name": "Tyler Dibling",
+        "nationality": "England",
+        "age": 20,
+        "positions": ["RW", "CAM"],
+        "attributes": { "currentRating": 76, "potentialMax": 88 },
+        "physical": { "pace": 82, "acceleration": 84, "stamina": 75, "strength": 65, "height": 175, "agility": 86, "balance": 82, "jumping": 55 },
+        "technical": { "finishing": 68, "shotPower": 70, "dribbling": 84, "ballControl": 82, "crossing": 75, "shortPassing": 76, "longPassing": 70, "heading": 50, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 74, "vision": 78, "composure": 72, "workRate": 80, "aggression": 60 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_010",
+        "name": "Adam Armstrong",
+        "nationality": "England",
+        "age": 29,
+        "positions": ["ST", "RW", "LW"],
+        "attributes": { "currentRating": 76, "potentialMax": 76 },
+        "physical": { "pace": 88, "acceleration": 90, "stamina": 82, "strength": 65, "height": 172, "agility": 85, "balance": 80, "jumping": 65 },
+        "technical": { "finishing": 75, "shotPower": 76, "dribbling": 75, "ballControl": 74, "crossing": 68, "shortPassing": 72, "longPassing": 65, "heading": 60, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 78, "vision": 65, "composure": 72, "workRate": 88, "aggression": 70 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_011",
+        "name": "Ben Brereton Díaz",
+        "nationality": "Chile",
+        "age": 26,
+        "positions": ["LW", "ST"],
+        "attributes": { "currentRating": 77, "potentialMax": 79 },
+        "physical": { "pace": 80, "acceleration": 82, "stamina": 80, "strength": 78, "height": 185, "agility": 75, "balance": 75, "jumping": 70 },
+        "technical": { "finishing": 76, "shotPower": 78, "dribbling": 76, "ballControl": 75, "crossing": 70, "shortPassing": 74, "longPassing": 68, "heading": 70, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 78, "vision": 68, "composure": 74, "workRate": 82, "aggression": 70 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_012",
+        "name": "Cameron Archer",
+        "nationality": "England",
+        "age": 24,
+        "positions": ["ST", "LW"],
+        "attributes": { "currentRating": 76, "potentialMax": 82 },
+        "physical": { "pace": 85, "acceleration": 86, "stamina": 78, "strength": 72, "height": 180, "agility": 80, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 75, "shotPower": 76, "dribbling": 75, "ballControl": 74, "crossing": 60, "shortPassing": 70, "longPassing": 60, "heading": 65, "tackling": 35, "marking": 30 },
+        "mental": { "positioning": 76, "vision": 65, "composure": 72, "workRate": 80, "aggression": 65 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_013",
+        "name": "Lesley Ugochukwu",
+        "nationality": "France",
+        "age": 22,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 76, "potentialMax": 83 },
+        "physical": { "pace": 70, "acceleration": 68, "stamina": 82, "strength": 85, "height": 191, "agility": 70, "balance": 72, "jumping": 75 },
+        "technical": { "finishing": 50, "shotPower": 65, "dribbling": 70, "ballControl": 76, "crossing": 55, "shortPassing": 80, "longPassing": 75, "heading": 70, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 76, "vision": 70, "composure": 75, "workRate": 80, "aggression": 80 },
+        "fitness": 100, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_014",
+        "name": "Ryan Fraser",
+        "nationality": "Scotland",
+        "age": 32,
+        "positions": ["LW", "RW"],
+        "attributes": { "currentRating": 74, "potentialMax": 74 },
+        "physical": { "pace": 75, "acceleration": 78, "stamina": 70, "strength": 60, "height": 163, "agility": 82, "balance": 85, "jumping": 50 },
+        "technical": { "finishing": 70, "shotPower": 72, "dribbling": 76, "ballControl": 75, "crossing": 78, "shortPassing": 74, "longPassing": 68, "heading": 50, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 75, "vision": 70, "composure": 72, "workRate": 80, "aggression": 65 },
+        "fitness": 85, "currentForm": 5, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_015",
+        "name": "Will Smallbone",
+        "nationality": "Ireland",
+        "age": 26,
+        "positions": ["CM", "CAM"],
+        "attributes": { "currentRating": 75, "potentialMax": 78 },
+        "physical": { "pace": 72, "acceleration": 70, "stamina": 85, "strength": 70, "height": 183, "agility": 75, "balance": 72, "jumping": 65 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 72, "ballControl": 76, "crossing": 70, "shortPassing": 80, "longPassing": 76, "heading": 60, "tackling": 70, "marking": 68 },
+        "mental": { "positioning": 76, "vision": 75, "composure": 74, "workRate": 85, "aggression": 70 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "SOU_016",
+        "name": "Jack Stephens",
+        "nationality": "England",
+        "age": 32,
+        "positions": ["CB", "CDM"],
+        "attributes": { "currentRating": 74, "potentialMax": 74 },
+        "physical": { "pace": 60, "acceleration": 58, "stamina": 72, "strength": 78, "height": 185, "agility": 65, "balance": 68, "jumping": 75 },
+        "technical": { "finishing": 35, "shotPower": 55, "dribbling": 60, "ballControl": 70, "crossing": 40, "shortPassing": 75, "longPassing": 72, "heading": 78, "tackling": 76, "marking": 75 },
+        "mental": { "positioning": 78, "vision": 60, "composure": 72, "workRate": 75, "aggression": 80 },
+        "fitness": 90, "currentForm": 5, "injured": false, "suspended": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,1681 @@
+{
+  "userClubId": "chelsea",
+  "season": 2026,
+  "matchday": 2,
+  "schedule": {
+    "1": [
+      {
+        "home": "aston_villa",
+        "away": "wolves"
+      },
+      {
+        "home": "bournemouth",
+        "away": "tottenham"
+      },
+      {
+        "home": "brentford",
+        "away": "southampton"
+      },
+      {
+        "home": "brighton",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "chelsea",
+        "away": "newcastle"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "manchester_united"
+      },
+      {
+        "home": "everton",
+        "away": "manchester_city"
+      },
+      {
+        "home": "fulham",
+        "away": "liverpool"
+      },
+      {
+        "home": "ipswich",
+        "away": "leicester"
+      }
+    ],
+    "2": [
+      {
+        "home": "wolves",
+        "away": "arsenal"
+      },
+      {
+        "home": "southampton",
+        "away": "aston_villa"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "bournemouth"
+      },
+      {
+        "home": "newcastle",
+        "away": "brentford"
+      },
+      {
+        "home": "manchester_united",
+        "away": "brighton"
+      },
+      {
+        "home": "manchester_city",
+        "away": "chelsea"
+      },
+      {
+        "home": "liverpool",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "leicester",
+        "away": "everton"
+      },
+      {
+        "home": "ipswich",
+        "away": "fulham"
+      }
+    ],
+    "3": [
+      {
+        "home": "arsenal",
+        "away": "tottenham"
+      },
+      {
+        "home": "wolves",
+        "away": "southampton"
+      },
+      {
+        "home": "aston_villa",
+        "away": "newcastle"
+      },
+      {
+        "home": "bournemouth",
+        "away": "manchester_united"
+      },
+      {
+        "home": "brentford",
+        "away": "manchester_city"
+      },
+      {
+        "home": "brighton",
+        "away": "liverpool"
+      },
+      {
+        "home": "chelsea",
+        "away": "leicester"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "ipswich"
+      },
+      {
+        "home": "everton",
+        "away": "fulham"
+      }
+    ],
+    "4": [
+      {
+        "home": "southampton",
+        "away": "arsenal"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "tottenham"
+      },
+      {
+        "home": "newcastle",
+        "away": "wolves"
+      },
+      {
+        "home": "manchester_city",
+        "away": "aston_villa"
+      },
+      {
+        "home": "liverpool",
+        "away": "bournemouth"
+      },
+      {
+        "home": "leicester",
+        "away": "brentford"
+      },
+      {
+        "home": "ipswich",
+        "away": "brighton"
+      },
+      {
+        "home": "fulham",
+        "away": "chelsea"
+      },
+      {
+        "home": "everton",
+        "away": "crystal_palace"
+      }
+    ],
+    "5": [
+      {
+        "home": "arsenal",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "southampton",
+        "away": "newcastle"
+      },
+      {
+        "home": "tottenham",
+        "away": "manchester_united"
+      },
+      {
+        "home": "wolves",
+        "away": "manchester_city"
+      },
+      {
+        "home": "aston_villa",
+        "away": "leicester"
+      },
+      {
+        "home": "bournemouth",
+        "away": "ipswich"
+      },
+      {
+        "home": "brentford",
+        "away": "fulham"
+      },
+      {
+        "home": "brighton",
+        "away": "everton"
+      },
+      {
+        "home": "chelsea",
+        "away": "crystal_palace"
+      }
+    ],
+    "6": [
+      {
+        "home": "newcastle",
+        "away": "arsenal"
+      },
+      {
+        "home": "manchester_united",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "manchester_city",
+        "away": "southampton"
+      },
+      {
+        "home": "liverpool",
+        "away": "tottenham"
+      },
+      {
+        "home": "leicester",
+        "away": "wolves"
+      },
+      {
+        "home": "fulham",
+        "away": "aston_villa"
+      },
+      {
+        "home": "everton",
+        "away": "bournemouth"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "brentford"
+      },
+      {
+        "home": "chelsea",
+        "away": "brighton"
+      }
+    ],
+    "7": [
+      {
+        "home": "arsenal",
+        "away": "manchester_united"
+      },
+      {
+        "home": "newcastle",
+        "away": "manchester_city"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "liverpool"
+      },
+      {
+        "home": "southampton",
+        "away": "leicester"
+      },
+      {
+        "home": "tottenham",
+        "away": "ipswich"
+      },
+      {
+        "home": "wolves",
+        "away": "fulham"
+      },
+      {
+        "home": "aston_villa",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "bournemouth",
+        "away": "chelsea"
+      },
+      {
+        "home": "brentford",
+        "away": "brighton"
+      }
+    ],
+    "8": [
+      {
+        "home": "manchester_city",
+        "away": "arsenal"
+      },
+      {
+        "home": "liverpool",
+        "away": "manchester_united"
+      },
+      {
+        "home": "leicester",
+        "away": "newcastle"
+      },
+      {
+        "home": "ipswich",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "fulham",
+        "away": "southampton"
+      },
+      {
+        "home": "everton",
+        "away": "tottenham"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "wolves"
+      },
+      {
+        "home": "brighton",
+        "away": "aston_villa"
+      },
+      {
+        "home": "brentford",
+        "away": "bournemouth"
+      }
+    ],
+    "9": [
+      {
+        "home": "arsenal",
+        "away": "liverpool"
+      },
+      {
+        "home": "manchester_city",
+        "away": "leicester"
+      },
+      {
+        "home": "manchester_united",
+        "away": "ipswich"
+      },
+      {
+        "home": "newcastle",
+        "away": "fulham"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "everton"
+      },
+      {
+        "home": "southampton",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "tottenham",
+        "away": "chelsea"
+      },
+      {
+        "home": "wolves",
+        "away": "brighton"
+      },
+      {
+        "home": "aston_villa",
+        "away": "bournemouth"
+      }
+    ],
+    "10": [
+      {
+        "home": "leicester",
+        "away": "arsenal"
+      },
+      {
+        "home": "ipswich",
+        "away": "liverpool"
+      },
+      {
+        "home": "fulham",
+        "away": "manchester_city"
+      },
+      {
+        "home": "everton",
+        "away": "manchester_united"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "newcastle"
+      },
+      {
+        "home": "chelsea",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "brighton",
+        "away": "southampton"
+      },
+      {
+        "home": "brentford",
+        "away": "tottenham"
+      },
+      {
+        "home": "bournemouth",
+        "away": "wolves"
+      }
+    ],
+    "11": [
+      {
+        "home": "arsenal",
+        "away": "ipswich"
+      },
+      {
+        "home": "leicester",
+        "away": "fulham"
+      },
+      {
+        "home": "liverpool",
+        "away": "everton"
+      },
+      {
+        "home": "manchester_city",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "manchester_united",
+        "away": "chelsea"
+      },
+      {
+        "home": "newcastle",
+        "away": "brighton"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "brentford"
+      },
+      {
+        "home": "southampton",
+        "away": "bournemouth"
+      },
+      {
+        "home": "tottenham",
+        "away": "aston_villa"
+      }
+    ],
+    "12": [
+      {
+        "home": "fulham",
+        "away": "arsenal"
+      },
+      {
+        "home": "everton",
+        "away": "ipswich"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "leicester"
+      },
+      {
+        "home": "chelsea",
+        "away": "liverpool"
+      },
+      {
+        "home": "brighton",
+        "away": "manchester_city"
+      },
+      {
+        "home": "brentford",
+        "away": "manchester_united"
+      },
+      {
+        "home": "bournemouth",
+        "away": "newcastle"
+      },
+      {
+        "home": "aston_villa",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "wolves",
+        "away": "tottenham"
+      }
+    ],
+    "13": [
+      {
+        "home": "arsenal",
+        "away": "everton"
+      },
+      {
+        "home": "fulham",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "ipswich",
+        "away": "chelsea"
+      },
+      {
+        "home": "leicester",
+        "away": "brighton"
+      },
+      {
+        "home": "liverpool",
+        "away": "brentford"
+      },
+      {
+        "home": "manchester_city",
+        "away": "bournemouth"
+      },
+      {
+        "home": "manchester_united",
+        "away": "aston_villa"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "wolves"
+      },
+      {
+        "home": "southampton",
+        "away": "tottenham"
+      }
+    ],
+    "14": [
+      {
+        "home": "crystal_palace",
+        "away": "arsenal"
+      },
+      {
+        "home": "chelsea",
+        "away": "everton"
+      },
+      {
+        "home": "brighton",
+        "away": "fulham"
+      },
+      {
+        "home": "brentford",
+        "away": "ipswich"
+      },
+      {
+        "home": "bournemouth",
+        "away": "leicester"
+      },
+      {
+        "home": "aston_villa",
+        "away": "liverpool"
+      },
+      {
+        "home": "wolves",
+        "away": "manchester_united"
+      },
+      {
+        "home": "tottenham",
+        "away": "newcastle"
+      },
+      {
+        "home": "southampton",
+        "away": "nottingham_forest"
+      }
+    ],
+    "15": [
+      {
+        "home": "arsenal",
+        "away": "chelsea"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "brighton"
+      },
+      {
+        "home": "everton",
+        "away": "brentford"
+      },
+      {
+        "home": "fulham",
+        "away": "bournemouth"
+      },
+      {
+        "home": "ipswich",
+        "away": "aston_villa"
+      },
+      {
+        "home": "liverpool",
+        "away": "wolves"
+      },
+      {
+        "home": "manchester_city",
+        "away": "tottenham"
+      },
+      {
+        "home": "manchester_united",
+        "away": "southampton"
+      },
+      {
+        "home": "newcastle",
+        "away": "nottingham_forest"
+      }
+    ],
+    "16": [
+      {
+        "home": "brighton",
+        "away": "arsenal"
+      },
+      {
+        "home": "brentford",
+        "away": "chelsea"
+      },
+      {
+        "home": "bournemouth",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "aston_villa",
+        "away": "everton"
+      },
+      {
+        "home": "wolves",
+        "away": "ipswich"
+      },
+      {
+        "home": "tottenham",
+        "away": "leicester"
+      },
+      {
+        "home": "southampton",
+        "away": "liverpool"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "manchester_city"
+      },
+      {
+        "home": "newcastle",
+        "away": "manchester_united"
+      }
+    ],
+    "17": [
+      {
+        "home": "arsenal",
+        "away": "brentford"
+      },
+      {
+        "home": "brighton",
+        "away": "bournemouth"
+      },
+      {
+        "home": "chelsea",
+        "away": "aston_villa"
+      },
+      {
+        "home": "everton",
+        "away": "wolves"
+      },
+      {
+        "home": "fulham",
+        "away": "tottenham"
+      },
+      {
+        "home": "ipswich",
+        "away": "southampton"
+      },
+      {
+        "home": "leicester",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "liverpool",
+        "away": "newcastle"
+      },
+      {
+        "home": "manchester_city",
+        "away": "manchester_united"
+      }
+    ],
+    "18": [
+      {
+        "home": "bournemouth",
+        "away": "arsenal"
+      },
+      {
+        "home": "aston_villa",
+        "away": "brentford"
+      },
+      {
+        "home": "wolves",
+        "away": "chelsea"
+      },
+      {
+        "home": "tottenham",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "southampton",
+        "away": "everton"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "fulham"
+      },
+      {
+        "home": "newcastle",
+        "away": "ipswich"
+      },
+      {
+        "home": "manchester_united",
+        "away": "leicester"
+      },
+      {
+        "home": "manchester_city",
+        "away": "liverpool"
+      }
+    ],
+    "19": [
+      {
+        "home": "arsenal",
+        "away": "aston_villa"
+      },
+      {
+        "home": "brentford",
+        "away": "wolves"
+      },
+      {
+        "home": "brighton",
+        "away": "tottenham"
+      },
+      {
+        "home": "chelsea",
+        "away": "southampton"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "everton",
+        "away": "newcastle"
+      },
+      {
+        "home": "fulham",
+        "away": "manchester_united"
+      },
+      {
+        "home": "ipswich",
+        "away": "manchester_city"
+      },
+      {
+        "home": "leicester",
+        "away": "liverpool"
+      }
+    ],
+    "20": [
+      {
+        "home": "wolves",
+        "away": "aston_villa"
+      },
+      {
+        "home": "tottenham",
+        "away": "bournemouth"
+      },
+      {
+        "home": "southampton",
+        "away": "brentford"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "brighton"
+      },
+      {
+        "home": "newcastle",
+        "away": "chelsea"
+      },
+      {
+        "home": "manchester_united",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "manchester_city",
+        "away": "everton"
+      },
+      {
+        "home": "liverpool",
+        "away": "fulham"
+      },
+      {
+        "home": "leicester",
+        "away": "ipswich"
+      }
+    ],
+    "21": [
+      {
+        "home": "arsenal",
+        "away": "wolves"
+      },
+      {
+        "home": "aston_villa",
+        "away": "southampton"
+      },
+      {
+        "home": "bournemouth",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "brentford",
+        "away": "newcastle"
+      },
+      {
+        "home": "brighton",
+        "away": "manchester_united"
+      },
+      {
+        "home": "chelsea",
+        "away": "manchester_city"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "liverpool"
+      },
+      {
+        "home": "everton",
+        "away": "leicester"
+      },
+      {
+        "home": "fulham",
+        "away": "ipswich"
+      }
+    ],
+    "22": [
+      {
+        "home": "tottenham",
+        "away": "arsenal"
+      },
+      {
+        "home": "southampton",
+        "away": "wolves"
+      },
+      {
+        "home": "newcastle",
+        "away": "aston_villa"
+      },
+      {
+        "home": "manchester_united",
+        "away": "bournemouth"
+      },
+      {
+        "home": "manchester_city",
+        "away": "brentford"
+      },
+      {
+        "home": "liverpool",
+        "away": "brighton"
+      },
+      {
+        "home": "leicester",
+        "away": "chelsea"
+      },
+      {
+        "home": "ipswich",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "fulham",
+        "away": "everton"
+      }
+    ],
+    "23": [
+      {
+        "home": "arsenal",
+        "away": "southampton"
+      },
+      {
+        "home": "tottenham",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "wolves",
+        "away": "newcastle"
+      },
+      {
+        "home": "aston_villa",
+        "away": "manchester_city"
+      },
+      {
+        "home": "bournemouth",
+        "away": "liverpool"
+      },
+      {
+        "home": "brentford",
+        "away": "leicester"
+      },
+      {
+        "home": "brighton",
+        "away": "ipswich"
+      },
+      {
+        "home": "chelsea",
+        "away": "fulham"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "everton"
+      }
+    ],
+    "24": [
+      {
+        "home": "nottingham_forest",
+        "away": "arsenal"
+      },
+      {
+        "home": "newcastle",
+        "away": "southampton"
+      },
+      {
+        "home": "manchester_united",
+        "away": "tottenham"
+      },
+      {
+        "home": "manchester_city",
+        "away": "wolves"
+      },
+      {
+        "home": "leicester",
+        "away": "aston_villa"
+      },
+      {
+        "home": "ipswich",
+        "away": "bournemouth"
+      },
+      {
+        "home": "fulham",
+        "away": "brentford"
+      },
+      {
+        "home": "everton",
+        "away": "brighton"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "chelsea"
+      }
+    ],
+    "25": [
+      {
+        "home": "arsenal",
+        "away": "newcastle"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "manchester_united"
+      },
+      {
+        "home": "southampton",
+        "away": "manchester_city"
+      },
+      {
+        "home": "tottenham",
+        "away": "liverpool"
+      },
+      {
+        "home": "wolves",
+        "away": "leicester"
+      },
+      {
+        "home": "aston_villa",
+        "away": "fulham"
+      },
+      {
+        "home": "bournemouth",
+        "away": "everton"
+      },
+      {
+        "home": "brentford",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "brighton",
+        "away": "chelsea"
+      }
+    ],
+    "26": [
+      {
+        "home": "manchester_united",
+        "away": "arsenal"
+      },
+      {
+        "home": "manchester_city",
+        "away": "newcastle"
+      },
+      {
+        "home": "liverpool",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "leicester",
+        "away": "southampton"
+      },
+      {
+        "home": "ipswich",
+        "away": "tottenham"
+      },
+      {
+        "home": "fulham",
+        "away": "wolves"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "aston_villa"
+      },
+      {
+        "home": "chelsea",
+        "away": "bournemouth"
+      },
+      {
+        "home": "brighton",
+        "away": "brentford"
+      }
+    ],
+    "27": [
+      {
+        "home": "arsenal",
+        "away": "manchester_city"
+      },
+      {
+        "home": "manchester_united",
+        "away": "liverpool"
+      },
+      {
+        "home": "newcastle",
+        "away": "leicester"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "ipswich"
+      },
+      {
+        "home": "southampton",
+        "away": "fulham"
+      },
+      {
+        "home": "tottenham",
+        "away": "everton"
+      },
+      {
+        "home": "wolves",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "aston_villa",
+        "away": "brighton"
+      },
+      {
+        "home": "bournemouth",
+        "away": "brentford"
+      }
+    ],
+    "28": [
+      {
+        "home": "liverpool",
+        "away": "arsenal"
+      },
+      {
+        "home": "leicester",
+        "away": "manchester_city"
+      },
+      {
+        "home": "ipswich",
+        "away": "manchester_united"
+      },
+      {
+        "home": "fulham",
+        "away": "newcastle"
+      },
+      {
+        "home": "everton",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "southampton"
+      },
+      {
+        "home": "chelsea",
+        "away": "tottenham"
+      },
+      {
+        "home": "brighton",
+        "away": "wolves"
+      },
+      {
+        "home": "bournemouth",
+        "away": "aston_villa"
+      }
+    ],
+    "29": [
+      {
+        "home": "arsenal",
+        "away": "leicester"
+      },
+      {
+        "home": "liverpool",
+        "away": "ipswich"
+      },
+      {
+        "home": "manchester_city",
+        "away": "fulham"
+      },
+      {
+        "home": "manchester_united",
+        "away": "everton"
+      },
+      {
+        "home": "newcastle",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "chelsea"
+      },
+      {
+        "home": "southampton",
+        "away": "brighton"
+      },
+      {
+        "home": "tottenham",
+        "away": "brentford"
+      },
+      {
+        "home": "wolves",
+        "away": "bournemouth"
+      }
+    ],
+    "30": [
+      {
+        "home": "ipswich",
+        "away": "arsenal"
+      },
+      {
+        "home": "fulham",
+        "away": "leicester"
+      },
+      {
+        "home": "everton",
+        "away": "liverpool"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "manchester_city"
+      },
+      {
+        "home": "chelsea",
+        "away": "manchester_united"
+      },
+      {
+        "home": "brighton",
+        "away": "newcastle"
+      },
+      {
+        "home": "brentford",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "bournemouth",
+        "away": "southampton"
+      },
+      {
+        "home": "aston_villa",
+        "away": "tottenham"
+      }
+    ],
+    "31": [
+      {
+        "home": "arsenal",
+        "away": "fulham"
+      },
+      {
+        "home": "ipswich",
+        "away": "everton"
+      },
+      {
+        "home": "leicester",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "liverpool",
+        "away": "chelsea"
+      },
+      {
+        "home": "manchester_city",
+        "away": "brighton"
+      },
+      {
+        "home": "manchester_united",
+        "away": "brentford"
+      },
+      {
+        "home": "newcastle",
+        "away": "bournemouth"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "aston_villa"
+      },
+      {
+        "home": "tottenham",
+        "away": "wolves"
+      }
+    ],
+    "32": [
+      {
+        "home": "everton",
+        "away": "arsenal"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "fulham"
+      },
+      {
+        "home": "chelsea",
+        "away": "ipswich"
+      },
+      {
+        "home": "brighton",
+        "away": "leicester"
+      },
+      {
+        "home": "brentford",
+        "away": "liverpool"
+      },
+      {
+        "home": "bournemouth",
+        "away": "manchester_city"
+      },
+      {
+        "home": "aston_villa",
+        "away": "manchester_united"
+      },
+      {
+        "home": "wolves",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "tottenham",
+        "away": "southampton"
+      }
+    ],
+    "33": [
+      {
+        "home": "arsenal",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "everton",
+        "away": "chelsea"
+      },
+      {
+        "home": "fulham",
+        "away": "brighton"
+      },
+      {
+        "home": "ipswich",
+        "away": "brentford"
+      },
+      {
+        "home": "leicester",
+        "away": "bournemouth"
+      },
+      {
+        "home": "liverpool",
+        "away": "aston_villa"
+      },
+      {
+        "home": "manchester_united",
+        "away": "wolves"
+      },
+      {
+        "home": "newcastle",
+        "away": "tottenham"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "southampton"
+      }
+    ],
+    "34": [
+      {
+        "home": "chelsea",
+        "away": "arsenal"
+      },
+      {
+        "home": "brighton",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "brentford",
+        "away": "everton"
+      },
+      {
+        "home": "bournemouth",
+        "away": "fulham"
+      },
+      {
+        "home": "aston_villa",
+        "away": "ipswich"
+      },
+      {
+        "home": "wolves",
+        "away": "liverpool"
+      },
+      {
+        "home": "tottenham",
+        "away": "manchester_city"
+      },
+      {
+        "home": "southampton",
+        "away": "manchester_united"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "newcastle"
+      }
+    ],
+    "35": [
+      {
+        "home": "arsenal",
+        "away": "brighton"
+      },
+      {
+        "home": "chelsea",
+        "away": "brentford"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "bournemouth"
+      },
+      {
+        "home": "everton",
+        "away": "aston_villa"
+      },
+      {
+        "home": "ipswich",
+        "away": "wolves"
+      },
+      {
+        "home": "leicester",
+        "away": "tottenham"
+      },
+      {
+        "home": "liverpool",
+        "away": "southampton"
+      },
+      {
+        "home": "manchester_city",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "manchester_united",
+        "away": "newcastle"
+      }
+    ],
+    "36": [
+      {
+        "home": "brentford",
+        "away": "arsenal"
+      },
+      {
+        "home": "bournemouth",
+        "away": "brighton"
+      },
+      {
+        "home": "aston_villa",
+        "away": "chelsea"
+      },
+      {
+        "home": "wolves",
+        "away": "everton"
+      },
+      {
+        "home": "tottenham",
+        "away": "fulham"
+      },
+      {
+        "home": "southampton",
+        "away": "ipswich"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "leicester"
+      },
+      {
+        "home": "newcastle",
+        "away": "liverpool"
+      },
+      {
+        "home": "manchester_united",
+        "away": "manchester_city"
+      }
+    ],
+    "37": [
+      {
+        "home": "arsenal",
+        "away": "bournemouth"
+      },
+      {
+        "home": "brentford",
+        "away": "aston_villa"
+      },
+      {
+        "home": "chelsea",
+        "away": "wolves"
+      },
+      {
+        "home": "crystal_palace",
+        "away": "tottenham"
+      },
+      {
+        "home": "everton",
+        "away": "southampton"
+      },
+      {
+        "home": "fulham",
+        "away": "nottingham_forest"
+      },
+      {
+        "home": "ipswich",
+        "away": "newcastle"
+      },
+      {
+        "home": "leicester",
+        "away": "manchester_united"
+      },
+      {
+        "home": "liverpool",
+        "away": "manchester_city"
+      }
+    ],
+    "38": [
+      {
+        "home": "aston_villa",
+        "away": "arsenal"
+      },
+      {
+        "home": "wolves",
+        "away": "brentford"
+      },
+      {
+        "home": "tottenham",
+        "away": "brighton"
+      },
+      {
+        "home": "southampton",
+        "away": "chelsea"
+      },
+      {
+        "home": "nottingham_forest",
+        "away": "crystal_palace"
+      },
+      {
+        "home": "newcastle",
+        "away": "everton"
+      },
+      {
+        "home": "manchester_united",
+        "away": "fulham"
+      },
+      {
+        "home": "manchester_city",
+        "away": "ipswich"
+      },
+      {
+        "home": "liverpool",
+        "away": "leicester"
+      }
+    ]
+  },
+  "table": {
+    "arsenal": {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "p": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gf": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    "aston_villa": {
+      "id": "aston_villa",
+      "name": "Aston Villa",
+      "p": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "gd": 0,
+      "pts": 1
+    },
+    "bournemouth": {
+      "id": "bournemouth",
+      "name": "AFC Bournemouth",
+      "p": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 7,
+      "ga": 4,
+      "gd": 3,
+      "pts": 3
+    },
+    "brentford": {
+      "id": "brentford",
+      "name": "Brentford",
+      "p": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 5,
+      "gd": -4,
+      "pts": 0
+    },
+    "brighton": {
+      "id": "brighton",
+      "name": "Brighton & Hove Albion",
+      "p": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 3,
+      "ga": 4,
+      "gd": -1,
+      "pts": 0
+    },
+    "chelsea": {
+      "id": "chelsea",
+      "name": "Chelsea",
+      "p": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 1
+    },
+    "crystal_palace": {
+      "id": "crystal_palace",
+      "name": "Crystal Palace",
+      "p": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 3,
+      "ga": 4,
+      "gd": -1,
+      "pts": 0
+    },
+    "everton": {
+      "id": "everton",
+      "name": "Everton",
+      "p": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 3,
+      "ga": 4,
+      "gd": -1,
+      "pts": 0
+    },
+    "fulham": {
+      "id": "fulham",
+      "name": "Fulham",
+      "p": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 2,
+      "gd": 2,
+      "pts": 3
+    },
+    "ipswich": {
+      "id": "ipswich",
+      "name": "Ipswich Town",
+      "p": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 3,
+      "ga": 3,
+      "gd": 0,
+      "pts": 1
+    },
+    "leicester": {
+      "id": "leicester",
+      "name": "Leicester City",
+      "p": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 3,
+      "ga": 3,
+      "gd": 0,
+      "pts": 1
+    },
+    "liverpool": {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "p": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 4,
+      "gd": -2,
+      "pts": 0
+    },
+    "manchester_city": {
+      "id": "manchester_city",
+      "name": "Manchester City",
+      "p": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 3,
+      "gd": 1,
+      "pts": 3
+    },
+    "manchester_united": {
+      "id": "manchester_united",
+      "name": "Manchester United",
+      "p": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 3,
+      "gd": 1,
+      "pts": 3
+    },
+    "newcastle": {
+      "id": "newcastle",
+      "name": "Newcastle United",
+      "p": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 1
+    },
+    "nottingham_forest": {
+      "id": "nottingham_forest",
+      "name": "Nottingham Forest",
+      "p": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 3,
+      "gd": 1,
+      "pts": 3
+    },
+    "southampton": {
+      "id": "southampton",
+      "name": "Southampton",
+      "p": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 5,
+      "ga": 1,
+      "gd": 4,
+      "pts": 3
+    },
+    "tottenham": {
+      "id": "tottenham",
+      "name": "Tottenham Hotspur",
+      "p": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 4,
+      "ga": 7,
+      "gd": -3,
+      "pts": 0
+    },
+    "wolves": {
+      "id": "wolves",
+      "name": "Wolverhampton Wanderers",
+      "p": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "gd": 0,
+      "pts": 1
+    }
+  }
+}

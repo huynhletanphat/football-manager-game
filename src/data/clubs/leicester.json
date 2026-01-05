@@ -1,0 +1,250 @@
+{
+  "club_id": "leicester",
+  "name": "Leicester City",
+  "short_name": "LEI",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1884,
+  "reputation": {
+    "global": 72,
+    "domestic": 75,
+    "continental": 70
+  },
+  "finances": {
+    "transfer_budget": 25000000,
+    "wage_budget_weekly": 1500000,
+    "debt": 100000000,
+    "revenue_annual": 150000000
+  },
+  "stadium": {
+    "name": "King Power Stadium",
+    "capacity": 32261,
+    "atmosphere": 85
+  },
+  "tactics": {
+    "default_formation": "4-2-3-1",
+    "alternative_formations": ["4-3-3", "5-2-3"],
+    "mentality": "counter",
+    "play_style": {
+      "possession": 45,
+      "pressing": 75,
+      "tempo": 80,
+      "width": 70,
+      "defensive_line": 60
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Steve Cooper",
+      "rating": 78,
+      "preferred_formation": "4-2-3-1",
+      "tactical_approach": "balanced_counter"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 17, "target": 14},
+    "champions_league": "none",
+    "domestic_cup": "fifth_round"
+  },
+  "currentForm": 5,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 26.5,
+    "average_rating": 77,
+    "current_players": [
+      {
+        "id": "LEI_001",
+        "name": "Mads Hermansen",
+        "nationality": "Denmark",
+        "age": 26,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 80, "potentialMax": 83 },
+        "physical": { "pace": 55, "acceleration": 58, "stamina": 70, "strength": 72, "height": 187, "agility": 75, "balance": 70, "jumping": 75 },
+        "technical": { "finishing": 20, "shotPower": 65, "dribbling": 60, "ballControl": 80, "crossing": 35, "shortPassing": 85, "longPassing": 82, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 82, "vision": 75, "composure": 80, "workRate": 70, "aggression": 65 },
+        "goalkeeper": { "diving": 82, "handling": 78, "kicking": 85, "reflexes": 84, "positioning": 80 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_002",
+        "name": "Ricardo Pereira",
+        "nationality": "Portugal",
+        "age": 32,
+        "positions": ["RB", "RWB"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 75, "acceleration": 74, "stamina": 78, "strength": 70, "height": 175, "agility": 80, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 78, "ballControl": 80, "crossing": 75, "shortPassing": 78, "longPassing": 74, "heading": 60, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 78, "workRate": 80, "aggression": 75 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_003",
+        "name": "Wout Faes",
+        "nationality": "Belgium",
+        "age": 28,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 77, "potentialMax": 78 },
+        "physical": { "pace": 72, "acceleration": 70, "stamina": 75, "strength": 82, "height": 187, "agility": 65, "balance": 70, "jumping": 80 },
+        "technical": { "finishing": 35, "shotPower": 60, "dribbling": 65, "ballControl": 72, "crossing": 40, "shortPassing": 75, "longPassing": 72, "heading": 82, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 76, "vision": 60, "composure": 70, "workRate": 75, "aggression": 85 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_004",
+        "name": "Caleb Okoli",
+        "nationality": "Italy",
+        "age": 25,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 76, "potentialMax": 80 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 78, "strength": 88, "height": 191, "agility": 68, "balance": 72, "jumping": 84 },
+        "technical": { "finishing": 30, "shotPower": 55, "dribbling": 60, "ballControl": 68, "crossing": 35, "shortPassing": 72, "longPassing": 70, "heading": 84, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 75, "vision": 55, "composure": 70, "workRate": 75, "aggression": 82 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_005",
+        "name": "James Justin",
+        "nationality": "England",
+        "age": 28,
+        "positions": ["LB", "RB"],
+        "attributes": { "currentRating": 76, "potentialMax": 77 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 85, "strength": 72, "height": 183, "agility": 78, "balance": 75, "jumping": 75 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 72, "ballControl": 74, "crossing": 72, "shortPassing": 75, "longPassing": 70, "heading": 65, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 75, "vision": 65, "composure": 72, "workRate": 85, "aggression": 75 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_006",
+        "name": "Wilfred Ndidi",
+        "nationality": "Nigeria",
+        "age": 29,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 70, "acceleration": 72, "stamina": 88, "strength": 82, "height": 183, "agility": 72, "balance": 75, "jumping": 80 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 68, "ballControl": 74, "crossing": 55, "shortPassing": 76, "longPassing": 72, "heading": 75, "tackling": 85, "marking": 82 },
+        "mental": { "positioning": 82, "vision": 65, "composure": 75, "workRate": 90, "aggression": 88 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_007",
+        "name": "Harry Winks",
+        "nationality": "England",
+        "age": 30,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 65, "acceleration": 68, "stamina": 85, "strength": 65, "height": 178, "agility": 78, "balance": 80, "jumping": 60 },
+        "technical": { "finishing": 55, "shotPower": 65, "dribbling": 75, "ballControl": 82, "crossing": 70, "shortPassing": 86, "longPassing": 84, "heading": 50, "tackling": 70, "marking": 68 },
+        "mental": { "positioning": 78, "vision": 82, "composure": 80, "workRate": 85, "aggression": 65 },
+        "fitness": 92, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_008",
+        "name": "Oliver Skipp",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 77, "potentialMax": 80 },
+        "physical": { "pace": 72, "acceleration": 70, "stamina": 90, "strength": 75, "height": 175, "agility": 75, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 50, "shotPower": 65, "dribbling": 70, "ballControl": 75, "crossing": 60, "shortPassing": 80, "longPassing": 76, "heading": 60, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 78, "vision": 72, "composure": 76, "workRate": 92, "aggression": 80 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_009",
+        "name": "Facundo Buonanotte",
+        "nationality": "Argentina",
+        "age": 21,
+        "positions": ["CAM", "RW"],
+        "attributes": { "currentRating": 78, "potentialMax": 86 },
+        "physical": { "pace": 82, "acceleration": 85, "stamina": 75, "strength": 60, "height": 174, "agility": 88, "balance": 85, "jumping": 55 },
+        "technical": { "finishing": 72, "shotPower": 70, "dribbling": 84, "ballControl": 82, "crossing": 75, "shortPassing": 78, "longPassing": 72, "heading": 50, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 76, "vision": 80, "composure": 75, "workRate": 75, "aggression": 60 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_010",
+        "name": "Abdul Fatawu",
+        "nationality": "Ghana",
+        "age": 22,
+        "positions": ["RW", "LW"],
+        "attributes": { "currentRating": 80, "potentialMax": 87 },
+        "physical": { "pace": 92, "acceleration": 94, "stamina": 80, "strength": 70, "height": 177, "agility": 90, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 74, "shotPower": 80, "dribbling": 85, "ballControl": 80, "crossing": 75, "shortPassing": 74, "longPassing": 68, "heading": 55, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 78, "vision": 72, "composure": 72, "workRate": 85, "aggression": 70 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_011",
+        "name": "Stephy Mavididi",
+        "nationality": "England",
+        "age": 27,
+        "positions": ["LW", "ST"],
+        "attributes": { "currentRating": 77, "potentialMax": 78 },
+        "physical": { "pace": 86, "acceleration": 88, "stamina": 78, "strength": 75, "height": 182, "agility": 84, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 75, "shotPower": 76, "dribbling": 80, "ballControl": 76, "crossing": 72, "shortPassing": 72, "longPassing": 65, "heading": 65, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 76, "vision": 70, "composure": 72, "workRate": 75, "aggression": 65 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_012",
+        "name": "Patson Daka",
+        "nationality": "Zambia",
+        "age": 27,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 76, "potentialMax": 78 },
+        "physical": { "pace": 90, "acceleration": 88, "stamina": 75, "strength": 70, "height": 183, "agility": 80, "balance": 75, "jumping": 75 },
+        "technical": { "finishing": 76, "shotPower": 75, "dribbling": 72, "ballControl": 72, "crossing": 60, "shortPassing": 68, "longPassing": 60, "heading": 70, "tackling": 30, "marking": 25 },
+        "mental": { "positioning": 78, "vision": 60, "composure": 72, "workRate": 80, "aggression": 65 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_013",
+        "name": "Bilal El Khannouss",
+        "nationality": "Morocco",
+        "age": 21,
+        "positions": ["CAM", "CM"],
+        "attributes": { "currentRating": 78, "potentialMax": 86 },
+        "physical": { "pace": 76, "acceleration": 78, "stamina": 80, "strength": 65, "height": 180, "agility": 84, "balance": 80, "jumping": 60 },
+        "technical": { "finishing": 68, "shotPower": 70, "dribbling": 82, "ballControl": 84, "crossing": 75, "shortPassing": 82, "longPassing": 80, "heading": 50, "tackling": 55, "marking": 50 },
+        "mental": { "positioning": 76, "vision": 82, "composure": 78, "workRate": 75, "aggression": 60 },
+        "fitness": 100, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_014",
+        "name": "Conor Coady",
+        "nationality": "England",
+        "age": 33,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 75, "potentialMax": 75 },
+        "physical": { "pace": 55, "acceleration": 52, "stamina": 70, "strength": 78, "height": 185, "agility": 55, "balance": 65, "jumping": 75 },
+        "technical": { "finishing": 35, "shotPower": 55, "dribbling": 55, "ballControl": 70, "crossing": 45, "shortPassing": 78, "longPassing": 82, "heading": 80, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 82, "vision": 65, "composure": 80, "workRate": 80, "aggression": 85 },
+        "fitness": 90, "currentForm": 5, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_015",
+        "name": "Odsonne Édouard",
+        "nationality": "France",
+        "age": 28,
+        "positions": ["ST", "LW"],
+        "attributes": { "currentRating": 76, "potentialMax": 77 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 75, "strength": 80, "height": 187, "agility": 75, "balance": 72, "jumping": 75 },
+        "technical": { "finishing": 75, "shotPower": 78, "dribbling": 76, "ballControl": 78, "crossing": 60, "shortPassing": 72, "longPassing": 65, "heading": 72, "tackling": 35, "marking": 30 },
+        "mental": { "positioning": 76, "vision": 70, "composure": 74, "workRate": 70, "aggression": 65 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "LEI_016",
+        "name": "Jordan Ayew",
+        "nationality": "Ghana",
+        "age": 34,
+        "positions": ["RW", "ST", "LW"],
+        "attributes": { "currentRating": 74, "potentialMax": 74 },
+        "physical": { "pace": 68, "acceleration": 70, "stamina": 75, "strength": 72, "height": 182, "agility": 72, "balance": 75, "jumping": 65 },
+        "technical": { "finishing": 70, "shotPower": 72, "dribbling": 75, "ballControl": 76, "crossing": 70, "shortPassing": 72, "longPassing": 65, "heading": 65, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 75, "vision": 70, "composure": 72, "workRate": 90, "aggression": 75 },
+        "fitness": 85, "currentForm": 5, "injured": false, "suspended": false
+      }
+    ]
+  }
+}

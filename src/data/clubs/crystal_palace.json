@@ -1,0 +1,250 @@
+{
+  "club_id": "crystal_palace",
+  "name": "Crystal Palace",
+  "short_name": "CRY",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1905,
+  "reputation": {
+    "global": 78,
+    "domestic": 80,
+    "continental": 75
+  },
+  "finances": {
+    "transfer_budget": 50000000,
+    "wage_budget_weekly": 2000000,
+    "debt": 0,
+    "revenue_annual": 200000000
+  },
+  "stadium": {
+    "name": "Selhurst Park",
+    "capacity": 25486,
+    "atmosphere": 90
+  },
+  "tactics": {
+    "default_formation": "3-4-2-1",
+    "alternative_formations": ["3-4-3", "5-2-3"],
+    "mentality": "attacking",
+    "play_style": {
+      "possession": 48,
+      "pressing": 88,
+      "tempo": 82,
+      "width": 75,
+      "defensive_line": 70
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Oliver Glasner",
+      "rating": 83,
+      "preferred_formation": "3-4-2-1",
+      "tactical_approach": "intense_pressing"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 12, "target": 9},
+    "champions_league": "none",
+    "domestic_cup": "quarter_finals"
+  },
+  "currentForm": 6,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 25.5,
+    "average_rating": 79,
+    "current_players": [
+      {
+        "id": "CRY_001",
+        "name": "Dean Henderson",
+        "nationality": "England",
+        "age": 29,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 80, "potentialMax": 82 },
+        "physical": { "pace": 55, "acceleration": 58, "stamina": 70, "strength": 72, "height": 188, "agility": 75, "balance": 65, "jumping": 78 },
+        "technical": { "finishing": 20, "shotPower": 70, "dribbling": 55, "ballControl": 72, "crossing": 35, "shortPassing": 75, "longPassing": 80, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 80, "vision": 65, "composure": 78, "workRate": 70, "aggression": 75 },
+        "goalkeeper": { "diving": 82, "handling": 80, "kicking": 80, "reflexes": 84, "positioning": 80 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_002",
+        "name": "Daniel Muñoz",
+        "nationality": "Colombia",
+        "age": 29,
+        "positions": ["RWB", "RB"],
+        "attributes": { "currentRating": 79, "potentialMax": 79 },
+        "physical": { "pace": 84, "acceleration": 82, "stamina": 92, "strength": 75, "height": 180, "agility": 78, "balance": 75, "jumping": 80 },
+        "technical": { "finishing": 60, "shotPower": 72, "dribbling": 72, "ballControl": 75, "crossing": 78, "shortPassing": 76, "longPassing": 72, "heading": 70, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 78, "vision": 70, "composure": 75, "workRate": 95, "aggression": 88 },
+        "fitness": 92, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_003",
+        "name": "Marc Guéhi",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 84, "potentialMax": 88 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 80, "strength": 82, "height": 182, "agility": 75, "balance": 78, "jumping": 85 },
+        "technical": { "finishing": 40, "shotPower": 60, "dribbling": 70, "ballControl": 78, "crossing": 45, "shortPassing": 82, "longPassing": 80, "heading": 84, "tackling": 86, "marking": 85 },
+        "mental": { "positioning": 86, "vision": 70, "composure": 88, "workRate": 80, "aggression": 75 },
+        "fitness": 98, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_004",
+        "name": "Maxence Lacroix",
+        "nationality": "France",
+        "age": 25,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 80, "potentialMax": 84 },
+        "physical": { "pace": 86, "acceleration": 84, "stamina": 78, "strength": 82, "height": 190, "agility": 72, "balance": 70, "jumping": 82 },
+        "technical": { "finishing": 35, "shotPower": 60, "dribbling": 65, "ballControl": 72, "crossing": 40, "shortPassing": 75, "longPassing": 72, "heading": 82, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 78, "vision": 60, "composure": 75, "workRate": 78, "aggression": 80 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_005",
+        "name": "Tyrick Mitchell",
+        "nationality": "England",
+        "age": 26,
+        "positions": ["LWB", "LB"],
+        "attributes": { "currentRating": 79, "potentialMax": 81 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 85, "strength": 70, "height": 176, "agility": 78, "balance": 75, "jumping": 70 },
+        "technical": { "finishing": 45, "shotPower": 60, "dribbling": 70, "ballControl": 72, "crossing": 75, "shortPassing": 76, "longPassing": 70, "heading": 65, "tackling": 84, "marking": 82 },
+        "mental": { "positioning": 80, "vision": 65, "composure": 75, "workRate": 85, "aggression": 75 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_006",
+        "name": "Adam Wharton",
+        "nationality": "England",
+        "age": 22,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 83, "potentialMax": 89 },
+        "physical": { "pace": 72, "acceleration": 74, "stamina": 85, "strength": 70, "height": 182, "agility": 78, "balance": 80, "jumping": 65 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 80, "ballControl": 85, "crossing": 70, "shortPassing": 88, "longPassing": 90, "heading": 60, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 82, "vision": 92, "composure": 90, "workRate": 85, "aggression": 70 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_007",
+        "name": "Cheick Doucouré",
+        "nationality": "Mali",
+        "age": 26,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 82, "potentialMax": 85 },
+        "physical": { "pace": 75, "acceleration": 76, "stamina": 88, "strength": 80, "height": 180, "agility": 78, "balance": 82, "jumping": 75 },
+        "technical": { "finishing": 55, "shotPower": 75, "dribbling": 75, "ballControl": 80, "crossing": 60, "shortPassing": 82, "longPassing": 80, "heading": 70, "tackling": 86, "marking": 84 },
+        "mental": { "positioning": 84, "vision": 75, "composure": 80, "workRate": 88, "aggression": 85 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_008",
+        "name": "Eberechi Eze",
+        "nationality": "England",
+        "age": 27,
+        "positions": ["CAM", "LW", "CM"],
+        "attributes": { "currentRating": 84, "potentialMax": 86 },
+        "physical": { "pace": 82, "acceleration": 85, "stamina": 80, "strength": 72, "height": 178, "agility": 90, "balance": 88, "jumping": 65 },
+        "technical": { "finishing": 78, "shotPower": 80, "dribbling": 92, "ballControl": 90, "crossing": 78, "shortPassing": 85, "longPassing": 80, "heading": 55, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 80, "vision": 86, "composure": 88, "workRate": 75, "aggression": 60 },
+        "fitness": 95, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_009",
+        "name": "Daichi Kamada",
+        "nationality": "Japan",
+        "age": 29,
+        "positions": ["CAM", "CM"],
+        "attributes": { "currentRating": 80, "potentialMax": 80 },
+        "physical": { "pace": 74, "acceleration": 76, "stamina": 84, "strength": 68, "height": 184, "agility": 78, "balance": 75, "jumping": 65 },
+        "technical": { "finishing": 75, "shotPower": 76, "dribbling": 80, "ballControl": 84, "crossing": 75, "shortPassing": 82, "longPassing": 78, "heading": 65, "tackling": 55, "marking": 50 },
+        "mental": { "positioning": 82, "vision": 84, "composure": 80, "workRate": 88, "aggression": 65 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_010",
+        "name": "Jean-Philippe Mateta",
+        "nationality": "France",
+        "age": 28,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 81, "potentialMax": 82 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 80, "strength": 88, "height": 192, "agility": 70, "balance": 75, "jumping": 80 },
+        "technical": { "finishing": 82, "shotPower": 84, "dribbling": 70, "ballControl": 75, "crossing": 55, "shortPassing": 70, "longPassing": 60, "heading": 84, "tackling": 35, "marking": 30 },
+        "mental": { "positioning": 84, "vision": 65, "composure": 78, "workRate": 85, "aggression": 75 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_011",
+        "name": "Eddie Nketiah",
+        "nationality": "England",
+        "age": 26,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 78, "potentialMax": 80 },
+        "physical": { "pace": 84, "acceleration": 86, "stamina": 80, "strength": 70, "height": 180, "agility": 82, "balance": 78, "jumping": 75 },
+        "technical": { "finishing": 78, "shotPower": 75, "dribbling": 76, "ballControl": 78, "crossing": 60, "shortPassing": 72, "longPassing": 60, "heading": 70, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 82, "vision": 65, "composure": 75, "workRate": 85, "aggression": 65 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_012",
+        "name": "Ismaïla Sarr",
+        "nationality": "Senegal",
+        "age": 28,
+        "positions": ["RW", "LW"],
+        "attributes": { "currentRating": 79, "potentialMax": 80 },
+        "physical": { "pace": 92, "acceleration": 90, "stamina": 78, "strength": 72, "height": 185, "agility": 85, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 74, "shotPower": 78, "dribbling": 82, "ballControl": 78, "crossing": 75, "shortPassing": 72, "longPassing": 65, "heading": 60, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 78, "vision": 70, "composure": 72, "workRate": 80, "aggression": 65 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_013",
+        "name": "Trevoh Chalobah",
+        "nationality": "England",
+        "age": 26,
+        "positions": ["CB", "RB"],
+        "attributes": { "currentRating": 79, "potentialMax": 81 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 80, "strength": 80, "height": 190, "agility": 72, "balance": 75, "jumping": 82 },
+        "technical": { "finishing": 40, "shotPower": 65, "dribbling": 68, "ballControl": 75, "crossing": 60, "shortPassing": 78, "longPassing": 75, "heading": 80, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 78, "vision": 65, "composure": 76, "workRate": 80, "aggression": 75 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_014",
+        "name": "Will Hughes",
+        "nationality": "England",
+        "age": 30,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 76, "potentialMax": 76 },
+        "physical": { "pace": 65, "acceleration": 62, "stamina": 80, "strength": 70, "height": 185, "agility": 70, "balance": 72, "jumping": 60 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 72, "ballControl": 76, "crossing": 65, "shortPassing": 78, "longPassing": 75, "heading": 60, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 78, "workRate": 88, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_015",
+        "name": "Jefferson Lerma",
+        "nationality": "Colombia",
+        "age": 31,
+        "positions": ["CDM", "CM", "CB"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 70, "acceleration": 68, "stamina": 85, "strength": 80, "height": 179, "agility": 72, "balance": 75, "jumping": 80 },
+        "technical": { "finishing": 60, "shotPower": 75, "dribbling": 70, "ballControl": 75, "crossing": 60, "shortPassing": 76, "longPassing": 75, "heading": 75, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 80, "vision": 70, "composure": 75, "workRate": 90, "aggression": 92 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "CRY_016",
+        "name": "Matheus França",
+        "nationality": "Brazil",
+        "age": 21,
+        "positions": ["CAM", "RW"],
+        "attributes": { "currentRating": 76, "potentialMax": 85 },
+        "physical": { "pace": 82, "acceleration": 84, "stamina": 75, "strength": 68, "height": 184, "agility": 84, "balance": 80, "jumping": 65 },
+        "technical": { "finishing": 70, "shotPower": 72, "dribbling": 82, "ballControl": 80, "crossing": 70, "shortPassing": 75, "longPassing": 70, "heading": 60, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 75, "vision": 78, "composure": 72, "workRate": 80, "aggression": 65 },
+        "fitness": 100, "currentForm": 6, "injured": false, "suspended": false
+      }
+    ]
+  }
+}

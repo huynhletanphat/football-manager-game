@@ -6,51 +6,245 @@
   "country": "England",
   "founded": 1882,
   "reputation": {
-    "global": 88,
-    "domestic": 88,
-    "continental": 85
+    "global": 89,
+    "domestic": 90,
+    "continental": 88
   },
   "finances": {
     "transfer_budget": 100000000,
     "wage_budget_weekly": 3200000,
-    "debt": 850000000,
-    "revenue_annual": 650000000
+    "debt": 400000000,
+    "revenue_annual": 550000000
   },
   "stadium": {
     "name": "Tottenham Hotspur Stadium",
     "capacity": 62850,
-    "atmosphere": 88
-  },
-  "squad": {
-    "current_players": [],
-    "squad_size": 0,
-    "average_age": 25.1,
-    "average_rating": 83
+    "atmosphere": 90
   },
   "tactics": {
     "default_formation": "4-3-3",
-    "alternative_formations": ["4-2-3-1", "2-3-5"],
-    "mentality": "very_attacking",
+    "alternative_formations": ["4-2-3-1", "3-4-3"],
+    "mentality": "attacking",
     "play_style": {
       "possession": 65,
-      "pressing": 88,
-      "tempo": 95,
-      "width": 80,
-      "defensive_line": 98
+      "pressing": 90,
+      "tempo": 88,
+      "width": 85,
+      "defensive_line": 95
     }
   },
   "staff": {
     "manager": {
       "name": "Ange Postecoglou",
-      "rating": 83,
+      "rating": 85,
       "preferred_formation": "4-3-3",
-      "tactical_approach": "uncompromising_attack"
+      "tactical_approach": "all_out_attack"
     }
   },
   "objectives": {
     "league_position": {"min": 5, "target": 4},
-    "champions_league": "none",
-    "domestic_cup": "semi_finals"
+    "champions_league": "round_of_16",
+    "domestic_cup": "winner"
   },
-  "currentForm": 6
+  "currentForm": 7,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 25.1,
+    "average_rating": 84,
+    "current_players": [
+      {
+        "id": "TOT_001",
+        "name": "Guglielmo Vicario",
+        "nationality": "Italy",
+        "age": 29,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 85, "potentialMax": 87 },
+        "physical": { "pace": 55, "acceleration": 60, "stamina": 72, "strength": 75, "height": 194, "agility": 85, "balance": 70, "jumping": 80 },
+        "technical": { "finishing": 20, "shotPower": 70, "dribbling": 65, "ballControl": 80, "crossing": 40, "shortPassing": 88, "longPassing": 85, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 85, "vision": 75, "composure": 82, "workRate": 75, "aggression": 70 },
+        "goalkeeper": { "diving": 88, "handling": 84, "kicking": 85, "reflexes": 90, "positioning": 84 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_002",
+        "name": "Pedro Porro",
+        "nationality": "Spain",
+        "age": 26,
+        "positions": ["RB", "RWB"],
+        "attributes": { "currentRating": 86, "potentialMax": 88 },
+        "physical": { "pace": 85, "acceleration": 86, "stamina": 92, "strength": 72, "height": 173, "agility": 84, "balance": 82, "jumping": 65 },
+        "technical": { "finishing": 70, "shotPower": 82, "dribbling": 84, "ballControl": 86, "crossing": 88, "shortPassing": 84, "longPassing": 82, "heading": 60, "tackling": 78, "marking": 75 },
+        "mental": { "positioning": 82, "vision": 80, "composure": 78, "workRate": 90, "aggression": 82 },
+        "fitness": 95, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_003",
+        "name": "Cristian Romero",
+        "nationality": "Argentina",
+        "age": 28,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 88, "potentialMax": 90 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 82, "strength": 88, "height": 185, "agility": 75, "balance": 78, "jumping": 88 },
+        "technical": { "finishing": 50, "shotPower": 70, "dribbling": 72, "ballControl": 80, "crossing": 50, "shortPassing": 85, "longPassing": 82, "heading": 90, "tackling": 92, "marking": 90 },
+        "mental": { "positioning": 85, "vision": 70, "composure": 80, "workRate": 85, "aggression": 98 },
+        "fitness": 90, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_004",
+        "name": "Micky van de Ven",
+        "nationality": "Netherlands",
+        "age": 25,
+        "positions": ["CB", "LB"],
+        "attributes": { "currentRating": 87, "potentialMax": 92 },
+        "physical": { "pace": 98, "acceleration": 96, "stamina": 85, "strength": 85, "height": 193, "agility": 80, "balance": 78, "jumping": 82 },
+        "technical": { "finishing": 45, "shotPower": 65, "dribbling": 75, "ballControl": 80, "crossing": 60, "shortPassing": 84, "longPassing": 78, "heading": 80, "tackling": 86, "marking": 85 },
+        "mental": { "positioning": 84, "vision": 65, "composure": 85, "workRate": 85, "aggression": 75 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_005",
+        "name": "Destiny Udogie",
+        "nationality": "Italy",
+        "age": 23,
+        "positions": ["LB", "LWB", "CM"],
+        "attributes": { "currentRating": 86, "potentialMax": 91 },
+        "physical": { "pace": 88, "acceleration": 86, "stamina": 90, "strength": 80, "height": 188, "agility": 84, "balance": 82, "jumping": 80 },
+        "technical": { "finishing": 65, "shotPower": 75, "dribbling": 84, "ballControl": 85, "crossing": 75, "shortPassing": 86, "longPassing": 78, "heading": 70, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 84, "vision": 78, "composure": 82, "workRate": 90, "aggression": 85 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_006",
+        "name": "Yves Bissouma",
+        "nationality": "Mali",
+        "age": 29,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 84, "potentialMax": 85 },
+        "physical": { "pace": 78, "acceleration": 80, "stamina": 88, "strength": 82, "height": 182, "agility": 85, "balance": 88, "jumping": 75 },
+        "technical": { "finishing": 60, "shotPower": 78, "dribbling": 86, "ballControl": 88, "crossing": 60, "shortPassing": 86, "longPassing": 84, "heading": 65, "tackling": 84, "marking": 80 },
+        "mental": { "positioning": 82, "vision": 78, "composure": 85, "workRate": 85, "aggression": 82 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_007",
+        "name": "Pape Matar Sarr",
+        "nationality": "Senegal",
+        "age": 23,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 83, "potentialMax": 88 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 94, "strength": 75, "height": 185, "agility": 80, "balance": 82, "jumping": 75 },
+        "technical": { "finishing": 70, "shotPower": 75, "dribbling": 78, "ballControl": 82, "crossing": 65, "shortPassing": 85, "longPassing": 82, "heading": 70, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 84, "vision": 76, "composure": 80, "workRate": 92, "aggression": 78 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_008",
+        "name": "James Maddison",
+        "nationality": "England",
+        "age": 29,
+        "positions": ["CAM", "CM"],
+        "attributes": { "currentRating": 87, "potentialMax": 88 },
+        "physical": { "pace": 74, "acceleration": 76, "stamina": 80, "strength": 70, "height": 175, "agility": 84, "balance": 85, "jumping": 60 },
+        "technical": { "finishing": 80, "shotPower": 84, "dribbling": 86, "ballControl": 90, "crossing": 88, "shortPassing": 92, "longPassing": 90, "heading": 55, "tackling": 55, "marking": 50 },
+        "mental": { "positioning": 85, "vision": 94, "composure": 88, "workRate": 75, "aggression": 70 },
+        "fitness": 90, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_009",
+        "name": "Dejan Kulusevski",
+        "nationality": "Sweden",
+        "age": 26,
+        "positions": ["RW", "CAM", "CM"],
+        "attributes": { "currentRating": 85, "potentialMax": 88 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 95, "strength": 84, "height": 186, "agility": 78, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 78, "shotPower": 82, "dribbling": 85, "ballControl": 88, "crossing": 80, "shortPassing": 86, "longPassing": 82, "heading": 70, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 84, "vision": 85, "composure": 84, "workRate": 95, "aggression": 80 },
+        "fitness": 98, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_010",
+        "name": "Son Heung-min",
+        "nationality": "South Korea",
+        "age": 33,
+        "positions": ["LW", "ST"],
+        "attributes": { "currentRating": 86, "potentialMax": 87 },
+        "physical": { "pace": 80, "acceleration": 82, "stamina": 80, "strength": 72, "height": 183, "agility": 82, "balance": 80, "jumping": 70 },
+        "technical": { "finishing": 94, "shotPower": 88, "dribbling": 84, "ballControl": 86, "crossing": 82, "shortPassing": 84, "longPassing": 78, "heading": 65, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 92, "vision": 82, "composure": 94, "workRate": 90, "aggression": 65 },
+        "fitness": 90, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_011",
+        "name": "Dominic Solanke",
+        "nationality": "England",
+        "age": 28,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 84, "potentialMax": 85 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 88, "strength": 85, "height": 187, "agility": 76, "balance": 78, "jumping": 82 },
+        "technical": { "finishing": 84, "shotPower": 80, "dribbling": 78, "ballControl": 80, "crossing": 65, "shortPassing": 78, "longPassing": 70, "heading": 84, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 86, "vision": 74, "composure": 80, "workRate": 92, "aggression": 80 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_012",
+        "name": "Brennan Johnson",
+        "nationality": "Wales",
+        "age": 25,
+        "positions": ["RW", "ST"],
+        "attributes": { "currentRating": 83, "potentialMax": 86 },
+        "physical": { "pace": 94, "acceleration": 95, "stamina": 84, "strength": 70, "height": 179, "agility": 88, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 78, "shotPower": 76, "dribbling": 82, "ballControl": 80, "crossing": 78, "shortPassing": 78, "longPassing": 70, "heading": 65, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 82, "vision": 75, "composure": 76, "workRate": 85, "aggression": 65 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_013",
+        "name": "Radu Drăgușin",
+        "nationality": "Romania",
+        "age": 24,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 82, "potentialMax": 86 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 82, "strength": 90, "height": 191, "agility": 70, "balance": 75, "jumping": 86 },
+        "technical": { "finishing": 40, "shotPower": 60, "dribbling": 65, "ballControl": 75, "crossing": 40, "shortPassing": 80, "longPassing": 78, "heading": 88, "tackling": 84, "marking": 82 },
+        "mental": { "positioning": 82, "vision": 65, "composure": 80, "workRate": 85, "aggression": 88 },
+        "fitness": 100, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_014",
+        "name": "Archie Gray",
+        "nationality": "England",
+        "age": 20,
+        "positions": ["CM", "RB", "CDM"],
+        "attributes": { "currentRating": 80, "potentialMax": 92 },
+        "physical": { "pace": 80, "acceleration": 82, "stamina": 86, "strength": 72, "height": 185, "agility": 84, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 65, "shotPower": 70, "dribbling": 82, "ballControl": 85, "crossing": 75, "shortPassing": 86, "longPassing": 82, "heading": 60, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 80, "vision": 84, "composure": 86, "workRate": 88, "aggression": 70 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_015",
+        "name": "Rodrigo Bentancur",
+        "nationality": "Uruguay",
+        "age": 29,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 83, "potentialMax": 84 },
+        "physical": { "pace": 74, "acceleration": 72, "stamina": 88, "strength": 78, "height": 187, "agility": 76, "balance": 80, "jumping": 75 },
+        "technical": { "finishing": 68, "shotPower": 75, "dribbling": 82, "ballControl": 86, "crossing": 70, "shortPassing": 88, "longPassing": 85, "heading": 75, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 84, "vision": 82, "composure": 86, "workRate": 88, "aggression": 85 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "TOT_016",
+        "name": "Lucas Bergvall",
+        "nationality": "Sweden",
+        "age": 20,
+        "positions": ["CM", "CAM"],
+        "attributes": { "currentRating": 79, "potentialMax": 90 },
+        "physical": { "pace": 78, "acceleration": 80, "stamina": 82, "strength": 75, "height": 186, "agility": 82, "balance": 80, "jumping": 70 },
+        "technical": { "finishing": 72, "shotPower": 75, "dribbling": 84, "ballControl": 86, "crossing": 72, "shortPassing": 84, "longPassing": 80, "heading": 65, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 78, "vision": 85, "composure": 82, "workRate": 85, "aggression": 70 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      }
+    ]
+  }
 }

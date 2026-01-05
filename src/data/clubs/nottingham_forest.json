@@ -1,0 +1,250 @@
+{
+  "club_id": "nottingham_forest",
+  "name": "Nottingham Forest",
+  "short_name": "NFO",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1865,
+  "reputation": {
+    "global": 75,
+    "domestic": 78,
+    "continental": 76
+  },
+  "finances": {
+    "transfer_budget": 40000000,
+    "wage_budget_weekly": 1400000,
+    "debt": 0,
+    "revenue_annual": 160000000
+  },
+  "stadium": {
+    "name": "City Ground",
+    "capacity": 30445,
+    "atmosphere": 88
+  },
+  "tactics": {
+    "default_formation": "4-2-3-1",
+    "alternative_formations": ["4-3-3", "5-4-1"],
+    "mentality": "counter",
+    "play_style": {
+      "possession": 42,
+      "pressing": 78,
+      "tempo": 85,
+      "width": 75,
+      "defensive_line": 65
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Nuno Espírito Santo",
+      "rating": 80,
+      "preferred_formation": "4-2-3-1",
+      "tactical_approach": "solid_counter"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 15, "target": 12},
+    "champions_league": "none",
+    "domestic_cup": "quarter_finals"
+  },
+  "currentForm": 6,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 26.2,
+    "average_rating": 78,
+    "current_players": [
+      {
+        "id": "NFO_001",
+        "name": "Matz Sels",
+        "nationality": "Belgium",
+        "age": 34,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 50, "acceleration": 52, "stamina": 65, "strength": 75, "height": 188, "agility": 65, "balance": 60, "jumping": 75 },
+        "technical": { "finishing": 20, "shotPower": 65, "dribbling": 50, "ballControl": 70, "crossing": 35, "shortPassing": 75, "longPassing": 80, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 80, "vision": 60, "composure": 75, "workRate": 70, "aggression": 65 },
+        "goalkeeper": { "diving": 82, "handling": 78, "kicking": 75, "reflexes": 80, "positioning": 78 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_002",
+        "name": "Murillo",
+        "nationality": "Brazil",
+        "age": 23,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 82, "potentialMax": 88 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 78, "strength": 88, "height": 184, "agility": 75, "balance": 78, "jumping": 82 },
+        "technical": { "finishing": 45, "shotPower": 70, "dribbling": 72, "ballControl": 78, "crossing": 50, "shortPassing": 82, "longPassing": 85, "heading": 80, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 80, "vision": 70, "composure": 78, "workRate": 80, "aggression": 85 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_003",
+        "name": "Nikola Milenković",
+        "nationality": "Serbia",
+        "age": 28,
+        "positions": ["CB", "RB"],
+        "attributes": { "currentRating": 80, "potentialMax": 81 },
+        "physical": { "pace": 72, "acceleration": 70, "stamina": 80, "strength": 90, "height": 195, "agility": 65, "balance": 70, "jumping": 88 },
+        "technical": { "finishing": 40, "shotPower": 65, "dribbling": 60, "ballControl": 72, "crossing": 50, "shortPassing": 78, "longPassing": 75, "heading": 90, "tackling": 82, "marking": 80 },
+        "mental": { "positioning": 82, "vision": 60, "composure": 78, "workRate": 80, "aggression": 88 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_004",
+        "name": "Neco Williams",
+        "nationality": "Wales",
+        "age": 25,
+        "positions": ["RB", "RWB", "LB"],
+        "attributes": { "currentRating": 77, "potentialMax": 80 },
+        "physical": { "pace": 84, "acceleration": 82, "stamina": 85, "strength": 68, "height": 183, "agility": 80, "balance": 75, "jumping": 70 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 75, "ballControl": 75, "crossing": 78, "shortPassing": 75, "longPassing": 72, "heading": 60, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 76, "vision": 70, "composure": 72, "workRate": 88, "aggression": 78 },
+        "fitness": 98, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_005",
+        "name": "Ola Aina",
+        "nationality": "Nigeria",
+        "age": 29,
+        "positions": ["LB", "RB", "RWB"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 85, "acceleration": 84, "stamina": 82, "strength": 75, "height": 182, "agility": 82, "balance": 78, "jumping": 75 },
+        "technical": { "finishing": 50, "shotPower": 65, "dribbling": 76, "ballControl": 78, "crossing": 75, "shortPassing": 76, "longPassing": 72, "heading": 65, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 76, "vision": 68, "composure": 75, "workRate": 85, "aggression": 75 },
+        "fitness": 92, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_006",
+        "name": "Ibrahim Sangaré",
+        "nationality": "Ivory Coast",
+        "age": 28,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 79, "potentialMax": 80 },
+        "physical": { "pace": 68, "acceleration": 66, "stamina": 88, "strength": 88, "height": 191, "agility": 70, "balance": 75, "jumping": 80 },
+        "technical": { "finishing": 55, "shotPower": 75, "dribbling": 72, "ballControl": 78, "crossing": 60, "shortPassing": 80, "longPassing": 78, "heading": 75, "tackling": 84, "marking": 80 },
+        "mental": { "positioning": 82, "vision": 72, "composure": 78, "workRate": 85, "aggression": 85 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_007",
+        "name": "Morgan Gibbs-White",
+        "nationality": "England",
+        "age": 26,
+        "positions": ["CAM", "CM", "RW"],
+        "attributes": { "currentRating": 83, "potentialMax": 85 },
+        "physical": { "pace": 80, "acceleration": 82, "stamina": 85, "strength": 72, "height": 171, "agility": 86, "balance": 84, "jumping": 65 },
+        "technical": { "finishing": 75, "shotPower": 78, "dribbling": 85, "ballControl": 86, "crossing": 82, "shortPassing": 84, "longPassing": 80, "heading": 60, "tackling": 60, "marking": 55 },
+        "mental": { "positioning": 80, "vision": 86, "composure": 82, "workRate": 90, "aggression": 80 },
+        "fitness": 98, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_008",
+        "name": "Elliot Anderson",
+        "nationality": "England",
+        "age": 23,
+        "positions": ["CM", "LW", "CAM"],
+        "attributes": { "currentRating": 78, "potentialMax": 84 },
+        "physical": { "pace": 76, "acceleration": 78, "stamina": 82, "strength": 75, "height": 179, "agility": 80, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 70, "shotPower": 75, "dribbling": 80, "ballControl": 82, "crossing": 75, "shortPassing": 80, "longPassing": 76, "heading": 65, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 78, "vision": 80, "composure": 76, "workRate": 88, "aggression": 75 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_009",
+        "name": "Callum Hudson-Odoi",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["LW", "RW"],
+        "attributes": { "currentRating": 80, "potentialMax": 83 },
+        "physical": { "pace": 88, "acceleration": 90, "stamina": 78, "strength": 68, "height": 182, "agility": 88, "balance": 82, "jumping": 65 },
+        "technical": { "finishing": 75, "shotPower": 76, "dribbling": 85, "ballControl": 84, "crossing": 78, "shortPassing": 78, "longPassing": 72, "heading": 55, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 78, "vision": 76, "composure": 75, "workRate": 75, "aggression": 60 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_010",
+        "name": "Anthony Elanga",
+        "nationality": "Sweden",
+        "age": 24,
+        "positions": ["RW", "LW"],
+        "attributes": { "currentRating": 79, "potentialMax": 82 },
+        "physical": { "pace": 92, "acceleration": 94, "stamina": 80, "strength": 70, "height": 178, "agility": 86, "balance": 80, "jumping": 70 },
+        "technical": { "finishing": 72, "shotPower": 75, "dribbling": 80, "ballControl": 78, "crossing": 75, "shortPassing": 75, "longPassing": 68, "heading": 60, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 78, "vision": 70, "composure": 72, "workRate": 85, "aggression": 65 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_011",
+        "name": "Taiwo Awoniyi",
+        "nationality": "Nigeria",
+        "age": 28,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 79, "potentialMax": 80 },
+        "physical": { "pace": 84, "acceleration": 82, "stamina": 75, "strength": 90, "height": 183, "agility": 75, "balance": 78, "jumping": 80 },
+        "technical": { "finishing": 80, "shotPower": 82, "dribbling": 72, "ballControl": 75, "crossing": 60, "shortPassing": 70, "longPassing": 60, "heading": 80, "tackling": 35, "marking": 30 },
+        "mental": { "positioning": 80, "vision": 65, "composure": 75, "workRate": 80, "aggression": 75 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_012",
+        "name": "Chris Wood",
+        "nationality": "New Zealand",
+        "age": 34,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 77, "potentialMax": 77 },
+        "physical": { "pace": 60, "acceleration": 58, "stamina": 70, "strength": 92, "height": 191, "agility": 60, "balance": 75, "jumping": 85 },
+        "technical": { "finishing": 82, "shotPower": 80, "dribbling": 65, "ballControl": 72, "crossing": 55, "shortPassing": 70, "longPassing": 60, "heading": 90, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 85, "vision": 65, "composure": 80, "workRate": 75, "aggression": 80 },
+        "fitness": 85, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_013",
+        "name": "Danilo",
+        "nationality": "Brazil",
+        "age": 25,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 78, "potentialMax": 81 },
+        "physical": { "pace": 80, "acceleration": 82, "stamina": 85, "strength": 72, "height": 177, "agility": 82, "balance": 80, "jumping": 70 },
+        "technical": { "finishing": 65, "shotPower": 72, "dribbling": 78, "ballControl": 80, "crossing": 70, "shortPassing": 80, "longPassing": 76, "heading": 60, "tackling": 75, "marking": 72 },
+        "mental": { "positioning": 78, "vision": 75, "composure": 75, "workRate": 90, "aggression": 75 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_014",
+        "name": "Nicolás Domínguez",
+        "nationality": "Argentina",
+        "age": 28,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 78, "potentialMax": 79 },
+        "physical": { "pace": 72, "acceleration": 74, "stamina": 90, "strength": 75, "height": 179, "agility": 78, "balance": 78, "jumping": 70 },
+        "technical": { "finishing": 65, "shotPower": 70, "dribbling": 76, "ballControl": 80, "crossing": 70, "shortPassing": 82, "longPassing": 78, "heading": 60, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 80, "vision": 78, "composure": 78, "workRate": 95, "aggression": 85 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_015",
+        "name": "Ramón Sosa",
+        "nationality": "Paraguay",
+        "age": 26,
+        "positions": ["LW", "RW"],
+        "attributes": { "currentRating": 77, "potentialMax": 80 },
+        "physical": { "pace": 88, "acceleration": 90, "stamina": 78, "strength": 70, "height": 178, "agility": 85, "balance": 78, "jumping": 65 },
+        "technical": { "finishing": 70, "shotPower": 75, "dribbling": 82, "ballControl": 78, "crossing": 72, "shortPassing": 74, "longPassing": 68, "heading": 60, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 76, "vision": 72, "composure": 70, "workRate": 85, "aggression": 70 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NFO_016",
+        "name": "Andrew Omobamidele",
+        "nationality": "Ireland",
+        "age": 24,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 76, "potentialMax": 81 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 75, "strength": 80, "height": 188, "agility": 72, "balance": 75, "jumping": 82 },
+        "technical": { "finishing": 35, "shotPower": 60, "dribbling": 65, "ballControl": 72, "crossing": 40, "shortPassing": 75, "longPassing": 72, "heading": 80, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 75, "vision": 60, "composure": 72, "workRate": 75, "aggression": 75 },
+        "fitness": 100, "currentForm": 6, "injured": false, "suspended": false
+      }
+    ]
+  }
+}

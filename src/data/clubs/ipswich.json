@@ -1,0 +1,250 @@
+{
+  "club_id": "ipswich",
+  "name": "Ipswich Town",
+  "short_name": "IPS",
+  "league": "premier_league",
+  "country": "England",
+  "founded": 1878,
+  "reputation": {
+    "global": 70,
+    "domestic": 74,
+    "continental": 68
+  },
+  "finances": {
+    "transfer_budget": 20000000,
+    "wage_budget_weekly": 1000000,
+    "debt": 0,
+    "revenue_annual": 120000000
+  },
+  "stadium": {
+    "name": "Portman Road",
+    "capacity": 29673,
+    "atmosphere": 86
+  },
+  "tactics": {
+    "default_formation": "4-2-3-1",
+    "alternative_formations": ["3-4-2-1", "4-4-2"],
+    "mentality": "balanced",
+    "play_style": {
+      "possession": 48,
+      "pressing": 80,
+      "tempo": 82,
+      "width": 75,
+      "defensive_line": 60
+    }
+  },
+  "staff": {
+    "manager": {
+      "name": "Kieran McKenna",
+      "rating": 81,
+      "preferred_formation": "4-2-3-1",
+      "tactical_approach": "high_energy_attack"
+    }
+  },
+  "objectives": {
+    "league_position": {"min": 17, "target": 16},
+    "champions_league": "none",
+    "domestic_cup": "fourth_round"
+  },
+  "currentForm": 5,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 25.0,
+    "average_rating": 76,
+    "current_players": [
+      {
+        "id": "IPS_001",
+        "name": "Arijanet Muric",
+        "nationality": "Kosovo",
+        "age": 27,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 77, "potentialMax": 79 },
+        "physical": { "pace": 55, "acceleration": 58, "stamina": 65, "strength": 75, "height": 198, "agility": 65, "balance": 60, "jumping": 75 },
+        "technical": { "finishing": 20, "shotPower": 70, "dribbling": 55, "ballControl": 75, "crossing": 35, "shortPassing": 80, "longPassing": 85, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 78, "vision": 70, "composure": 72, "workRate": 65, "aggression": 65 },
+        "goalkeeper": { "diving": 80, "handling": 75, "kicking": 82, "reflexes": 82, "positioning": 78 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_002",
+        "name": "Leif Davis",
+        "nationality": "England",
+        "age": 26,
+        "positions": ["LB", "LWB"],
+        "attributes": { "currentRating": 78, "potentialMax": 82 },
+        "physical": { "pace": 86, "acceleration": 88, "stamina": 92, "strength": 70, "height": 165, "agility": 85, "balance": 82, "jumping": 60 },
+        "technical": { "finishing": 55, "shotPower": 65, "dribbling": 75, "ballControl": 76, "crossing": 82, "shortPassing": 78, "longPassing": 72, "heading": 55, "tackling": 74, "marking": 72 },
+        "mental": { "positioning": 76, "vision": 75, "composure": 74, "workRate": 95, "aggression": 75 },
+        "fitness": 98, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_003",
+        "name": "Jacob Greaves",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 77, "potentialMax": 81 },
+        "physical": { "pace": 72, "acceleration": 70, "stamina": 78, "strength": 84, "height": 193, "agility": 65, "balance": 70, "jumping": 82 },
+        "technical": { "finishing": 40, "shotPower": 60, "dribbling": 65, "ballControl": 74, "crossing": 45, "shortPassing": 78, "longPassing": 75, "heading": 84, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 78, "vision": 60, "composure": 75, "workRate": 75, "aggression": 80 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_004",
+        "name": "Dara O'Shea",
+        "nationality": "Ireland",
+        "age": 27,
+        "positions": ["CB", "RB"],
+        "attributes": { "currentRating": 76, "potentialMax": 78 },
+        "physical": { "pace": 74, "acceleration": 72, "stamina": 75, "strength": 80, "height": 185, "agility": 68, "balance": 70, "jumping": 78 },
+        "technical": { "finishing": 35, "shotPower": 60, "dribbling": 60, "ballControl": 70, "crossing": 45, "shortPassing": 75, "longPassing": 72, "heading": 80, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 76, "vision": 55, "composure": 72, "workRate": 75, "aggression": 82 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_005",
+        "name": "Ben Johnson",
+        "nationality": "England",
+        "age": 26,
+        "positions": ["RB", "RWB", "LB"],
+        "attributes": { "currentRating": 75, "potentialMax": 77 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 82, "strength": 72, "height": 175, "agility": 78, "balance": 75, "jumping": 70 },
+        "technical": { "finishing": 50, "shotPower": 65, "dribbling": 72, "ballControl": 74, "crossing": 70, "shortPassing": 75, "longPassing": 70, "heading": 60, "tackling": 75, "marking": 74 },
+        "mental": { "positioning": 75, "vision": 65, "composure": 70, "workRate": 80, "aggression": 70 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_006",
+        "name": "Sam Morsy",
+        "nationality": "Egypt",
+        "age": 34,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 75, "potentialMax": 75 },
+        "physical": { "pace": 60, "acceleration": 62, "stamina": 80, "strength": 75, "height": 175, "agility": 70, "balance": 72, "jumping": 65 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 68, "ballControl": 74, "crossing": 60, "shortPassing": 78, "longPassing": 75, "heading": 65, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 80, "vision": 72, "composure": 75, "workRate": 90, "aggression": 90 },
+        "fitness": 88, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_007",
+        "name": "Jens Cajuste",
+        "nationality": "Sweden",
+        "age": 26,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 77, "potentialMax": 80 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 85, "strength": 80, "height": 188, "agility": 75, "balance": 78, "jumping": 75 },
+        "technical": { "finishing": 60, "shotPower": 72, "dribbling": 75, "ballControl": 78, "crossing": 65, "shortPassing": 80, "longPassing": 76, "heading": 70, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 76, "vision": 74, "composure": 75, "workRate": 85, "aggression": 80 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_008",
+        "name": "Kalvin Phillips",
+        "nationality": "England",
+        "age": 30,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 77, "potentialMax": 77 },
+        "physical": { "pace": 65, "acceleration": 68, "stamina": 80, "strength": 78, "height": 178, "agility": 72, "balance": 75, "jumping": 70 },
+        "technical": { "finishing": 55, "shotPower": 75, "dribbling": 72, "ballControl": 78, "crossing": 70, "shortPassing": 82, "longPassing": 84, "heading": 65, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 80, "vision": 80, "composure": 78, "workRate": 85, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_009",
+        "name": "Omari Hutchinson",
+        "nationality": "Jamaica",
+        "age": 22,
+        "positions": ["RW", "CAM", "LW"],
+        "attributes": { "currentRating": 78, "potentialMax": 86 },
+        "physical": { "pace": 88, "acceleration": 90, "stamina": 80, "strength": 65, "height": 174, "agility": 90, "balance": 85, "jumping": 60 },
+        "technical": { "finishing": 72, "shotPower": 75, "dribbling": 85, "ballControl": 82, "crossing": 75, "shortPassing": 76, "longPassing": 70, "heading": 55, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 75, "vision": 75, "composure": 72, "workRate": 85, "aggression": 65 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_010",
+        "name": "Conor Chaplin",
+        "nationality": "England",
+        "age": 29,
+        "positions": ["CAM", "ST"],
+        "attributes": { "currentRating": 76, "potentialMax": 76 },
+        "physical": { "pace": 78, "acceleration": 80, "stamina": 82, "strength": 68, "height": 168, "agility": 85, "balance": 82, "jumping": 60 },
+        "technical": { "finishing": 76, "shotPower": 75, "dribbling": 75, "ballControl": 76, "crossing": 70, "shortPassing": 75, "longPassing": 70, "heading": 60, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 78, "vision": 72, "composure": 74, "workRate": 90, "aggression": 65 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_011",
+        "name": "Liam Delap",
+        "nationality": "England",
+        "age": 23,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 78, "potentialMax": 85 },
+        "physical": { "pace": 85, "acceleration": 84, "stamina": 80, "strength": 86, "height": 186, "agility": 75, "balance": 78, "jumping": 75 },
+        "technical": { "finishing": 78, "shotPower": 80, "dribbling": 75, "ballControl": 74, "crossing": 60, "shortPassing": 70, "longPassing": 60, "heading": 75, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 78, "vision": 65, "composure": 74, "workRate": 85, "aggression": 80 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_012",
+        "name": "Jack Clarke",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["LW", "RW"],
+        "attributes": { "currentRating": 77, "potentialMax": 82 },
+        "physical": { "pace": 84, "acceleration": 86, "stamina": 78, "strength": 68, "height": 181, "agility": 84, "balance": 80, "jumping": 65 },
+        "technical": { "finishing": 72, "shotPower": 74, "dribbling": 82, "ballControl": 78, "crossing": 76, "shortPassing": 75, "longPassing": 68, "heading": 55, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 75, "vision": 72, "composure": 70, "workRate": 75, "aggression": 60 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_013",
+        "name": "Chiedozie Ogbene",
+        "nationality": "Ireland",
+        "age": 29,
+        "positions": ["RW", "RWB"],
+        "attributes": { "currentRating": 76, "potentialMax": 76 },
+        "physical": { "pace": 92, "acceleration": 94, "stamina": 85, "strength": 70, "height": 176, "agility": 80, "balance": 78, "jumping": 65 },
+        "technical": { "finishing": 65, "shotPower": 70, "dribbling": 76, "ballControl": 74, "crossing": 75, "shortPassing": 72, "longPassing": 65, "heading": 55, "tackling": 60, "marking": 55 },
+        "mental": { "positioning": 74, "vision": 65, "composure": 68, "workRate": 90, "aggression": 70 },
+        "fitness": 92, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_014",
+        "name": "Sammie Szmodics",
+        "nationality": "Ireland",
+        "age": 30,
+        "positions": ["CAM", "ST", "LW"],
+        "attributes": { "currentRating": 76, "potentialMax": 76 },
+        "physical": { "pace": 78, "acceleration": 80, "stamina": 85, "strength": 70, "height": 168, "agility": 82, "balance": 80, "jumping": 60 },
+        "technical": { "finishing": 75, "shotPower": 74, "dribbling": 75, "ballControl": 76, "crossing": 65, "shortPassing": 74, "longPassing": 68, "heading": 60, "tackling": 50, "marking": 45 },
+        "mental": { "positioning": 80, "vision": 70, "composure": 72, "workRate": 90, "aggression": 75 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_015",
+        "name": "Luke Woolfenden",
+        "nationality": "England",
+        "age": 27,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 75, "potentialMax": 77 },
+        "physical": { "pace": 70, "acceleration": 68, "stamina": 75, "strength": 78, "height": 193, "agility": 65, "balance": 70, "jumping": 80 },
+        "technical": { "finishing": 35, "shotPower": 55, "dribbling": 60, "ballControl": 70, "crossing": 40, "shortPassing": 74, "longPassing": 70, "heading": 80, "tackling": 76, "marking": 75 },
+        "mental": { "positioning": 75, "vision": 55, "composure": 70, "workRate": 75, "aggression": 70 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "IPS_016",
+        "name": "Harry Clarke",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["RB", "CB"],
+        "attributes": { "currentRating": 75, "potentialMax": 78 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 80, "strength": 78, "height": 188, "agility": 70, "balance": 72, "jumping": 75 },
+        "technical": { "finishing": 40, "shotPower": 65, "dribbling": 65, "ballControl": 70, "crossing": 70, "shortPassing": 72, "longPassing": 70, "heading": 75, "tackling": 76, "marking": 74 },
+        "mental": { "positioning": 74, "vision": 60, "composure": 70, "workRate": 80, "aggression": 80 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      }
+    ]
+  }
+}

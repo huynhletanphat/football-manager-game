@@ -6,33 +6,27 @@
   "country": "England",
   "founded": 1886,
   "reputation": {
-    "global": 93,
+    "global": 94,
     "domestic": 95,
-    "continental": 91
+    "continental": 92
   },
   "finances": {
     "transfer_budget": 120000000,
-    "wage_budget_weekly": 3600000,
-    "debt": 200000000,
-    "revenue_annual": 600000000
+    "wage_budget_weekly": 3800000,
+    "debt": 150000000,
+    "revenue_annual": 650000000
   },
   "stadium": {
     "name": "Emirates Stadium",
     "capacity": 60704,
     "atmosphere": 94
   },
-  "squad": {
-    "current_players": [],
-    "squad_size": 0,
-    "average_age": 25.5,
-    "average_rating": 85
-  },
   "tactics": {
     "default_formation": "4-3-3",
     "alternative_formations": ["4-2-3-1", "3-2-2-3"],
     "mentality": "control",
     "play_style": {
-      "possession": 70,
+      "possession": 65,
       "pressing": 92,
       "tempo": 78,
       "width": 85,
@@ -42,7 +36,7 @@
   "staff": {
     "manager": {
       "name": "Mikel Arteta",
-      "rating": 88,
+      "rating": 94,
       "preferred_formation": "4-3-3",
       "tactical_approach": "positional_play_control"
     }
@@ -52,5 +46,205 @@
     "champions_league": "semi_finals",
     "domestic_cup": "winner"
   },
-  "currentForm": 8
+  "currentForm": 8,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 25.5,
+    "average_rating": 86,
+    "current_players": [
+      {
+        "id": "ARS_001",
+        "name": "David Raya",
+        "nationality": "Spain",
+        "age": 30,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 86, "potentialMax": 87 },
+        "physical": { "pace": 55, "acceleration": 58, "stamina": 70, "strength": 72, "height": 183, "agility": 80, "balance": 75, "jumping": 78 },
+        "technical": { "finishing": 25, "shotPower": 70, "dribbling": 65, "ballControl": 85, "crossing": 60, "shortPassing": 88, "longPassing": 92, "heading": 40, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 85, "vision": 82, "composure": 88, "workRate": 75, "aggression": 65 },
+        "goalkeeper": { "diving": 86, "handling": 88, "kicking": 90, "reflexes": 87, "positioning": 85 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_002",
+        "name": "William Saliba",
+        "nationality": "France",
+        "age": 25,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 92, "potentialMax": 95 },
+        "physical": { "pace": 84, "acceleration": 80, "stamina": 85, "strength": 92, "height": 192, "agility": 75, "balance": 82, "jumping": 88 },
+        "technical": { "finishing": 45, "shotPower": 60, "dribbling": 72, "ballControl": 82, "crossing": 40, "shortPassing": 88, "longPassing": 82, "heading": 88, "tackling": 94, "marking": 95 },
+        "mental": { "positioning": 95, "vision": 75, "composure": 96, "workRate": 80, "aggression": 75 },
+        "fitness": 100, "currentForm": 9, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_003",
+        "name": "Gabriel Magalhães",
+        "nationality": "Brazil",
+        "age": 28,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 89, "potentialMax": 90 },
+        "physical": { "pace": 76, "acceleration": 72, "stamina": 84, "strength": 94, "height": 190, "agility": 70, "balance": 75, "jumping": 92 },
+        "technical": { "finishing": 50, "shotPower": 65, "dribbling": 60, "ballControl": 75, "crossing": 35, "shortPassing": 82, "longPassing": 80, "heading": 95, "tackling": 92, "marking": 90 },
+        "mental": { "positioning": 88, "vision": 60, "composure": 82, "workRate": 88, "aggression": 94 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_004",
+        "name": "Ben White",
+        "nationality": "England",
+        "age": 28,
+        "positions": ["RB", "CB"],
+        "attributes": { "currentRating": 86, "potentialMax": 87 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 88, "strength": 78, "height": 186, "agility": 78, "balance": 80, "jumping": 75 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 76, "ballControl": 84, "crossing": 80, "shortPassing": 86, "longPassing": 82, "heading": 75, "tackling": 86, "marking": 85 },
+        "mental": { "positioning": 86, "vision": 78, "composure": 88, "workRate": 85, "aggression": 78 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_005",
+        "name": "Jurriën Timber",
+        "nationality": "Netherlands",
+        "age": 25,
+        "positions": ["LB", "RB", "CB"],
+        "attributes": { "currentRating": 85, "potentialMax": 89 },
+        "physical": { "pace": 82, "acceleration": 84, "stamina": 82, "strength": 78, "height": 179, "agility": 85, "balance": 86, "jumping": 78 },
+        "technical": { "finishing": 55, "shotPower": 70, "dribbling": 82, "ballControl": 86, "crossing": 75, "shortPassing": 88, "longPassing": 82, "heading": 72, "tackling": 85, "marking": 84 },
+        "mental": { "positioning": 84, "vision": 80, "composure": 88, "workRate": 85, "aggression": 82 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_006",
+        "name": "Declan Rice",
+        "nationality": "England",
+        "age": 27,
+        "positions": ["CDM", "CM"],
+        "attributes": { "currentRating": 92, "potentialMax": 93 },
+        "physical": { "pace": 78, "acceleration": 76, "stamina": 98, "strength": 90, "height": 188, "agility": 75, "balance": 82, "jumping": 80 },
+        "technical": { "finishing": 70, "shotPower": 82, "dribbling": 80, "ballControl": 86, "crossing": 65, "shortPassing": 90, "longPassing": 88, "heading": 82, "tackling": 94, "marking": 90 },
+        "mental": { "positioning": 95, "vision": 85, "composure": 92, "workRate": 98, "aggression": 88 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_007",
+        "name": "Martin Ødegaard",
+        "nationality": "Norway",
+        "age": 27,
+        "positions": ["CAM", "CM"],
+        "attributes": { "currentRating": 93, "potentialMax": 94 },
+        "physical": { "pace": 76, "acceleration": 78, "stamina": 95, "strength": 68, "height": 178, "agility": 88, "balance": 86, "jumping": 60 },
+        "technical": { "finishing": 82, "shotPower": 80, "dribbling": 88, "ballControl": 94, "crossing": 86, "shortPassing": 96, "longPassing": 94, "heading": 55, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 90, "vision": 98, "composure": 94, "workRate": 99, "aggression": 70 },
+        "fitness": 98, "currentForm": 9, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_008",
+        "name": "Bukayo Saka",
+        "nationality": "England",
+        "age": 24,
+        "positions": ["RW"],
+        "attributes": { "currentRating": 94, "potentialMax": 96 },
+        "physical": { "pace": 88, "acceleration": 90, "stamina": 92, "strength": 82, "height": 178, "agility": 90, "balance": 92, "jumping": 70 },
+        "technical": { "finishing": 88, "shotPower": 85, "dribbling": 94, "ballControl": 92, "crossing": 90, "shortPassing": 88, "longPassing": 82, "heading": 65, "tackling": 60, "marking": 55 },
+        "mental": { "positioning": 92, "vision": 88, "composure": 90, "workRate": 95, "aggression": 75 },
+        "fitness": 100, "currentForm": 9, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_009",
+        "name": "Gabriel Martinelli",
+        "nationality": "Brazil",
+        "age": 25,
+        "positions": ["LW", "ST"],
+        "attributes": { "currentRating": 88, "potentialMax": 91 },
+        "physical": { "pace": 95, "acceleration": 96, "stamina": 92, "strength": 72, "height": 178, "agility": 92, "balance": 85, "jumping": 75 },
+        "technical": { "finishing": 84, "shotPower": 82, "dribbling": 90, "ballControl": 86, "crossing": 80, "shortPassing": 82, "longPassing": 70, "heading": 70, "tackling": 55, "marking": 50 },
+        "mental": { "positioning": 86, "vision": 78, "composure": 82, "workRate": 98, "aggression": 80 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_010",
+        "name": "Kai Havertz",
+        "nationality": "Germany",
+        "age": 27,
+        "positions": ["ST", "CM", "CAM"],
+        "attributes": { "currentRating": 87, "potentialMax": 88 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 90, "strength": 78, "height": 193, "agility": 80, "balance": 78, "jumping": 85 },
+        "technical": { "finishing": 85, "shotPower": 80, "dribbling": 84, "ballControl": 88, "crossing": 70, "shortPassing": 86, "longPassing": 78, "heading": 86, "tackling": 65, "marking": 60 },
+        "mental": { "positioning": 92, "vision": 84, "composure": 88, "workRate": 90, "aggression": 70 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_011",
+        "name": "Mikel Merino",
+        "nationality": "Spain",
+        "age": 30,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 85, "potentialMax": 86 },
+        "physical": { "pace": 70, "acceleration": 68, "stamina": 88, "strength": 84, "height": 188, "agility": 72, "balance": 78, "jumping": 88 },
+        "technical": { "finishing": 72, "shotPower": 75, "dribbling": 78, "ballControl": 85, "crossing": 70, "shortPassing": 88, "longPassing": 86, "heading": 90, "tackling": 84, "marking": 82 },
+        "mental": { "positioning": 86, "vision": 82, "composure": 85, "workRate": 90, "aggression": 85 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_012",
+        "name": "Leandro Trossard",
+        "nationality": "Belgium",
+        "age": 31,
+        "positions": ["LW", "ST", "CAM"],
+        "attributes": { "currentRating": 84, "potentialMax": 84 },
+        "physical": { "pace": 78, "acceleration": 82, "stamina": 80, "strength": 68, "height": 172, "agility": 88, "balance": 90, "jumping": 60 },
+        "technical": { "finishing": 88, "shotPower": 82, "dribbling": 86, "ballControl": 88, "crossing": 80, "shortPassing": 84, "longPassing": 76, "heading": 55, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 88, "vision": 82, "composure": 90, "workRate": 75, "aggression": 65 },
+        "fitness": 92, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_013",
+        "name": "Riccardo Calafiori",
+        "nationality": "Italy",
+        "age": 24,
+        "positions": ["LB", "CB"],
+        "attributes": { "currentRating": 84, "potentialMax": 89 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 84, "strength": 82, "height": 188, "agility": 75, "balance": 78, "jumping": 82 },
+        "technical": { "finishing": 50, "shotPower": 70, "dribbling": 78, "ballControl": 84, "crossing": 72, "shortPassing": 86, "longPassing": 82, "heading": 80, "tackling": 84, "marking": 82 },
+        "mental": { "positioning": 82, "vision": 76, "composure": 84, "workRate": 86, "aggression": 88 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_014",
+        "name": "Gabriel Jesus",
+        "nationality": "Brazil",
+        "age": 29,
+        "positions": ["ST", "RW"],
+        "attributes": { "currentRating": 83, "potentialMax": 84 },
+        "physical": { "pace": 84, "acceleration": 86, "stamina": 82, "strength": 75, "height": 175, "agility": 90, "balance": 88, "jumping": 78 },
+        "technical": { "finishing": 78, "shotPower": 76, "dribbling": 92, "ballControl": 90, "crossing": 75, "shortPassing": 84, "longPassing": 72, "heading": 70, "tackling": 55, "marking": 50 },
+        "mental": { "positioning": 86, "vision": 80, "composure": 75, "workRate": 92, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_015",
+        "name": "Takehiro Tomiyasu",
+        "nationality": "Japan",
+        "age": 27,
+        "positions": ["RB", "LB", "CB"],
+        "attributes": { "currentRating": 82, "potentialMax": 83 },
+        "physical": { "pace": 76, "acceleration": 74, "stamina": 80, "strength": 80, "height": 188, "agility": 75, "balance": 78, "jumping": 85 },
+        "technical": { "finishing": 45, "shotPower": 65, "dribbling": 70, "ballControl": 78, "crossing": 70, "shortPassing": 80, "longPassing": 76, "heading": 84, "tackling": 85, "marking": 84 },
+        "mental": { "positioning": 84, "vision": 70, "composure": 80, "workRate": 88, "aggression": 75 },
+        "fitness": 85, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "ARS_016",
+        "name": "Ethan Nwaneri",
+        "nationality": "England",
+        "age": 19,
+        "positions": ["CAM", "CM", "RW"],
+        "attributes": { "currentRating": 78, "potentialMax": 92 },
+        "physical": { "pace": 82, "acceleration": 85, "stamina": 78, "strength": 65, "height": 176, "agility": 88, "balance": 86, "jumping": 60 },
+        "technical": { "finishing": 76, "shotPower": 78, "dribbling": 86, "ballControl": 88, "crossing": 75, "shortPassing": 82, "longPassing": 78, "heading": 50, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 78, "vision": 84, "composure": 80, "workRate": 82, "aggression": 60 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      }
+    ]
+  }
 }

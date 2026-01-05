@@ -6,51 +6,245 @@
   "country": "England",
   "founded": 1892,
   "reputation": {
-    "global": 82,
-    "domestic": 85,
-    "continental": 80
+    "global": 88,
+    "domestic": 89,
+    "continental": 86
   },
   "finances": {
     "transfer_budget": 250000000,
-    "wage_budget_weekly": 2800000,
+    "wage_budget_weekly": 3500000,
     "debt": 0,
-    "revenue_annual": 300000000
+    "revenue_annual": 450000000
   },
   "stadium": {
-    "name": "St James Park",
+    "name": "St James' Park",
     "capacity": 52305,
     "atmosphere": 95
-  },
-  "squad": {
-    "current_players": [],
-    "squad_size": 0,
-    "average_age": 27.2,
-    "average_rating": 81
   },
   "tactics": {
     "default_formation": "4-3-3",
     "alternative_formations": ["4-5-1", "5-4-1"],
     "mentality": "balanced",
     "play_style": {
-      "possession": 45,
-      "pressing": 88,
-      "tempo": 80,
+      "possession": 48,
+      "pressing": 92,
+      "tempo": 85,
       "width": 70,
-      "defensive_line": 60
+      "defensive_line": 65
     }
   },
   "staff": {
     "manager": {
       "name": "Eddie Howe",
-      "rating": 82,
+      "rating": 84,
       "preferred_formation": "4-3-3",
       "tactical_approach": "intense_workrate"
     }
   },
   "objectives": {
-    "league_position": {"min": 7, "target": 5},
-    "champions_league": "none",
-    "domestic_cup": "quarter_finals"
+    "league_position": {"min": 6, "target": 4},
+    "champions_league": "group_stage",
+    "domestic_cup": "semi_finals"
   },
-  "currentForm": 6
+  "currentForm": 7,
+  "squad": {
+    "squad_size": 16,
+    "average_age": 26.5,
+    "average_rating": 83,
+    "current_players": [
+      {
+        "id": "NEW_001",
+        "name": "Nick Pope",
+        "nationality": "England",
+        "age": 33,
+        "positions": ["GK"],
+        "attributes": { "currentRating": 82, "potentialMax": 82 },
+        "physical": { "pace": 50, "acceleration": 52, "stamina": 70, "strength": 75, "height": 198, "agility": 65, "balance": 60, "jumping": 75 },
+        "technical": { "finishing": 20, "shotPower": 70, "dribbling": 50, "ballControl": 65, "crossing": 35, "shortPassing": 70, "longPassing": 80, "heading": 50, "tackling": 20, "marking": 15 },
+        "mental": { "positioning": 84, "vision": 60, "composure": 75, "workRate": 70, "aggression": 65 },
+        "goalkeeper": { "diving": 85, "handling": 84, "kicking": 75, "reflexes": 88, "positioning": 82 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_002",
+        "name": "Kieran Trippier",
+        "nationality": "England",
+        "age": 35,
+        "positions": ["RB", "RWB"],
+        "attributes": { "currentRating": 80, "potentialMax": 80 },
+        "physical": { "pace": 70, "acceleration": 68, "stamina": 75, "strength": 72, "height": 173, "agility": 75, "balance": 80, "jumping": 70 },
+        "technical": { "finishing": 60, "shotPower": 75, "dribbling": 75, "ballControl": 82, "crossing": 90, "shortPassing": 82, "longPassing": 80, "heading": 65, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 82, "vision": 80, "composure": 85, "workRate": 85, "aggression": 80 },
+        "fitness": 85, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_003",
+        "name": "Sven Botman",
+        "nationality": "Netherlands",
+        "age": 26,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 86, "potentialMax": 89 },
+        "physical": { "pace": 76, "acceleration": 74, "stamina": 82, "strength": 92, "height": 193, "agility": 65, "balance": 75, "jumping": 88 },
+        "technical": { "finishing": 40, "shotPower": 70, "dribbling": 65, "ballControl": 78, "crossing": 45, "shortPassing": 82, "longPassing": 84, "heading": 90, "tackling": 88, "marking": 86 },
+        "mental": { "positioning": 86, "vision": 70, "composure": 85, "workRate": 80, "aggression": 82 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_004",
+        "name": "Fabian Schär",
+        "nationality": "Switzerland",
+        "age": 34,
+        "positions": ["CB"],
+        "attributes": { "currentRating": 80, "potentialMax": 80 },
+        "physical": { "pace": 65, "acceleration": 62, "stamina": 70, "strength": 78, "height": 186, "agility": 68, "balance": 72, "jumping": 75 },
+        "technical": { "finishing": 60, "shotPower": 80, "dribbling": 72, "ballControl": 80, "crossing": 55, "shortPassing": 84, "longPassing": 88, "heading": 80, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 82, "vision": 75, "composure": 84, "workRate": 75, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_005",
+        "name": "Lewis Hall",
+        "nationality": "England",
+        "age": 21,
+        "positions": ["LB", "LWB", "CM"],
+        "attributes": { "currentRating": 82, "potentialMax": 88 },
+        "physical": { "pace": 84, "acceleration": 86, "stamina": 88, "strength": 70, "height": 179, "agility": 84, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 80, "ballControl": 82, "crossing": 82, "shortPassing": 84, "longPassing": 78, "heading": 60, "tackling": 78, "marking": 75 },
+        "mental": { "positioning": 80, "vision": 78, "composure": 76, "workRate": 88, "aggression": 72 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_006",
+        "name": "Bruno Guimarães",
+        "nationality": "Brazil",
+        "age": 28,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 89, "potentialMax": 90 },
+        "physical": { "pace": 76, "acceleration": 78, "stamina": 92, "strength": 84, "height": 182, "agility": 80, "balance": 85, "jumping": 75 },
+        "technical": { "finishing": 75, "shotPower": 80, "dribbling": 86, "ballControl": 90, "crossing": 75, "shortPassing": 92, "longPassing": 90, "heading": 70, "tackling": 84, "marking": 80 },
+        "mental": { "positioning": 88, "vision": 92, "composure": 90, "workRate": 95, "aggression": 92 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_007",
+        "name": "Sandro Tonali",
+        "nationality": "Italy",
+        "age": 25,
+        "positions": ["CM", "CDM"],
+        "attributes": { "currentRating": 87, "potentialMax": 89 },
+        "physical": { "pace": 82, "acceleration": 80, "stamina": 94, "strength": 80, "height": 181, "agility": 80, "balance": 82, "jumping": 78 },
+        "technical": { "finishing": 70, "shotPower": 78, "dribbling": 82, "ballControl": 85, "crossing": 75, "shortPassing": 88, "longPassing": 86, "heading": 65, "tackling": 82, "marking": 78 },
+        "mental": { "positioning": 85, "vision": 86, "composure": 84, "workRate": 92, "aggression": 88 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_008",
+        "name": "Joelinton",
+        "nationality": "Brazil",
+        "age": 29,
+        "positions": ["CM", "LW", "CDM"],
+        "attributes": { "currentRating": 84, "potentialMax": 85 },
+        "physical": { "pace": 80, "acceleration": 82, "stamina": 95, "strength": 92, "height": 186, "agility": 75, "balance": 80, "jumping": 80 },
+        "technical": { "finishing": 70, "shotPower": 82, "dribbling": 80, "ballControl": 82, "crossing": 70, "shortPassing": 82, "longPassing": 78, "heading": 80, "tackling": 82, "marking": 78 },
+        "mental": { "positioning": 82, "vision": 75, "composure": 78, "workRate": 98, "aggression": 95 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_009",
+        "name": "Anthony Gordon",
+        "nationality": "England",
+        "age": 25,
+        "positions": ["LW", "RW"],
+        "attributes": { "currentRating": 86, "potentialMax": 89 },
+        "physical": { "pace": 94, "acceleration": 95, "stamina": 90, "strength": 72, "height": 183, "agility": 90, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 80, "shotPower": 78, "dribbling": 88, "ballControl": 84, "crossing": 78, "shortPassing": 78, "longPassing": 70, "heading": 65, "tackling": 60, "marking": 55 },
+        "mental": { "positioning": 82, "vision": 75, "composure": 76, "workRate": 95, "aggression": 88 },
+        "fitness": 100, "currentForm": 8, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_010",
+        "name": "Alexander Isak",
+        "nationality": "Sweden",
+        "age": 26,
+        "positions": ["ST", "LW"],
+        "attributes": { "currentRating": 88, "potentialMax": 91 },
+        "physical": { "pace": 90, "acceleration": 92, "stamina": 82, "strength": 78, "height": 192, "agility": 88, "balance": 82, "jumping": 80 },
+        "technical": { "finishing": 88, "shotPower": 85, "dribbling": 90, "ballControl": 92, "crossing": 70, "shortPassing": 80, "longPassing": 65, "heading": 78, "tackling": 40, "marking": 35 },
+        "mental": { "positioning": 88, "vision": 78, "composure": 86, "workRate": 85, "aggression": 70 },
+        "fitness": 100, "currentForm": 9, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_011",
+        "name": "Harvey Barnes",
+        "nationality": "England",
+        "age": 28,
+        "positions": ["LW", "LM"],
+        "attributes": { "currentRating": 82, "potentialMax": 83 },
+        "physical": { "pace": 88, "acceleration": 86, "stamina": 80, "strength": 72, "height": 174, "agility": 85, "balance": 80, "jumping": 65 },
+        "technical": { "finishing": 82, "shotPower": 84, "dribbling": 82, "ballControl": 80, "crossing": 75, "shortPassing": 78, "longPassing": 70, "heading": 60, "tackling": 45, "marking": 40 },
+        "mental": { "positioning": 82, "vision": 72, "composure": 75, "workRate": 80, "aggression": 65 },
+        "fitness": 95, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_012",
+        "name": "Tino Livramento",
+        "nationality": "England",
+        "age": 23,
+        "positions": ["RB", "RWB"],
+        "attributes": { "currentRating": 83, "potentialMax": 88 },
+        "physical": { "pace": 90, "acceleration": 88, "stamina": 86, "strength": 72, "height": 183, "agility": 85, "balance": 82, "jumping": 70 },
+        "technical": { "finishing": 60, "shotPower": 70, "dribbling": 82, "ballControl": 80, "crossing": 80, "shortPassing": 80, "longPassing": 75, "heading": 60, "tackling": 78, "marking": 76 },
+        "mental": { "positioning": 80, "vision": 75, "composure": 78, "workRate": 88, "aggression": 75 },
+        "fitness": 100, "currentForm": 7, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_013",
+        "name": "Joe Willock",
+        "nationality": "England",
+        "age": 26,
+        "positions": ["CM", "CAM"],
+        "attributes": { "currentRating": 80, "potentialMax": 82 },
+        "physical": { "pace": 85, "acceleration": 84, "stamina": 88, "strength": 72, "height": 179, "agility": 82, "balance": 80, "jumping": 75 },
+        "technical": { "finishing": 75, "shotPower": 75, "dribbling": 80, "ballControl": 78, "crossing": 65, "shortPassing": 80, "longPassing": 72, "heading": 65, "tackling": 70, "marking": 68 },
+        "mental": { "positioning": 82, "vision": 72, "composure": 75, "workRate": 85, "aggression": 70 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_014",
+        "name": "Lloyd Kelly",
+        "nationality": "England",
+        "age": 27,
+        "positions": ["CB", "LB"],
+        "attributes": { "currentRating": 79, "potentialMax": 81 },
+        "physical": { "pace": 80, "acceleration": 78, "stamina": 78, "strength": 78, "height": 190, "agility": 75, "balance": 72, "jumping": 80 },
+        "technical": { "finishing": 40, "shotPower": 60, "dribbling": 65, "ballControl": 72, "crossing": 60, "shortPassing": 78, "longPassing": 75, "heading": 78, "tackling": 80, "marking": 78 },
+        "mental": { "positioning": 78, "vision": 65, "composure": 75, "workRate": 78, "aggression": 75 },
+        "fitness": 95, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_015",
+        "name": "Miguel Almirón",
+        "nationality": "Paraguay",
+        "age": 32,
+        "positions": ["RW", "CAM"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 82, "acceleration": 84, "stamina": 85, "strength": 65, "height": 174, "agility": 85, "balance": 80, "jumping": 60 },
+        "technical": { "finishing": 70, "shotPower": 75, "dribbling": 78, "ballControl": 76, "crossing": 72, "shortPassing": 75, "longPassing": 68, "heading": 55, "tackling": 60, "marking": 55 },
+        "mental": { "positioning": 78, "vision": 70, "composure": 70, "workRate": 95, "aggression": 80 },
+        "fitness": 90, "currentForm": 6, "injured": false, "suspended": false
+      },
+      {
+        "id": "NEW_016",
+        "name": "Callum Wilson",
+        "nationality": "England",
+        "age": 34,
+        "positions": ["ST"],
+        "attributes": { "currentRating": 78, "potentialMax": 78 },
+        "physical": { "pace": 70, "acceleration": 72, "stamina": 65, "strength": 80, "height": 180, "agility": 70, "balance": 75, "jumping": 75 },
+        "technical": { "finishing": 84, "shotPower": 82, "dribbling": 72, "ballControl": 75, "crossing": 60, "shortPassing": 70, "longPassing": 60, "heading": 80, "tackling": 35, "marking": 30 },
+        "mental": { "positioning": 85, "vision": 65, "composure": 82, "workRate": 75, "aggression": 70 },
+        "fitness": 85, "currentForm": 6, "injured": false, "suspended": false
+      }
+    ]
+  }
 }
